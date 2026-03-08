@@ -1,0 +1,960 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Primary Meta Tags -->
+		<title>P-DTR терапия в Москве | Шемякин Анатолий | Метро Автозаводская | ФОК Торпедо</title>
+		<meta name="title" content="P-DTR терапия в Москве | Шемякин Анатолий | Метро Автозаводская | ФОК Торпедо" />
+		<meta name="description" content="Профессиональная P-DTR терапия в Москве у метро Автозаводская. Специалист Шемякин А.А. в ФОК Торпедо. Нейромышечная коррекция, лечение боли, реабилитация после травм. Запись на прием." />
+		<meta name="keywords" content="P-DTR терапия, P-DTR Москва, Шемякин Анатолий, метро Автозаводская, ФОК Торпедо, нейромышечная коррекция, лечение боли, реабилитация, терапия Москва, P-DTR специалист, Восточная 4А, зал бокса" />
+		<meta name="author" content="Шемякин Анатолий Анатольевич" />
+		<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+		<meta name="googlebot" content="index, follow" />
+		<meta name="bingbot" content="index, follow" />
+		<link rel="canonical" href="https://neo-pdtr.ru/" />
+		<link rel="icon" href="assets/img/favicon.png" type="image/x-icon" />
+
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://neo-pdtr.ru/" />
+		<meta property="og:title" content="P-DTR терапия в Москве | Шемякин Анатолий | Метро Автозаводская" />
+		<meta property="og:description" content="Профессиональная P-DTR терапия в Москве у метро Автозаводская. Специалист Шемякин А.А. в ФОК Торпедо. Нейромышечная коррекция, лечение боли, реабилитация." />
+		<meta property="og:image" content="https://neo-pdtr.ru/assets/img/favicon.png" />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+		<meta property="og:site_name" content="P-DTR терапия Шемякин Анатолий" />
+		<meta property="og:locale" content="ru_RU" />
+
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://neo-pdtr.ru/" />
+		<meta property="twitter:title" content="P-DTR терапия в Москве | Шемякин Анатолий | Метро Автозаводская" />
+		<meta property="twitter:description" content="Профессиональная P-DTR терапия в Москве у метро Автозаводская. Специалист Шемякин А.А. в ФОК Торпедо. Нейромышечная коррекция, лечение боли." />
+		<meta property="twitter:image" content="https://neo-pdtr.ru/assets/img/favicon.png" />
+
+		<!-- Additional SEO Meta Tags -->
+		<meta name="geo.region" content="RU-MOW" />
+		<meta name="geo.placename" content="Москва" />
+		<meta name="geo.position" content="55.7558;37.6176" />
+		<meta name="ICBM" content="55.7558, 37.6176" />
+		<meta name="DC.title" content="P-DTR терапия в Москве" />
+		<meta name="DC.creator" content="Шемякин Анатолий Анатольевич" />
+		<meta name="DC.subject" content="P-DTR терапия, нейромышечная коррекция, лечение боли" />
+		<meta name="DC.description" content="Профессиональная P-DTR терапия в Москве" />
+		<meta name="DC.publisher" content="Шемякин Анатолий" />
+		<meta name="DC.date" content="2024-01-01" />
+		<meta name="DC.language" content="ru" />
+		<meta name="DC.coverage" content="Москва, Россия" />
+		<meta name="DC.rights" content="© 2024 Шемякин Анатолий" />
+
+		<!-- Mobile App Meta Tags -->
+		<meta name="mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+		<meta name="apple-mobile-web-app-title" content="P-DTR терапия" />
+		<meta name="application-name" content="P-DTR терапия" />
+		<meta name="msapplication-TileColor" content="#1e40af" />
+		<meta name="theme-color" content="#1e40af" />
+
+		<!-- Preconnect -->
+		<link rel="preconnect" href="https://mc.yandex.ru" />
+		<link rel="dns-prefetch" href="https://mc.yandex.ru" />
+
+		<!-- Structured Data (JSON-LD) -->
+		<!-- Business Info -->
+		<script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "LocalBusiness",
+                "name": "P-DTR терапия - Шемякин Анатолий",
+                "description": "Профессиональная P-DTR терапия в Москве у метро Автозаводская",
+                "url": "https://neo-pdtr.ru",
+                "telephone": "+7-999-123-45-67",
+                "email": "info@neo-pdtr.ru",
+                "address": {
+                    "@type": "PostalAddress",
+                    "streetAddress": "ул. Восточная, 4А, стр. 4, ФОК Торпедо, зал бокса, 2 этаж",
+                    "addressLocality": "Москва",
+                    "addressRegion": "Москва",
+                    "postalCode": "115280",
+                    "addressCountry": "RU"
+                },
+                "geo": {
+                    "@type": "GeoCoordinates",
+                    "latitude": 55.7558,
+                    "longitude": 37.6176
+                },
+                "openingHours": "Mo-Fr 09:00-21:00, Sa 10:00-18:00",
+                "priceRange": "$$",
+                "sameAs": ["https://t.me/shemyakin_aa"]
+            }
+		</script>
+
+		<!-- FAQ Structured Data -->
+		<script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Что такое P-DTR терапия?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "P-DTR (Proprioceptive Deep Tendon Reflex) — это метод нейрорецепторной терапии, направленный на восстановление правильной работы нервной системы и устранение болевых синдромов."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Где находится кабинет P-DTR терапии в Москве?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Кабинет P-DTR терапии находится по адресу: ул. Восточная, 4А, стр. 4, ФОК Торпедо, зал бокса, 2 этаж. Метро Автозаводская."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Кто проводит P-DTR терапию?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "P-DTR терапию проводит сертифицированный специалист Шемякин Анатолий Анатольевич с многолетним опытом работы."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Какие проблемы решает P-DTR терапия?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Метод помогает при болях в спине и суставах, головных болях, после травм, операциях, а также при коррекции осанки."
+                        }
+                    }
+                ]
+            }
+		</script>
+
+		<!-- Breadcrumb Structured Data -->
+		<script type="application/ld+json">
+            {
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    { "@type": "ListItem", "position": 1, "name": "Главная", "item": "https://neo-pdtr.ru/" },
+                    { "@type": "ListItem", "position": 2, "name": "Услуги", "item": "https://neo-pdtr.ru/#services" },
+                    { "@type": "ListItem", "position": 3, "name": "О специалисте", "item": "https://neo-pdtr.ru/#about" }
+                ]
+            }
+		</script>
+
+		<!-- CSS & JS -->
+		<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+		<script src="https://cdn.plyr.io/3.7.8/plyr.polyfilled.js"></script>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+		<link rel="stylesheet" href="assets/css/reset.css?v=1.25">
+		<link rel="stylesheet" href="assets/css/fonts.css?v=1.25">
+		<link rel="stylesheet" href="assets/css/style.css?v=1.26">
+		<link rel="stylesheet" href="assets/css/adaptive.css?v=1.25">
+	</head>
+
+
+    <body>
+        <section class="landing">
+            <div class="landing__content">
+                <header class="header">
+                    <div class="header__content">
+                        <div class="header__content-logo">
+                            <img src="assets/img/logo.png" alt="Логотип P-DTR" class="header__content-logo-image">
+                            <h1 class="header__content-logo-text">P-DTR</h1>
+                        </div>
+
+                        <nav class="header__content-nav">
+                            <a href="#o-metode" class="nav-link">О методе</a>
+                            <a href="#dostijeniya" class="nav-link">Достижения</a>
+                            <a href="#uslugi" class="nav-link">Услуги</a>
+                            <a href="#kontakti" class="nav-link">Контакты</a>
+                            <a href="#sertifikati" class="nav-link">Сертификаты</a>
+                        </nav>
+
+                        <div class="header__content-buttons">
+                            <a class="header__content-button header__content-button-tel" href="tel:+79167714777">
+                                <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="512" height="512"><path d="M24,6.24c0,7.64-10.13,17.76-17.76,17.76-1.67,0-3.23-.63-4.38-1.78l-1-1.15c-1.16-1.16-1.16-3.12,.05-4.33,.03-.03,2.44-1.88,2.44-1.88,1.2-1.14,3.09-1.14,4.28,0l1.46,1.17c3.2-1.36,5.47-3.64,6.93-6.95l-1.16-1.46c-1.15-1.19-1.15-3.09,0-4.28,0,0,1.85-2.41,1.88-2.44,1.21-1.21,3.17-1.21,4.38,0l1.05,.91c1.2,1.19,1.83,2.75,1.83,4.42Z"/></svg>
+                                +7 (916) 771-47-77
+                            </a>
+
+                            <a class="header__content-button mobile-adaptive-tel" href="tel:+79167714777">
+                                <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="512" height="512"><path d="M24,6.24c0,7.64-10.13,17.76-17.76,17.76-1.67,0-3.23-.63-4.38-1.78l-1-1.15c-1.16-1.16-1.16-3.12,.05-4.33,.03-.03,2.44-1.88,2.44-1.88,1.2-1.14,3.09-1.14,4.28,0l1.46,1.17c3.2-1.36,5.47-3.64,6.93-6.95l-1.16-1.46c-1.15-1.19-1.15-3.09,0-4.28,0,0,1.85-2.41,1.88-2.44,1.21-1.21,3.17-1.21,4.38,0l1.05,.91c1.2,1.19,1.83,2.75,1.83,4.42Z"/></svg>
+                            </a>
+
+                            <button class="header__content-button" type="button" onclick="openModal()">
+                                Записаться
+                                <span class="header__content-button-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <path d="M18,12h0a2,2,0,0,0-.59-1.4l-4.29-4.3a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L15,11H5a1,1,0,0,0,0,2H15l-3.29,3.29a1,1,0,0,0,1.41,1.42l4.29-4.3A2,2,0,0,0,18,12Z"/>
+                                    </svg>
+                                </span>
+                            </button>                            
+                        </div>
+                    </div>
+                </header>
+
+                <div class="hero">
+                    <div class="hero__content">
+                        <div class="hero__text">
+                            <h1 class="hero__title">
+                                ШЕМЯКИН АНАТОЛИЙ
+                            </h1>
+                            
+                            <p class="hero__description">
+                                Специалист по нейромышечной коррекции — помогаю телу восстановить естественные движения и избавиться от боли. Работаю с нарушенными рефлексами, мышечными зажимами и неправильными двигательными программами.
+                            </p>
+
+                            <div class="hero-correct">
+                                <div class="hero-norm">
+                                    <button class="hero__button" onclick="openModal()">
+                                        Записаться на прием
+                                        <span class="hero__button-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                <path d="M18,12h0a2,2,0,0,0-.59-1.4l-4.29-4.3a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L15,11H5a1,1,0,0,0,0,2H15l-3.29,3.29a1,1,0,0,0,1.41,1.42l4.29-4.3A2,2,0,0,0,18,12Z"/>
+                                            </svg>
+                                        </span>
+                                    </button>  
+                                </div>
+                            
+
+                                <a target="_blank" href="https://yandex.az/maps/org/studiya_neyromyshechnoy_korrektsii_p_dtr/32313144654/?ll=37.658787%2C55.715363&z=16&utm_source=share" style="color: #ffffff;">
+                                    <div class="rating-card">
+                                        <div class="rating-card__content">
+                                            <span class="rating-card__value">5.0</span>
+                                            <span class="rating-card__icon">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                                    <path d="M19.134,11.569c0-.376-.211-.721-.547-.892-.86-.438-1.781-.841-2.813-1.233-1.706-.654-2.949-1.916-3.595-3.645-.387-1.049-.785-1.983-1.216-2.855-.169-.34-.517-.556-.896-.556s-.729,.216-.896,.557c-.43,.869-.827,1.803-1.214,2.85-.646,1.732-1.89,2.994-3.593,3.647-1.038,.395-1.96,.798-2.817,1.235-.335,.17-.546,.515-.546,.891s.211,.721,.547,.892c.862,.438,1.783,.842,2.813,1.232,1.706,.654,2.949,1.916,3.595,3.646,.389,1.053,.786,1.985,1.215,2.854,.169,.341,.516,.557,.896,.557s.728-.216,.896-.557c.431-.869,.828-1.803,1.214-2.851,.647-1.732,1.892-2.994,3.593-3.647,1.034-.392,1.955-.795,2.817-1.233,.336-.171,.547-.515,.547-.892Z"/>
+                                                    <path d="M17.096,6.542c.255,.13,.506,.237,.753,.331,.207,.08,.352,.228,.43,.435,.092,.253,.197,.505,.324,.763,.167,.342,.515,.56,.896,.56h.002c.38,0,.728-.216,.896-.557,.127-.257,.231-.51,.324-.761,.08-.212,.225-.36,.428-.438,.251-.095,.501-.202,.756-.332,.336-.17,.547-.516,.547-.892s-.212-.721-.548-.891c-.254-.128-.504-.235-.752-.33-.206-.079-.351-.227-.43-.437-.094-.253-.198-.506-.326-.764-.168-.34-.516-.556-.896-.556h-.002c-.381,0-.728,.217-.896,.559-.126,.257-.231,.51-.322,.758-.08,.212-.225,.36-.428,.438-.252,.096-.502,.202-.757,.332-.336,.17-.547,.515-.547,.891s.211,.721,.547,.891Z"/>
+                                                    <path d="M22.453,17.185c-.317-.161-.63-.295-.938-.411-.339-.13-.586-.382-.713-.724-.117-.316-.248-.632-.406-.952-.169-.341-.517-.557-.896-.557h0c-.381,0-.729,.217-.896,.559-.157,.32-.288,.635-.402,.945-.13,.347-.377,.599-.711,.727-.312,.118-.626,.252-.942,.414-.335,.171-.546,.515-.546,.891s.211,.72,.546,.891c.316,.161.628,.294.939,.413.337,.129.584,.38.712,.723.116,.315.247,.631.405,.95.168,.341.515,.557.896,.558h0c.38,0,.727-.215,.896-.556,.159-.32.29-.636.406-.949,.128-.346.375-.597.712-.726.312-.119.623-.251.939-.412.336-.171.547-.516.547-.892s-.211-.721-.547-.892Z"/>
+                                                </svg>
+                                            </span>
+                                        </div>
+
+                                        <div class="rating-card__text">
+                                            средняя оценка <br> в Яндекс.Картах
+                                        </div>
+
+                                        <div class="rating-card__side">
+                                            НА КАРТУ
+                                        </div>
+                                    </div>   
+                                </a>     
+                            </div>                    
+                        </div>
+        
+                        <div class="hero__image">
+                            <img src="assets/img/foto.png?v=1.7" alt="Анатолий Шемякин">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <main class="main-content">
+            <section class="about">
+                <div class="about__content">
+                    <div class="about__content-textblock">
+                        <h1 class="about__content-title">Немного о нас</h1>
+                        <p class="about__content-subtitle">познакомьтесь с нами ближе</p>
+                    </div>
+
+                    <div class="about__video">
+                        <video class="js-player" playsinline controls poster="assets/img/preview.png">
+                            <source src="assets/video/video.mp4" type="video/mp4" />
+                            Ваш браузер не поддерживает тег video.
+                        </video>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="methods" id="o-metode">
+                <div class="methods__content">
+                    <div class="methods__content-block block-one">
+                        <div class="method__block-textblock">
+                            <h1 class="method__block-title">ТЕХНОЛОГИЯ <span>P-DTR</span></h1>
+                            <p class="method__block-subtitle">как это работает?</p>
+                        </div>
+
+                        <p class="method__block-paragraph">
+                            Метод лечения P-DTR (Proprioceptive Deep Tendon Reflex) — это подход, направленный на диагностику и коррекцию дисфункций нервной системы, которые могут приводить к проблемам с движением, болям и другими физическими недомоганиями.
+                        </p>
+                    </div>
+
+                    <div class="methods__content-block block-two">
+                        <h1 class="method__block-title second-title-block">О МЕТОДЕ <span>P-DTR</span></h1>
+
+                        <div class="method__block-variants">
+                            <article class="method__block-var">
+                                <h1 class="method__block-var-title">1 — Диагностика</h1>
+                                <p class="method__block-var-describe">
+                                    Метод начинается с поиска сбоев в нервной системе, которые вызывают боль и скованность. Специалист мягкими касаниями проверяет разные зоны тела, связанные с мышцами, суставами, органами или даже эмоциями. Так выявляются «слабые» места, где нервная система работает не так, как должна.
+                                </p>
+                            </article>
+
+                            <article class="method__block-var">
+                                <h1 class="method__block-var-title">2 — Коррекция</h1>
+                                <p class="method__block-var-describe">
+                                    После диагностики терапевт работает с «слабыми» зонами через мягкие касания, лёгкое надавливание или движения. Такие приёмы восстанавливают связь нервной системы с мышцами, суставами и органами. Это как «перезагрузка» для нервов, которая помогает вернуть их нормальную работу и убрать боль или дискомфорт.
+                                </p>
+                            </article>
+                        </div>
+
+                        <img src="assets/img/blocks/block-about.png" alt="Девушка на кушетке с Анатолием" class="method__block-image">
+                    </div>
+
+                    <div class="methods__content-block block-three">
+                        <p class="method__block-second-paragraph">
+                            <span>Метод P-DTR</span> является мощным инструментом в лечении различных физических недугов, благодаря своей способности быстро и эффективно воздействовать на первопричину дисфункций нервной системы.
+                        </p>
+
+                        <div class="method__block-buttons">
+                            <a href="https://pdtr-global.ru/o-metode/patent/" class="method__block-button method__block-button--outline">
+                                Больше о P-DTR
+                            </a>
+                        
+                            <button class="method__block-button method__block-button--filled" onclick="openModal()">
+                                Записаться на прием
+                                <span class="method__block-button-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <path d="M18,12h0a2,2,0,0,0-.59-1.4l-4.29-4.3a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L15,11H5a1,1,0,0,0,0,2H15l-3.29,3.29a1,1,0,0,0,1.41,1.42l4.29-4.3A2,2,0,0,0,18,12Z"/>
+                                    </svg>
+                                </span>
+                            </button>  
+                        </div>                        
+                    </div>
+                </div>
+            </section>
+
+
+            
+            <section class="achievement" id="dostijeniya">
+                <div class="achievement__content">
+                    <h1 class="achievement__content-title">Достижения</h1>
+                    
+                    <div class="achievement__content-images-block">
+                        <div class="image-container">
+                            <h2 class="achievement__content-img-title">ДО</h2>
+                            <div class="image-placeholder" id="before-image">
+                                <!-- Изображение будет загружено через JavaScript -->
+                            </div>
+                        </div>
+                        
+                        <div class="image-container">
+                            <h2 class="achievement__content-img-title">ПОСЛЕ</h2>
+                            <div class="image-placeholder" id="after-image">
+                                <!-- Изображение будет загружено через JavaScript -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="slider-controls">
+                        <button class="slider-btn prev">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M0,12A12,12,0,1,0,12,0,12.013,12.013,0,0,0,0,12Zm17.414-1.414a2,2,0,0,1,0,2.828l-4.243,4.243-1.414-1.414L15,13H6V11h9L11.757,7.757l1.414-1.414Z"/>
+                            </svg>
+                        </button>
+                        
+                        <div class="slider-indicators" id="indicators">
+                            <!-- Индикаторы будут созданы через JavaScript -->
+                        </div>
+                        
+                        <button class="slider-btn next">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M0,12A12,12,0,1,0,12,0,12.013,12.013,0,0,0,0,12Zm17.414-1.414a2,2,0,0,1,0,2.828l-4.243,4.243-1.414-1.414L15,13H6V11h9L11.757,7.757l1.414-1.414Z"/>
+                            </svg>
+                        </button>
+                    </div>
+                    
+                    <div class="error-message" id="error-message">
+                        Ошибка загрузки изображений. Пожалуйста, проверьте подключение к интернету.
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="reviews">
+                <div class="reviews__content">
+                    <h1 class="reviews__content-title">Отзывы</h1>
+                    
+                    <div class="reviews__content-blocks">
+                        <article class="review__block">
+                            <a target="_blank" href="https://yandex.az/maps/org/32313144654/reviews?reviews%5BpublicId%5D=gqdcmb6n0mymcbwukt1929n1f4&utm_source=review">
+                                <div class="review__block-nick">
+                                    <img src="assets/img/avatars/petr-shasniy.png" alt="Петр Щасный" class="review__block-nick-img">
+                                    <h2 class="review__block-nick-text">Петр Щасный</h2>
+                                </div>
+
+                                <p class="review__block-text">
+                                    24 марта был на приёме у Анатолия. Пришёл на приём в виде вопросительного знака (сутулость), а также боли в пояснице, суставах ног — ушёл в виде Восклицательного!!! И так же относительно его работы (вначале вопросы, затем восклицания). Я не хотел понимать и не хочу понимать сейчас, как это всё работает, но результат превзошёл мои ожидания. Большое спасибо Анатолию! Спина выровнялась, голова приподнята. Лёгкость в походке без боли. Тело раскрепостилось, а была сплошная боль. Словами, это состояние уверенности и ощущения, что нет зажатости, не передать. Нужно попробовать и приблизить своё здоровье к "заводским настройкам".
+                                </p>
+                            </a>
+                        </article>
+
+                        <article class="review__block">
+                            <a target="_blank" href="https://yandex.az/maps/org/32313144654/reviews?reviews%5BpublicId%5D=ufv1vgzcqbcwrda550avb3b6dm&utm_source=review">
+                                <div class="review__block-nick">
+                                    <img src="assets/img/avatars/olga-kovaykina.png" alt="Ольга Ковайкина" class="review__block-nick-img">
+                                    <h2 class="review__block-nick-text">Ольга Ковайкина</h2>
+                                </div>
+
+                                <p class="review__block-text">
+                                    Была у Анатолия с жалобой на боли в области крестца и поясницы. 2 часа работы, все комфортно для меня, после приема усталость) это перезагрузка нервной системы, как сказал Анатолий. По итогу уже на следующий день боли нет, в теле «удобнее». Прошло уже почти 2 месяца, боль не вернулась, чему я очень-очень рада, поскольку до этого страдала несколько лет. Вернусь за доработкой других беспокоящих зон. Спасибо, Анатолий! Рекомендую.
+                                </p>
+                            </a>
+                        </article>
+
+                        <article class="review__block">
+                            <a target="_blank" href="https://yandex.az/maps/org/32313144654/reviews?reviews%5BpublicId%5D=bf33d0z7aq4e36pp2pj8gaqwng&utm_source=review">
+                                <div class="review__block-nick">
+                                    <img src="assets/img/avatars/tanya-y.png" alt="tanya y." class="review__block-nick-img">
+                                    <h2 class="review__block-nick-text">tanya y.</h2>
+                                </div>
+
+                                <p class="review__block-text">
+                                    Толя - супер специалист. Настолько тщательно и скрупулезно проработал мне больное плечо и остальные зоны, что чувствую себя новым человеком. Плечо стало нормально работать, ушли боли в спине, прошел хронический цистит, да я даже жару стала лучше переносить. Советую всем, кто мучается с болями, которые давно никак не лечатся и не понятно откуда берутся. Здесь с ними разберутся) и самое крутое - эффект держится, а не исчезает со временем!
+                                </p>
+                            </a>
+                        </article>
+                    </div>
+
+                    <a href="https://yandex.ru/maps/org/32313144654?si=2kn67yb43zczgnq09f4vkhbx4r" class="reviews__content-more-button">
+                        Больше отзывов
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
+                            <path d="M17.414,10.586,13.121,6.293,11.707,7.707,15,11H5v2H15l-3.293,3.293,1.414,1.414,4.293-4.293A2,2,0,0,0,17.414,10.586Z"/>
+                        </svg>
+                    </a>
+                </div>
+            </section>
+
+
+
+            <section class="uslugi" id="uslugi">
+                <div class="uslugi__content">
+                    <h1 class="uslugi__content-title">Услуги студии</h1>
+
+                    <div class="uslugi__content-blocks">
+                        <article class="uslugi__block">
+                            <h1 class="uslugi__block-title">Реабилитация после травм</h1>
+                            <p class="uslugi__block-describe">
+                                Восстановление подвижности суставов, устранение мышечных дисфункций. Работа с болью и устранение её причин (не симптомов)
+                            </p>
+
+                            <div class="uslugi__block-infoblock">
+                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
+
+                                <div class="uslugi__block-price-info">
+                                    <span class="uslugi__block-price-main">Первичный визит — 6000 ₽</span>
+                                    <span class="uslugi__block-price-sub">(включает диагностический этап)</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="uslugi__block">
+                            <h1 class="uslugi__block-title">Оптимизация движения</h1>
+                            <p class="uslugi__block-describe">
+                                Диагностика и коррекция движения для спортсменов. Повышение эффективности тренировок и улучшение координации.
+                            </p>
+
+                            <div class="uslugi__block-infoblock">
+                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
+
+                                <div class="uslugi__block-price-info">
+                                    <span class="uslugi__block-price-main">Первичный визит — 6000 ₽</span>
+                                    <span class="uslugi__block-price-sub">(включает диагностический этап)</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="uslugi__block">
+                            <h1 class="uslugi__block-title">Работа с хроническими проблемами</h1>
+                            <p class="uslugi__block-describe">
+                                Устранение болей в спине, шее, коленях и других частях тела. Работа с хронической усталостью и напряжением. Коррекция последствий стресса и перегрузок.
+                            </p>
+
+                            <div class="uslugi__block-infoblock">
+                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
+
+                                <div class="uslugi__block-price-info">
+                                    <span class="uslugi__block-price-main">Первичный визит — 6000 ₽</span>
+                                    <span class="uslugi__block-price-sub">(включает диагностический этап)</span>
+                                </div>
+                            </div>
+                        </article>
+                        
+
+                        <article class="uslugi__block">
+                            <h1 class="uslugi__block-title">Диагностика и профилактика</h1>
+                            <p class="uslugi__block-describe">
+                                Функциональная диагностика мышц и нервной системы. Комплексная проверка возрастных изменений. Выявление скрытых дисфункций до симптомов.
+                            </p>
+
+                            <div class="uslugi__block-infoblock">
+                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
+
+                                <div class="uslugi__block-price-info">
+                                    <span class="uslugi__block-price-main">Первичный визит — 6000 ₽</span>
+                                    <span class="uslugi__block-price-sub">(включает диагностический этап)</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="uslugi__block">
+                            <h1 class="uslugi__block-title">Для людей с сидячим образом жизни</h1>
+                            <p class="uslugi__block-describe">
+                                Снятие напряжения от длительного сидения (спина, шея, плечи), улучшение тонуса, осанки и работоспособности. Индивидуальные рекомендации по эргономике рабочего места.
+                            </p>
+
+                            <div class="uslugi__block-infoblock">
+                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
+
+                                <div class="uslugi__block-price-info">
+                                    <span class="uslugi__block-price-main">Первичный визит — 6000 ₽</span>
+                                    <span class="uslugi__block-price-sub">(включает диагностический этап)</span>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="uslugi__block">
+                            <h1 class="uslugi__block-title">Работа с детьми</h1>
+                            <p class="uslugi__block-describe">
+                                Коррекция нарушений осанки и двигательных функций у детей. Устранение последствий родовых травм и нарушений раннего развития. Поддержка естественного развития.
+                            </p>
+
+                            <div class="uslugi__block-infoblock">
+                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
+
+                                <div class="uslugi__block-price-info">
+                                    <span class="uslugi__block-price-main">Первичный визит — 6000 ₽</span>
+                                    <span class="uslugi__block-price-sub">(включает диагностический этап)</span>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="uslugi__price-footnote">
+                        <p class="uslugi__price-footnote-text">
+                            <span>* Коррекционная работа</span> оплачивается отдельно и определяется по результатам диагностики. Стоимость согласовывается с клиентом до начала коррекционного этапа.
+                        </p>
+                    </div>
+
+                    <img src="assets/img/blocks/block-uslugi.png" alt="Картинка для услуг" class="uslugi__content-image">
+                </div>
+            </section>
+
+            
+
+            <section class="online">
+                <div class="online__content">
+                    <div class="online__content-textblock">
+                        <h1 class="online__content-title">Онлайн-сопровождение</h1>
+                        <p class="online__content-subtitle">тренировки по восстановлению</p>
+                    </div>
+
+                    <p class="online__content-describe">
+                        Онлайн сопровождение — это персональный план восстановления и поддержка специалиста всегда рядом, где бы вы ни находились. Первая встреча проходит очно, чтобы подробно разобрать ключевые упражнения и закрепить эффект после P-DTR. Каждое движение объясняется простыми словами, чтобы всё было понятно и удобно выполнять самостоятельно. Дальше работа продолжается в формате подписки: онлайн-ведение с регулярной обратной связью, контроль через фото- и видеоотчёты, корректировка нагрузки и рекомендации по дальнейшим шагам. При необходимости назначаются повторные приёмы для более глубокой работы.
+                    </p>
+
+                    <div>
+                        <button class="online__content-button" type="button" onclick="openModal()">
+                            Записаться на прием
+                            <span class="online__content-button-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M18,12h0a2,2,0,0,0-.59-1.4l-4.29-4.3a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L15,11H5a1,1,0,0,0,0,2H15l-3.29,3.29a1,1,0,0,0,1.41,1.42l4.29-4.3A2,2,0,0,0,18,12Z"/>
+                                </svg>
+                            </span>
+                        </button>  
+                    </div>
+                </div>
+            </section>
+            
+
+
+            <section class="contacts" id="kontakti">
+                <div class="contacts__content">
+                    <h1 class="contacts__content-title">Контакты</h1>
+
+                    <div class="contacts__content-parts">
+                        <div class="contacts__content-left">
+                            <div class="contacts__content-left-blocks">
+                                <a target="_blank" href="tel:+79167714777">
+                                    <article class="contact__block">
+                                        <div class="contact__block-help">
+                                            <svg class="contact__block-icon" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="512" height="512"><path d="M12,0C5.383,0,0,5.383,0,12s5.383,12,12,12,12-5.383,12-12S18.617,0,12,0Zm-3.143,18c-.723,0-1.449-.261-2-.813l-.522-.6c-.446-.446-.446-1.17,0-1.616l1.302-1c.446-.446,1.17-.446,1.616,0l1.069,.851c2.071-.791,3.599-2.256,4.5-4.5l-.851-1.069c-.446-.446-.446-1.17,0-1.616l1-1.302c.446-.446,1.17-.446,1.616,0l.6,.522c.552,.551,.813,1.277,.813,2,0,4-5.429,9.143-9.143,9.143Z"/></svg>
+                                            <p class="contact__block-text">+7 (916) 771-47-77</p>
+                                        </div>
+
+                                        <svg class="contact__block-arrow" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="512" height="512"><path d="M17.414,10.586,13.121,6.293,11.707,7.707,15,11H5v2H15l-3.293,3.293,1.414,1.414,4.293-4.293A2,2,0,0,0,17.414,10.586Z"/></svg>
+                                    </article>
+                                </a>
+
+                                <a target="_blank" href="https://t.me/MindMuscleTeam">
+                                    <article class="contact__block">
+                                        <div class="contact__block-help">
+                                            <svg class="contact__block-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="512" height="512">
+                                                <g id="Artboard">
+                                                    <path style="fill-rule:evenodd;clip-rule:evenodd;" d="M12,0C5.373,0,0,5.373,0,12s5.373,12,12,12s12-5.373,12-12S18.627,0,12,0z    M17.562,8.161c-0.18,1.897-0.962,6.502-1.359,8.627c-0.168,0.9-0.5,1.201-0.82,1.23c-0.697,0.064-1.226-0.461-1.901-0.903   c-1.056-0.692-1.653-1.123-2.678-1.799c-1.185-0.781-0.417-1.21,0.258-1.911c0.177-0.184,3.247-2.977,3.307-3.23   c0.007-0.032,0.015-0.15-0.056-0.212s-0.174-0.041-0.248-0.024c-0.106,0.024-1.793,1.139-5.062,3.345   c-0.479,0.329-0.913,0.489-1.302,0.481c-0.428-0.009-1.252-0.242-1.865-0.442c-0.751-0.244-1.349-0.374-1.297-0.788   c0.027-0.216,0.324-0.437,0.892-0.663c3.498-1.524,5.831-2.529,6.998-3.015c3.333-1.386,4.025-1.627,4.477-1.635   C17.472,7.214,17.608,7.681,17.562,8.161z"/>
+                                                </g>
+                                            </svg>
+
+                                            <p class="contact__block-text">Наш телеграм канал</p>
+                                        </div>
+
+                                        <svg class="contact__block-arrow" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="512" height="512"><path d="M17.414,10.586,13.121,6.293,11.707,7.707,15,11H5v2H15l-3.293,3.293,1.414,1.414,4.293-4.293A2,2,0,0,0,17.414,10.586Z"/></svg>
+                                    </article>
+                                </a>
+
+                                <a target="_blank" href="https://youtube.com/@anatoliyshemyakin?si=68yisAJLLSnMN5uv">
+                                    <article class="contact__block">
+                                        <div class="contact__block-help">
+                                            <svg class="contact__block-icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Capa_1" x="0px" y="0px" viewBox="0 0 24 24" style="enable-background:new 0 0 24 24;" xml:space="preserve" width="512" height="512">
+                                                <g id="XMLID_184_">
+                                                    <path d="M23.498,6.186c-0.276-1.039-1.089-1.858-2.122-2.136C19.505,3.546,12,3.546,12,3.546s-7.505,0-9.377,0.504   C1.591,4.328,0.778,5.146,0.502,6.186C0,8.07,0,12,0,12s0,3.93,0.502,5.814c0.276,1.039,1.089,1.858,2.122,2.136   C4.495,20.454,12,20.454,12,20.454s7.505,0,9.377-0.504c1.032-0.278,1.845-1.096,2.122-2.136C24,15.93,24,12,24,12   S24,8.07,23.498,6.186z M9.546,15.569V8.431L15.818,12L9.546,15.569z"/>
+                                                </g>
+                                            </svg>                                        
+
+                                            <p class="contact__block-text">Мы в YouTube</p>
+                                        </div>
+
+                                        <svg class="contact__block-arrow" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="512" height="512"><path d="M17.414,10.586,13.121,6.293,11.707,7.707,15,11H5v2H15l-3.293,3.293,1.414,1.414,4.293-4.293A2,2,0,0,0,17.414,10.586Z"/></svg>
+                                    </article>
+                                </a>
+
+                                <a target="_blank" href="https://vkvideo.ru/@club232269987">
+                                    <article class="contact__block">
+                                        <div class="contact__block-help">
+                                            <svg class="contact__block-icon" width="100" height="100" viewBox="0 0 100 100" fill="white" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M0 48.0007C0 25.3707 0 14.0607 7.03 7.03073C14.06 0.000732422 25.37 0.000732422 48 0.000732422H52C74.63 0.000732422 85.94 0.000732422 92.97 7.03073C100 14.0607 100 25.3707 100 48.0007V52.0007C100 74.6307 100 85.9407 92.97 92.9707C85.94 100.001 74.63 100.001 52 100.001H48C25.37 100.001 14.06 100.001 7.03 92.9707C0 85.9407 0 74.6307 0 52.0007V48.0007Z" fill="#0077FF"/>
+                                                <path d="M58.3302 0.000732422C39.8602 0.0607324 30.0302 0.680732 23.6902 7.02073C16.6602 14.0507 16.6602 25.3607 16.6602 47.9907V51.9907C16.6602 74.6207 16.6602 85.9307 23.6902 92.9607C30.0302 99.3007 39.8602 99.9207 58.3302 99.9807C76.8002 99.9207 86.6302 99.3007 92.9702 92.9607C100 85.9307 100 74.6207 100 51.9907V47.9907C100 25.3607 100 14.0507 92.9702 7.02073C86.6302 0.690732 76.8002 0.0707324 58.3302 0.000732422Z" fill="#FF2B42"/>
+                                                <path d="M70.5598 41.1107C75.6198 44.0307 78.1398 45.4907 78.9898 47.3907C79.7298 49.0507 79.7298 50.9507 78.9898 52.6107C78.1398 54.5207 75.6098 55.9707 70.5598 58.8907L56.7098 66.8907C51.6498 69.8107 49.1298 71.2707 47.0498 71.0507C45.2398 70.8607 43.5998 69.9107 42.5298 68.4407C41.2998 66.7507 41.2998 63.8307 41.2998 58.0007V42.0007C41.2998 36.1607 41.2998 33.2407 42.5298 31.5607C43.5998 30.0907 45.2398 29.1407 47.0498 28.9507C49.1198 28.7307 51.6498 30.1907 56.7098 33.1107L70.5598 41.1107Z" fill="white"/>
+                                            </svg>                                      
+
+                                            <p class="contact__block-text">Мы в VK Видео</p>
+                                        </div>
+
+                                        <svg class="contact__block-arrow" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24" width="512" height="512"><path d="M17.414,10.586,13.121,6.293,11.707,7.707,15,11H5v2H15l-3.293,3.293,1.414,1.414,4.293-4.293A2,2,0,0,0,17.414,10.586Z"/></svg>
+                                    </article>
+                                </a>
+                            </div>
+
+                            <button class="contact__content-left-button" type="button" onclick="openModal()">
+                                Записаться на прием
+                                <span class="contact__content-left-button-icon">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                        <path d="M18,12h0a2,2,0,0,0-.59-1.4l-4.29-4.3a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L15,11H5a1,1,0,0,0,0,2H15l-3.29,3.29a1,1,0,0,0,1.41,1.42l4.29-4.3A2,2,0,0,0,18,12Z"/>
+                                    </svg>
+                                </span>
+                            </button>
+                        </div>
+
+                        <div class="contacts__content-right">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d222.97847312668566!2d37.65838543139145!3d55.715372741875235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54b2e11398025%3A0x49d8fbc4f02fa766!2z0JLQvtGB0YLQvtGH0L3QsNGPINGD0LsuLCA00JAg0YHRgtGA0L7QtdC90LjQtSA0LCDQnNC-0YHQutCy0LAsINCg0L7RgdGB0LjRjywgMTE1Mjgw!5e0!3m2!1sru!2saz!4v1758923444185!5m2!1sru!2saz" style="border:0; border-radius: 20px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="sertifications" id="sertifikati">
+                <div class="sertifications__content">
+                    <h1 class="sertifications__content-title">Сертификаты</h1>
+                    
+                    <div class="owl-carousel sert-carousel">
+                        <div><img src="assets/img/sertificates/sertificate-1.png?v=1.1" alt="1"></div>
+                        <div><img src="assets/img/sertificates/sertificate-2.png?v=1.1" alt="2"></div>
+                        <div><img src="assets/img/sertificates/sertificate-3.png?v=1.1" alt="3"></div>
+                        <div><img src="assets/img/sertificates/sertificate-4.png?v=1.1" alt="4"></div>
+                        <div><img src="assets/img/sertificates/sertificate-5.png?v=1.1" alt="5"></div>
+                    </div>
+                      
+                    <div class="sert-controls">
+                        <button class="sert-btn sert-btn-prev" style="transform: rotate(0deg);">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M0,12A12,12,0,1,0,12,0,12.013,12.013,0,0,0,0,12Zm17.414-1.414a2,2,0,0,1,0,2.828l-4.243,4.243-1.414-1.414L15,13H6V11h9L11.757,7.757l1.414-1.414Z"/>
+                            </svg>
+                        </button>
+                      
+                        <div class="sert-indicators"></div>
+                      
+                        <button class="sert-btn sert-btn-next">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M0,12A12,12,0,1,0,12,0,12.013,12.013,0,0,0,0,12Zm17.414-1.414a2,2,0,0,1,0,2.828l-4.243,4.243-1.414-1.414L15,13H6V11h9L11.757,7.757l1.414-1.414Z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </section>                  
+        </main>
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="footer__content">
+                <div class="footer__content-textblock">
+                    <h1 class="legal-code">ИП <span>Шемякин Анатолий Александрович</span></h1>
+                    <h1 class="legal-code">ИНН <span>772578290050</span></h1>
+                </div>
+
+                <div class="policy-info-block">
+                    <a href="policy.php" class="policy__link">Политика Конфиденциальности</a>
+                </div>
+            </div>
+        </footer>
+
+        <!-- Модальное окно записи -->
+        <div class="modal-overlay" id="appointmentModal">
+            <div class="modal-container">
+                <div class="modal-content">
+                    <!-- Заголовок -->
+                    <div class="modal-header">
+                        <h2 class="modal-title">Записаться на прием — анкета</h2>
+                        <button class="modal-close" id="closeModal">
+                            <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
+                                <path d="M13 1L1 13M1 1L13 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                        </button>
+                    </div>
+                    
+                    <!-- Контент с прокруткой -->
+                    <div class="modal-scroll-content">
+                        <p class="modal-required">* — поле, обязательное к заполнению</p>
+                        
+                        <form class="appointment-form" id="appointmentForm">
+                            <!-- Фамилия -->
+                            <div class="form-group">
+                                <div class="form-label-wrapper">
+                                    <span class="form-label">Ваша фамилия</span>
+                                    <span class="required-star">*</span>
+                                </div>
+                                <div class="input-wrapper">
+                                <input type="text" class="form-input" name="last_name" placeholder="Введите свою фамилию" required>
+                                    <div class="input-icon-bg">
+                                        <svg class="input-icon" viewBox="0 0 512 512" width="16" height="16">
+                                            <path d="M256,298.667c-105.99,0.118-191.882,86.01-192,192C64,502.449,73.551,512,85.333,512h341.333c11.782,0,21.333-9.551,21.333-21.333C447.882,384.677,361.99,298.784,256,298.667z" fill="#4CC4DD"/>
+                                            <circle cx="256" cy="128" r="128" fill="#4CC4DD"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <!-- Имя -->
+                            <div class="form-group">
+                                <div class="form-label-wrapper">
+                                    <span class="form-label">Ваше имя</span>
+                                    <span class="required-star">*</span>
+                                </div>
+                                <div class="input-wrapper">
+                                    <input type="text" class="form-input" name="first_name" placeholder="Введите свое имя" required>
+                                    <div class="input-icon-bg">
+                                        <svg class="input-icon" viewBox="0 0 512 512" width="16" height="16">
+                                            <path d="M256,298.667c-105.99,0.118-191.882,86.01-192,192C64,502.449,73.551,512,85.333,512h341.333c11.782,0,21.333-9.551,21.333-21.333C447.882,384.677,361.99,298.784,256,298.667z" fill="#4CC4DD"/>
+                                            <circle cx="256" cy="128" r="128" fill="#4CC4DD"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="form-label-wrapper">
+                                    <span class="form-label">Ваш возраст</span>
+                                    <span class="required-star">*</span>
+                                </div>
+                                <div class="input-wrapper">
+                                    <input type="number" class="form-input" name="age" placeholder="Введите свой возраст" required>
+                                    <div class="input-icon-bg">
+                                        <svg class="input-icon" xmlns="http://www.w3.org/2000/svg" id="Layer_1" data-name="Layer 1" viewBox="0 0 24 24">
+                                            <path d="m7.768,8.007c-.756,0-1.28.587-1.384,1.166l-1.199,5.97c-.089.443.25.856.701.856.345,0,.64-.246.703-.584l.165-.888h2.005l.156.882c.061.342.358.59.704.59h.01c.453,0,.792-.416.701-.859l-1.22-5.942c-.12-.667-.589-1.191-1.345-1.191Zm-.644,4.996l.623-3.292.637,3.292h-1.26Zm5.483-2.474v2.938c0,.468.346.879.812.923.498.047.906-.317.964-.788h-.079c-.441,0-.799-.358-.799-.799h0c0-.442.358-.8.799-.8h.901c.441,0,.799.358.799.799v.8h-.011c-.059,1.369-1.211,2.455-2.61,2.388-1.34-.064-2.375-1.21-2.375-2.552v-2.884c0-1.4,1.146-2.58,2.546-2.554.932.018,1.739.546,2.153,1.317.287.534-.097,1.18-.702,1.18-.29,0-.567-.151-.699-.409-.158-.308-.488-.513-.862-.488-.477.032-.838.45-.838.928Zm5.994-.924v1.799h1.1c.441,0,.799.358.799.799s-.358.799-.799.799h-1.1v1.399h1.1c.441,0,.799.358.799.799s-.358.799-.799.799h-1.899c-.441,0-.799-.358-.799-.799v-6.395c0-.441.358-.799.799-.799h1.899c.441,0,.799.358.799.799s-.358.799-.799.799h-1.1Zm4.458,8.941c-2.227,3.415-5.987,5.454-10.059,5.454-6.617,0-12-5.383-12-12S6.383,0,13,0c2.528,0,4.968.799,7,2.261v-1.261c0-.552.448-1,1-1s1,.448,1,1v3c0,1.103-.897,2-2,2h-3c-.552,0-1-.448-1-1s.448-1,1-1h1.997c-1.724-1.294-3.822-2-5.997-2C7.486,2,3,6.486,3,12s4.486,10,10,10c3.393,0,6.527-1.7,8.383-4.546.302-.463.921-.592,1.384-.292.462.302.593.921.292,1.384Z" fill="#4CC4DD"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <!-- Телефон -->
+                            <div class="form-group">
+                                <div class="form-label-wrapper">
+                                    <span class="form-label">Номер телефона</span>
+                                    <span class="required-star">*</span>
+                                </div>
+                                <div class="input-wrapper">
+                                    <input type="tel" class="form-input" name="phone" placeholder="Введите номер телефона" required>
+                                    <div class="input-icon-bg">
+                                        <svg class="input-icon" viewBox="0 0 24 24" width="16" height="16">
+                                            <path d="M23,11a1,1,0,0,1-1-1,8.008,8.008,0,0,0-8-8,1,1,0,0,1,0-2A10.011,10.011,0,0,1,24,10,1,1,0,0,1,23,11Zm-3-1a6,6,0,0,0-6-6,1,1,0,1,0,0,2,4,4,0,0,1,4,4,1,1,0,0,0,2,0Zm2.183,12.164.91-1.049a3.1,3.1,0,0,0,0-4.377c-.031-.031-2.437-1.882-2.437-1.882a3.1,3.1,0,0,0-4.281.006l-1.906,1.606A12.784,12.784,0,0,1,7.537,9.524l1.6-1.9a3.1,3.1,0,0,0,.007-4.282S7.291.939,7.26.908A3.082,3.082,0,0,0,2.934.862l-1.15,1C-5.01,9.744,9.62,24.261,17.762,24A6.155,6.155,0,0,0,22.183,22.164Z" fill="#4CC4DD"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+        
+                            <!-- Жалобы -->
+                            <div class="form-group">
+                                <div class="form-label-wrapper">
+                                    <span class="form-label">Жалобы</span>
+                                    <span class="required-star">*</span>
+                                </div>
+                                <div class="textarea-wrapper">
+                                <textarea class="form-textarea" name="complaints" placeholder="Что вас беспокоит?" rows="3" required></textarea>
+                                    <div class="textarea-icon-bg">
+                                        <svg class="textarea-icon" viewBox="0 0 24 24" width="20" height="20">
+                                            <path d="m20,0H4C1.794,0,0,1.794,0,4v12c0,2.206,1.794,4,4,4h2.923l3.748,3.156c.382.34.862.509,1.338.509.467,0,.931-.163,1.292-.485l3.847-3.18h2.852c2.206,0,4-1.794,4-4V4c0-2.206-1.794-4-4-4Zm-4,8h-3v7c0,.553-.448,1-1,1s-1-.447-1-1v-7h-3c-.552,0-1-.447-1-1s.448-1,1-1h8c.552,0,1,.447,1,1s-.448,1-1,1Z" fill="#4CC4DD"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <p class="term-rule">
+                                <span class="term-rule__num">Внимание!</span> Нажимая на кнопку "Записаться на прием" вы автоматически выражаете согласие на правила, указанные в <a target="_blank" href="policy.php">Политике конфиденцильности</a>
+                            </p>
+        
+                            <!-- Кнопка отправки -->
+                            <div class="form-submit-wrapper">
+                                <button type="submit" class="form-submit-btn">
+                                    Записаться на прием
+                                    <svg class="submit-icon" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                        <path d="M4 10H16M16 10L12 6M16 10L12 14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script>
+            const player = new Plyr('.js-player', {
+                controls: [
+                    'play-large',
+                    'play',
+                    'progress',
+                    'current-time',
+                    'mute',
+                    'volume',
+                    'settings',
+                    'pip',
+                    'airplay',
+                    'fullscreen'
+                ],
+                i18n: {
+                    restart: 'Перезапустить',
+                    rewind: 'Назад {seektime}с',
+                    play: 'Воспроизвести',
+                    pause: 'Пауза',
+                    fastForward: 'Вперёд {seektime}с',
+                    seek: 'Искать',
+                    seekLabel: '{currentTime} из {duration}',
+                    played: 'Проиграно',
+                    buffered: 'Буферизация',
+                    currentTime: 'Текущее время',
+                    duration: 'Длительность',
+                    volume: 'Громкость',
+                    mute: 'Без звука',
+                    unmute: 'Со звуком',
+                    enableCaptions: 'Включить субтитры',
+                    disableCaptions: 'Выключить субтитры',
+                    download: 'Скачать',
+                    enterFullscreen: 'На весь экран',
+                    exitFullscreen: 'Выйти из полного экрана',
+                    frameTitle: 'Плеер для {title}',
+                    captions: 'Субтитры',
+                    settings: 'Настройки',
+                    pip: 'Картинка-в-картинке',
+                    menuBack: 'Назад в меню',
+                    speed: 'Скорость',
+                    normal: '1x — Стандарт',
+                    quality: 'Качество',
+                    loop: 'Повтор',
+                    start: 'Начало',
+                    end: 'Конец',
+                    all: 'Все',
+                    reset: 'Сбросить',
+                    disabled: 'Отключено',
+                    enabled: 'Включено',
+                    advertisement: 'Реклама'
+                }
+            });
+
+            document.documentElement.style.setProperty('--plyr-color-main', '#FF3B30');
+        </script>
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+        <script>
+            $(document).ready(function(){
+                const $carousel = $('.sert-carousel');
+            
+                $carousel.owlCarousel({
+                    items: 3, // Показываем 3 элемента одновременно
+                    loop: true, // Бесконечная прокрутка
+                    margin: 30,
+                    nav: false,
+                    dots: false,
+                    autoplay: false,
+                    smartSpeed: 500,
+                    responsive: {
+                        // Настройки для разных размеров экранов
+                        0: {
+                            items: 1 // На мобильных - 1 элемент
+                        },
+                        768: {
+                            items: 2 // На планшетах - 2 элемента
+                        },
+                        1024: {
+                            items: 3 // На десктопах - 3 элемента
+                        }
+                    }
+                });
+            
+                // кнопки
+                $('.sert-btn-prev').click(() => $carousel.trigger('prev.owl.carousel'));
+                $('.sert-btn-next').click(() => $carousel.trigger('next.owl.carousel'));
+            
+                // индикаторы
+                const $indicators = $('.sert-indicators');
+                $carousel.find('.owl-item:not(.cloned)').each((i) => {
+                    const $dot = $('<div>').addClass('sert-dot');
+                    if (i === 0) $dot.addClass('sert-active');
+                    $dot.on('click', () => $carousel.trigger('to.owl.carousel', [i, 300]));
+                    $indicators.append($dot);
+                });
+            
+                // смена активного индикатора
+                $carousel.on('changed.owl.carousel', function(event) {
+                    const index = event.item.index - event.relatedTarget._clones.length / 2;
+                    const count = event.item.count;
+                    const realIndex = ((index % count) + count) % count;
+            
+                    $('.sert-dot').removeClass('sert-active').eq(realIndex).addClass('sert-active');
+                });
+            
+                // листание стрелками на клавиатуре
+                $(document).on('keydown', function(e) {
+                    if (e.key === "ArrowLeft") {
+                        $carousel.trigger('prev.owl.carousel');
+                    }
+                    if (e.key === "ArrowRight") {
+                        $carousel.trigger('next.owl.carousel');
+                    }
+                });
+            });
+        </script>        
+
+
+        <script src="assets/js/app.js?v=1.29"></script>
+        <script src="assets/js/scroll.js?v=1.29"></script>
+        <script src="assets/js/modal.js?v=1.29"></script>
+    </body>
+</html>
