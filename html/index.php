@@ -274,15 +274,70 @@
             <section class="about">
                 <div class="about__content">
                     <div class="about__content-textblock">
-                        <h1 class="about__content-title">Немного о нас</h1>
-                        <p class="about__content-subtitle">познакомьтесь с нами ближе</p>
+                        <h1 class="about__content-title">С чем ко мне обращаются</h1>
+                        <p class="about__content-subtitle">Работаю с самыми разными запросами — от хронической боли в пояснице до восстановления после сложных операций. Вот что встречается чаще всего:</p>
                     </div>
 
-                    <div class="about__video">
-                        <video class="js-player" playsinline controls poster="assets/img/preview.png">
-                            <source src="assets/video/video.mp4" type="video/mp4" />
-                            Ваш браузер не поддерживает тег video.
-                        </video>
+                    <div class="uslugi__content-blocks">
+                        <article class="uslugi__block">
+                            <h2 class="uslugi__block-title">Боль в пояснице</h2>
+                            <p class="uslugi__block-describe">Хроническая боль в пояснице, прострелы, ограничение движений при наклонах. Когда массаж и ЛФК уже не дают результата.</p>
+                            <div class="uslugi__block-infoblock">
+                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
+                            </div>
+                        </article>
+
+                        <article class="uslugi__block">
+                            <h2 class="uslugi__block-title">Боль в шее и плечах</h2>
+                            <p class="uslugi__block-describe">Напряжение и боль в шейном отделе, головные боли напряжения, ограничение поворота головы. Частый запрос у офисных сотрудников.</p>
+                            <div class="uslugi__block-infoblock">
+                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
+                            </div>
+                        </article>
+
+                        <article class="uslugi__block">
+                            <h2 class="uslugi__block-title">Боль в суставах</h2>
+                            <p class="uslugi__block-describe">Боль в коленях, тазобедренных, плечевых и голеностопных суставах. Ощущение нестабильности, хруст, ограничение амплитуды.</p>
+                            <div class="uslugi__block-infoblock">
+                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
+                            </div>
+                        </article>
+
+                        <article class="uslugi__block">
+                            <h2 class="uslugi__block-title">Восстановление после травм</h2>
+                            <p class="uslugi__block-describe">Растяжения, разрывы связок, переломы. Когда после травмы прошло время, а сила и уверенность в движении не вернулись.</p>
+                            <div class="uslugi__block-infoblock">
+                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
+                            </div>
+                        </article>
+
+                        <article class="uslugi__block">
+                            <h2 class="uslugi__block-title">Восстановление после операций</h2>
+                            <p class="uslugi__block-describe">После операций на позвоночнике, суставах, удаления грыжи. Помогаю вернуть контроль движений и убрать последствия вынужденной неподвижности.</p>
+                            <div class="uslugi__block-infoblock">
+                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
+                            </div>
+                        </article>
+
+                        <article class="uslugi__block">
+                            <h2 class="uslugi__block-title">Подготовка спортсменов</h2>
+                            <p class="uslugi__block-describe">Предсоревновательная подготовка, устранение компенсаций и слабых звеньев. Помогаю выйти на пик формы без риска травмы.</p>
+                            <div class="uslugi__block-infoblock">
+                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="about__cta">
+                        <p class="about__cta-text">→ Не нашли свой запрос? Напишите — разберём на диагностике.<br><span class="about__cta-sub">Принимаю очно в Москве и онлайн из любого города.</span></p>
+                        <button class="about__cta-button" type="button" onclick="openModal()">
+                            Записаться на прием
+                            <span class="about__cta-button-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M18,12h0a2,2,0,0,0-.59-1.4l-4.29-4.3a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L15,11H5a1,1,0,0,0,0,2H15l-3.29,3.29a1,1,0,0,0,1.41,1.42l4.29-4.3A2,2,0,0,0,18,12Z"/>
+                                </svg>
+                            </span>
+                        </button>
                     </div>
                 </div>
             </section>
