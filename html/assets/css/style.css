@@ -582,6 +582,50 @@
 
 
 
+/* КАК ПРОХОДИТ ПРИЁМ */
+.how-works {
+    margin-bottom: 140px;
+}
+
+.how-works__content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    gap: 50px;
+}
+
+.how-works__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+}
+
+.how-works__header-sub {
+    font-family: 'MontserratAlternates', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #787878;
+    max-width: 680px;
+}
+
+.how-works__footer {
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    padding: 30px 40px;
+}
+
+.how-works__footer-text {
+    font-family: 'MontserratAlternates', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    color: #717171;
+    text-align: center;
+}
+
+
+
 /* О МЕТОДЕ */
 .methods {
     display: flex;

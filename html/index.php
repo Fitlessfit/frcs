@@ -376,6 +376,49 @@
 
 
 
+            <section class="how-works">
+                <div class="how-works__content">
+
+                    <div class="how-works__header">
+                        <h1 class="about__content-title">Как проходит приём?</h1>
+                        <p class="how-works__header-sub">Я не лечу боль напрямую. Восстанавливаю правильное управление телом — тогда боль уходит сама.</p>
+                    </div>
+
+                    <div class="why-pain__grid">
+                        <div class="why-pain__left">
+
+                            <p class="why-pain__subtitle">■ Шаги работы</p>
+                            <ul class="why-pain__list">
+                                <li class="uslugi__block-describe">— Оцениваю работу мышц — как тело управляет движением прямо сейчас и реагирует на нагрузку.</li>
+                                <li class="uslugi__block-describe">— Нахожу, где мозг «выключил» нужные реакции после травмы или длительной боли.</li>
+                                <li class="uslugi__block-describe">— Восстанавливаю естественное управление телом с помощью подхода P-DTR — метода нейромышечной коррекции.</li>
+                                <li class="uslugi__block-describe">— Работаю до заметных изменений в тестах и ощущениях, а не по таймеру. Приём заканчивается, когда есть заметный сдвиг.</li>
+                            </ul>
+
+                            <p class="why-pain__subtitle">■ Кому помогаю</p>
+                            <ul class="why-pain__list">
+                                <li class="uslugi__block-describe">→ Спортсменам: подготовка к соревнованиям, восстановление после травм</li>
+                                <li class="uslugi__block-describe">→ Офисным сотрудникам: боль в шее, пояснице, спине, суставах от сидячей работы</li>
+                                <li class="uslugi__block-describe">→ После операций: восстановление контроля и силы</li>
+                                <li class="uslugi__block-describe">→ Всем, кто устал слышать «это надо просто потерпеть»</li>
+                            </ul>
+
+                        </div>
+
+                        <div class="why-pain__right">
+                            <img src="assets/img/blocks/block-about.png" alt="Приём P-DTR">
+                        </div>
+                    </div>
+
+                    <div class="how-works__footer">
+                        <p class="how-works__footer-text">П-ДТР (P-DTR) (Proprioceptive — Deep Tendon Reflex) — метод восстановления контроля движений через работу с нервной системой. Результат ощущается уже на первом приёме.</p>
+                    </div>
+
+                </div>
+            </section>
+
+
+
             <section class="methods" id="o-metode">
                 <div class="methods__content">
                     <div class="methods__content-block block-one">
