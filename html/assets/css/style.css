@@ -207,6 +207,17 @@
     white-space: normal;
 }
 
+.hero__title-sub {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: none;
+    letter-spacing: 0;
+    color: rgba(255,255,255,0.75);
+    margin-top: 8px;
+}
+
 .hero__description {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
@@ -214,11 +225,21 @@
     color: #ffffff;
     line-height: 1.2;
     margin: 0;
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     min-width: 0;
     white-space: normal;
     word-break: break-word;
     overflow-wrap: break-word;
+}
+
+.hero__location {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(255,255,255,0.65);
+    line-height: 1.4;
+    margin: 0;
+    margin-bottom: 20px;
 }
 
 .hero-correct {
@@ -340,6 +361,33 @@
     align-items: flex-end;
     height: 100%;
     position: relative;
+}
+
+.hero__image-caption {
+    position: absolute;
+    bottom: 24px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    z-index: 2;
+}
+
+.hero__image-caption-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.hero__image-caption-role {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: rgba(255,255,255,0.7);
 }
 
 .hero__image img {

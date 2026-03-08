@@ -206,17 +206,21 @@
                     <div class="hero__content">
                         <div class="hero__text">
                             <h1 class="hero__title">
-                                ШЕМЯКИН АНАТОЛИЙ
+                                Хроническая боль<br>в спине и суставах<br><span class="hero__title-sub">когда массаж, ЛФК и таблетки не помогли</span>
                             </h1>
-                            
+
                             <p class="hero__description">
-                                Специалист по нейромышечной коррекции — помогаю телу восстановить естественные движения и избавиться от боли. Работаю с нарушенными рефлексами, мышечными зажимами и неправильными двигательными программами.
+                                Возвращаем силу и контроль движения за 1–3 приёма — без операций, лекарств и бесконечных курсов.
+                            </p>
+
+                            <p class="hero__location">
+                                Принимаю очно в Москве (ФОК Торпедо) и онлайн · Работаю с клиентами из всех городов
                             </p>
 
                             <div class="hero-correct">
                                 <div class="hero-norm">
                                     <button class="hero__button" onclick="openModal()">
-                                        Записаться на прием
+                                        Проверить мой случай
                                         <span class="hero__button-icon">
                                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                                                 <path d="M18,12h0a2,2,0,0,0-.59-1.4l-4.29-4.3a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L15,11H5a1,1,0,0,0,0,2H15l-3.29,3.29a1,1,0,0,0,1.41,1.42l4.29-4.3A2,2,0,0,0,18,12Z"/>
@@ -253,6 +257,10 @@
         
                         <div class="hero__image">
                             <img src="assets/img/foto.png?v=1.7" alt="Анатолий Шемякин">
+                            <div class="hero__image-caption">
+                                <span class="hero__image-caption-name">Студия Анатолия Шемякина</span>
+                                <span class="hero__image-caption-role">эксперта по нейромышечной коррекции</span>
+                            </div>
                         </div>
                     </div>
                 </div>
