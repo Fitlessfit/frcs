@@ -157,7 +157,7 @@
 
 		<link rel="stylesheet" href="assets/css/reset.css?v=1.25">
 		<link rel="stylesheet" href="assets/css/fonts.css?v=1.25">
-		<link rel="stylesheet" href="assets/css/style.css?v=1.26">
+		<link rel="stylesheet" href="assets/css/style.css?v=1.30">
 		<link rel="stylesheet" href="assets/css/adaptive.css?v=1.25">
 	</head>
 
