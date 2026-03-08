@@ -329,7 +329,7 @@
                     </div>
 
                     <div class="about__cta">
-                        <p class="about__cta-text">→ Не нашли свой запрос? Напишите — разберём на диагностике.<br><span class="about__cta-sub">Принимаю очно в Москве и онлайн из любого города.</span></p>
+                        <p class="about__cta-text" style="font-size:17px;font-family:'MontserratAlternates',sans-serif;">→ Не нашли свой запрос? Напишите — разберём на диагностике.<br><span class="about__cta-sub" style="font-size:17px;font-family:'MontserratAlternates',sans-serif;">Принимаю очно в Москве и онлайн из любого города.</span></p>
                         <button class="about__cta-button" type="button" onclick="openModal()">
                             Записаться на прием
                             <span class="about__cta-button-icon">
