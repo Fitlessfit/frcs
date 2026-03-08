@@ -252,15 +252,16 @@
                                         </div>
                                     </div>   
                                 </a>     
-                            </div>                    
+                            </div>
+
+                            <div class="hero__author-label">
+                                <span class="hero__author-label-name">Студия Анатолия Шемякина</span>
+                                <span class="hero__author-label-role">эксперта по нейромышечной коррекции</span>
+                            </div>
                         </div>
-        
+
                         <div class="hero__image">
                             <img src="assets/img/foto.png?v=1.7" alt="Анатолий Шемякин">
-                            <div class="hero__image-caption">
-                                <span class="hero__image-caption-name">Студия Анатолия Шемякина</span>
-                                <span class="hero__image-caption-role">эксперта по нейромышечной коррекции</span>
-                            </div>
                         </div>
                     </div>
                 </div>

@@ -363,35 +363,31 @@
     position: relative;
 }
 
-.hero__image-caption {
-    position: absolute;
-    bottom: 24px;
-    left: 0;
-    right: 0;
-    text-align: center;
+.hero__author-label {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 2px;
-    z-index: 2;
+    gap: 4px;
+    margin-top: 24px;
 }
 
-.hero__image-caption-name {
+.hero__author-label-name {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 15px;
+    font-weight: 700;
+    font-size: 22px;
     color: #ffffff;
+    line-height: 1.2;
 }
 
-.hero__image-caption-role {
+.hero__author-label-role {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 13px;
-    color: rgba(255,255,255,0.7);
+    font-size: 17px;
+    color: rgba(255,255,255,0.75);
+    line-height: 1.3;
 }
 
 .hero__image img {
-    height: 540px;
+    height: 648px;
     max-height: 90%;
     width: auto;
     object-fit: contain;
