@@ -584,6 +584,35 @@
 
 
 
+/* ЧТО ГОВОРЯТ ПАЦИЕНТЫ */
+.patient-reviews {
+    margin-bottom: 140px;
+}
+
+.patient-reviews__content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    gap: 50px;
+}
+
+.patient-reviews__buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+.patient-reviews__yandex-btn {
+    background-color: #324172;
+}
+
+.patient-reviews__yandex-btn:hover {
+    background-color: #FF3B30;
+}
+
+
+
 /* ЧТО ПОЛУЧАЮТ ПАЦИЕНТЫ */
 .results {
     margin-bottom: 140px;

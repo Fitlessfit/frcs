@@ -469,6 +469,70 @@
 
 
 
+            <section class="patient-reviews">
+                <div class="patient-reviews__content">
+
+                    <div class="how-works__header">
+                        <h1 class="about__content-title">Что говорят пациенты после приёма</h1>
+                    </div>
+
+                    <div class="uslugi__content-blocks">
+                        <article class="uslugi__block">
+                            <h2 class="uslugi__block-title">Боль в спине / пояснице</h2>
+                            <p class="uslugi__block-describe">«Беспокоила спина и слабость в ногах уже несколько месяцев. Массажи и упражнения давали только временный эффект. На приёме выяснилось, что причиной оказалась старая травма колена. После диагностики и коррекции состояние заметно улучшилось уже после первого визита.»</p>
+                        </article>
+
+                        <article class="uslugi__block">
+                            <h2 class="uslugi__block-title">Плечо и суставы</h2>
+                            <p class="uslugi__block-describe">«Настолько тщательно проработал плечо и связанные зоны, что движение полностью восстановилось. Ушли проблемы со спиной, а главное — результат держится, а не пропадает через пару дней.»</p>
+                        </article>
+
+                        <article class="uslugi__block">
+                            <h2 class="uslugi__block-title">Непонятная причина симптомов</h2>
+                            <p class="uslugi__block-describe">«Долгое время были неприятные ощущения в теле, а обследования показывали, что всё в норме. На приёме объяснили, как старая травма влияет на работу мышц и нервной системы. После коррекции состояние стало значительно лучше.»</p>
+                        </article>
+
+                        <article class="uslugi__block">
+                            <h2 class="uslugi__block-title">Когда ничего не помогает</h2>
+                            <p class="uslugi__block-describe">«Обращалась после множества попыток решить проблему разными методами. Здесь сначала подробно разобрали, откуда появляется симптом, а уже потом провели коррекцию. Подход очень системный.»</p>
+                        </article>
+
+                        <article class="uslugi__block">
+                            <h2 class="uslugi__block-title">Глубокая диагностика</h2>
+                            <p class="uslugi__block-describe">«Понравилось, что на приёме сначала проводится полноценная диагностика. Специалист объясняет, какие системы вовлечены и почему появляются симптомы. После этого проводится коррекция.»</p>
+                        </article>
+
+                        <article class="uslugi__block">
+                            <h2 class="uslugi__block-title">Долгий результат</h2>
+                            <p class="uslugi__block-describe">«Самое ценное — результат сохраняется. После многих процедур раньше всё возвращалось через несколько дней, здесь эффект держится значительно дольше.»</p>
+                        </article>
+                    </div>
+
+                    <div class="patient-reviews__buttons">
+                        <a href="https://yandex.ru/maps/org/32313144654?si=2kn67yb43zczgnq09f4vkhbx4r" target="_blank" class="about__cta-button patient-reviews__yandex-btn">
+                            Смотреть отзывы на Яндексе
+                            <span class="about__cta-button-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M18,12h0a2,2,0,0,0-.59-1.4l-4.29-4.3a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L15,11H5a1,1,0,0,0,0,2H15l-3.29,3.29a1,1,0,0,0,1.41,1.42l4.29-4.3A2,2,0,0,0,18,12Z"/>
+                                </svg>
+                            </span>
+                        </a>
+
+                        <button class="about__cta-button" type="button" onclick="openModal()">
+                            Записаться на прием
+                            <span class="about__cta-button-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M18,12h0a2,2,0,0,0-.59-1.4l-4.29-4.3a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L15,11H5a1,1,0,0,0,0,2H15l-3.29,3.29a1,1,0,0,0,1.41,1.42l4.29-4.3A2,2,0,0,0,18,12Z"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+
+                </div>
+            </section>
+
+
+
             <section class="methods" id="o-metode">
                 <div class="methods__content">
                     <div class="methods__content-block block-one">
