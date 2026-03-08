@@ -412,7 +412,7 @@
 .about {
     display: flex;
     flex-direction: column;
-    margin-bottom: 140px
+    margin-bottom: 140px;
 }
 
 .about__content {
@@ -529,17 +529,29 @@
 /* ПОЧЕМУ БОЛЬ ВОЗВРАЩАЕТСЯ */
 .why-pain {
     margin-bottom: 140px;
+    background: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url('../img/backgrounds/abouttech-bg.png') no-repeat center center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
 }
 
 .why-pain__content {
     display: flex;
     flex-direction: column;
-    padding: 0 20px;
+    padding: 60px 60px;
 }
 
 .why-pain__content .about__content-title {
     text-align: center;
     margin-bottom: 50px;
+}
+
+.why-pain .uslugi__block-describe,
+.why-pain .about__content-title,
+.why-pain .how-works__footer-text {
+    color: #ffffff;
 }
 
 .why-pain__grid {
@@ -616,13 +628,30 @@
 /* ЧТО ПОЛУЧАЮТ ПАЦИЕНТЫ */
 .results {
     margin-bottom: 140px;
+    background: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url('../img/backgrounds/online-bg.png') no-repeat center center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    overflow: hidden;
 }
 
 .results__content {
     display: flex;
     flex-direction: column;
-    padding: 0 20px;
+    padding: 60px 60px;
     gap: 60px;
+}
+
+.results .about__content-title,
+.results .how-works__header-sub {
+    color: #ffffff;
+}
+
+.results__cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
 }
 
 .results__list {
@@ -1641,7 +1670,8 @@
     margin: 0 15px;
 }
 
-.sertificates__item img {
+.sertificates__item img,
+.sert-carousel .owl-item img {
     width: 100%;
     height: 400px;
     object-fit: contain;
@@ -2053,26 +2083,48 @@ html.modal-open {
 .faq__item {
     background-color: #F2F2F2;
     border-radius: 16px;
-    padding: 28px;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
+    padding: 24px 28px;
+    list-style: none;
 }
 
 .faq__question {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 25px;
     color: #324172;
     line-height: 1.4;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.faq__question::-webkit-details-marker {
+    display: none;
+}
+
+.faq__question::after {
+    content: '+';
+    font-size: 26px;
+    font-weight: 400;
+    color: #4ABCD4;
+    flex-shrink: 0;
+    transition: transform 0.25s;
+}
+
+.faq__item[open] .faq__question::after {
+    transform: rotate(45deg);
 }
 
 .faq__answer {
     font-family: 'MontserratAlternates', sans-serif;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 20px;
     color: #717171;
     line-height: 1.65;
+    margin-top: 16px;
 }
 
 .faq__answer strong {
@@ -2083,10 +2135,31 @@ html.modal-open {
 /* ABOUT-AUTHOR */
 .about-author {
     padding: 80px 20px;
+    background: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url('../img/backgrounds/abouttech-bg.png') no-repeat center center;
+    background-size: cover;
+    border-radius: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 140px;
+    overflow: hidden;
 }
 
 .about-author__content .about__content-title {
     white-space: nowrap;
+    color: #ffffff;
+}
+
+.about-author .about__content-subtitle,
+.about-author .uslugi__block-describe {
+    color: #ffffff;
+}
+
+.about-author__pillar .uslugi__block-describe {
+    color: #717171;
+}
+
+.about-author .about__cta-button {
+    align-self: flex-start;
 }
 
 .about-author__content {

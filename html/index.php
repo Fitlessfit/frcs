@@ -157,7 +157,7 @@
 
 		<link rel="stylesheet" href="assets/css/reset.css?v=1.25">
 		<link rel="stylesheet" href="assets/css/fonts.css?v=1.25">
-		<link rel="stylesheet" href="assets/css/style.css?v=1.40">
+		<link rel="stylesheet" href="assets/css/style.css?v=1.56">
 		<link rel="stylesheet" href="assets/css/adaptive.css?v=1.25">
 	</head>
 
@@ -330,7 +330,7 @@
 
                     <div class="about__cta">
                         <div class="about__cta-textblock">
-                            <p class="uslugi__block-describe" style="color:#324172;">→ Не нашли свой запрос? Напишите — разберём на диагностике.</p>
+                            <p class="uslugi__block-title">→ Не нашли свой запрос? Напишите — разберём на диагностике.</p>
                             <p class="uslugi__block-describe">Принимаю очно в Москве и онлайн из любого города.</p>
                         </div>
                         <button class="about__cta-button" type="button" onclick="openModal()">
@@ -349,7 +349,7 @@
 
             <section class="why-pain">
                 <div class="why-pain__content">
-                    <h1 class="about__content-title">Почему боль возвращается снова и снова</h1>
+                    <h1 class="about__content-title">Почему боль возвращается снова и снова?</h1>
 
                     <div class="why-pain__grid">
                         <div class="why-pain__left">
@@ -397,21 +397,19 @@
 
                             <p class="why-pain__subtitle">■ Кому помогаю</p>
                             <ul class="why-pain__list">
-                                <li class="uslugi__block-describe">→ Спортсменам: подготовка к соревнованиям, восстановление после травм</li>
-                                <li class="uslugi__block-describe">→ Офисным сотрудникам: боль в шее, пояснице, спине, суставах от сидячей работы</li>
-                                <li class="uslugi__block-describe">→ После операций: восстановление контроля и силы</li>
-                                <li class="uslugi__block-describe">→ Всем, кто устал слышать «это надо просто потерпеть»</li>
+                                <li class="uslugi__block-describe">— Спортсменам: подготовка к соревнованиям, восстановление после травм</li>
+                                <li class="uslugi__block-describe">— Офисным сотрудникам: боль в шее, пояснице, спине, суставах от сидячей работы</li>
+                                <li class="uslugi__block-describe">— После операций: восстановление контроля и силы</li>
+                                <li class="uslugi__block-describe">— Всем, кто устал слышать «это надо просто потерпеть»</li>
                             </ul>
+
+                            <p class="how-works__footer-text" style="margin-top:24px;">П-ДТР (P-DTR) (Proprioceptive — Deep Tendon Reflex) — метод восстановления контроля движений через работу с нервной системой. Результат ощущается уже на первом приёме.</p>
 
                         </div>
 
                         <div class="why-pain__right">
                             <img src="assets/img/blocks/block-about.png" alt="Приём P-DTR">
                         </div>
-                    </div>
-
-                    <div class="how-works__footer">
-                        <p class="how-works__footer-text">П-ДТР (P-DTR) (Proprioceptive — Deep Tendon Reflex) — метод восстановления контроля движений через работу с нервной системой. Результат ощущается уже на первом приёме.</p>
                     </div>
 
                     <div style="display:flex; justify-content:center;">
@@ -434,17 +432,32 @@
                 <div class="results__content">
 
                     <div class="how-works__header">
-                        <h1 class="about__content-title">Что получают пациенты</h1>
+                        <h1 class="about__content-title">Что получают пациенты?</h1>
                         <p class="how-works__header-sub">Люди годами ходят по специалистам, тратят время и деньги — и не решают проблему.<br>Здесь результат приходит быстрее.</p>
                     </div>
 
-                    <ul class="why-pain__list results__list">
-                        <li class="uslugi__block-describe">— Заметное облегчение часто уже после первого приёма</li>
-                        <li class="uslugi__block-describe">— Свободное движение: возвращение уверенности и лёгкости</li>
-                        <li class="uslugi__block-describe">— Рост показателей: сила и выносливость без доп. нагрузок</li>
-                        <li class="uslugi__block-describe">— Снятие «защиты тела»: уходят спазмы, скованность и блоки</li>
-                        <li class="uslugi__block-describe">— Контроль движений в спорте, на тренировках и в обычной жизни</li>
-                    </ul>
+                    <div class="results__cards">
+                        <div class="uslugi__block">
+                            <h2 class="uslugi__block-title">Заметное облегчение</h2>
+                            <p class="uslugi__block-describe">Часто уже после первого приёма</p>
+                        </div>
+                        <div class="uslugi__block">
+                            <h2 class="uslugi__block-title">Свободное движение</h2>
+                            <p class="uslugi__block-describe">Возвращение уверенности и лёгкости</p>
+                        </div>
+                        <div class="uslugi__block">
+                            <h2 class="uslugi__block-title">Рост показателей</h2>
+                            <p class="uslugi__block-describe">Сила и выносливость без доп. нагрузок</p>
+                        </div>
+                        <div class="uslugi__block">
+                            <h2 class="uslugi__block-title">Снятие защиты тела</h2>
+                            <p class="uslugi__block-describe">Уходят спазмы, скованность и блоки</p>
+                        </div>
+                        <div class="uslugi__block">
+                            <h2 class="uslugi__block-title">Контроль движений</h2>
+                            <p class="uslugi__block-describe">В спорте, на тренировках и в обычной жизни</p>
+                        </div>
+                    </div>
 
                     <div class="results__blocks">
                         <div class="uslugi__block">
@@ -457,7 +470,6 @@
                                 <li class="uslugi__block-describe">— Тело удерживает результат между визитами</li>
                             </ul>
                         </div>
-
                         <div class="uslugi__block">
                             <h2 class="results__block-title">Ключевой принцип</h2>
                             <p class="uslugi__block-describe results__principle-text">Мы оцениваем результат по работе нервно-мышечной системы, а не только по субъективным ощущениям. Именно поэтому наши услуги выстроены вокруг диагностики, коррекции и контроля рефлекторного управления. Это даёт возможность объективно оценивать динамику вашего восстановления.</p>
@@ -473,7 +485,7 @@
                 <div class="patient-reviews__content">
 
                     <div class="how-works__header">
-                        <h1 class="about__content-title">Что говорят пациенты после приёма</h1>
+                        <h1 class="about__content-title">Что говорят пациенты после приёма?</h1>
                     </div>
 
                     <div class="uslugi__content-blocks">
@@ -584,72 +596,67 @@
                     <h2 class="about__content-title">Частые вопросы</h2>
 
                     <div class="faq__grid">
-                        <div class="faq__column">
 
-                            <article class="faq__item">
-                                <h3 class="faq__question">Чем ваш метод отличается от массажа и остеопатии?<span class="sr-only"> отличие от массажа, чем P-DTR отличается от остеопатии, почему массаж не помогает надолго</span></h3>
-                                <p class="faq__answer">Массаж и остеопатия работают с тканями. Я работаю с <strong>нервной системой</strong>: нахожу, где мозг «выключил» нужные мышцы, и восстанавливаю управление. Результат держится, а не уходит через пару дней.</p>
-                            </article>
+                        <details class="faq__item">
+                            <summary class="faq__question">Чем ваш метод отличается от массажа и остеопатии?<span class="sr-only"> отличие от массажа, чем P-DTR отличается от остеопатии, почему массаж не помогает надолго</span></summary>
+                            <p class="faq__answer">Массаж и остеопатия работают с тканями. Я работаю с <strong>нервной системой</strong>: нахожу, где мозг «выключил» нужные мышцы, и восстанавливаю управление. Результат держится, а не уходит через пару дней.</p>
+                        </details>
 
-                            <article class="faq__item">
-                                <h3 class="faq__question">Как понять, что терапия действительно помогла?<span class="sr-only"> как проверить результат, эффективность P-DTR, восстановление рефлексов</span></h3>
-                                <p class="faq__answer">Мы используем <strong>объективные критерии</strong>: восстановление устойчивого методического рефлекса. Даже если боль уходит постепенно, восстановленный рефлекс — это гарантия того, что система работает правильно.</p>
-                            </article>
+                        <details class="faq__item">
+                            <summary class="faq__question">Как понять, что терапия действительно помогла?<span class="sr-only"> как проверить результат, эффективность P-DTR, восстановление рефлексов</span></summary>
+                            <p class="faq__answer">Мы используем <strong>объективные критерии</strong>: восстановление устойчивого методического рефлекса. Даже если боль уходит постепенно, восстановленный рефлекс — это гарантия того, что система работает правильно.</p>
+                        </details>
 
-                            <article class="faq__item">
-                                <h3 class="faq__question">Как быстро я почувствую результат?<span class="sr-only"> как быстро проходит боль, сколько приемов нужно, результат за один приём</span></h3>
-                                <p class="faq__answer">Большинство клиентов замечают изменения уже на первом приёме — уменьшается боль, появляется лёгкость. Стойкий результат в среднем достигается за <strong>1–3 приёма</strong>.</p>
-                            </article>
+                        <details class="faq__item">
+                            <summary class="faq__question">Как быстро я почувствую результат?<span class="sr-only"> как быстро проходит боль, сколько приемов нужно, результат за один приём</span></summary>
+                            <p class="faq__answer">Большинство клиентов замечают изменения уже на первом приёме — уменьшается боль, появляется лёгкость. Стойкий результат в среднем достигается за <strong>1–3 приёма</strong>.</p>
+                        </details>
 
-                            <article class="faq__item">
-                                <h3 class="faq__question">У меня грыжа / протрузия. Это поможет?<span class="sr-only"> грыжа позвоночника без операции, боль при протрузии, лечение грыжи поясничного отдела</span></h3>
-                                <p class="faq__answer">Боль часто связана не с самой грыжей, а с нарушением мышечного управления вокруг неё. Когда мышцы работают правильно, нагрузка на диск снижается и боль уходит без операции.</p>
-                            </article>
+                        <details class="faq__item">
+                            <summary class="faq__question">У меня грыжа / протрузия. Это поможет?<span class="sr-only"> грыжа позвоночника без операции, боль при протрузии, лечение грыжи поясничного отдела</span></summary>
+                            <p class="faq__answer">Боль часто связана не с самой грыжей, а с нарушением мышечного управления вокруг неё. Когда мышцы работают правильно, нагрузка на диск снижается и боль уходит без операции.</p>
+                        </details>
 
-                            <article class="faq__item">
-                                <h3 class="faq__question">Что если после приёма у меня сохраняются болевые ощущения?<span class="sr-only"> боль после приема терапевта, адаптация нервной системы, почему болит после коррекции</span></h3>
-                                <p class="faq__answer">Это нормальная часть процесса перестройки. Если по завершении адаптации (<strong>до 12 недель</strong>) остаются жалобы, мы проводим повторную <strong>объективную оценку</strong>.</p>
-                            </article>
+                        <details class="faq__item">
+                            <summary class="faq__question">Что если после приёма у меня сохраняются болевые ощущения?<span class="sr-only"> боль после приема терапевта, адаптация нервной системы, почему болит после коррекции</span></summary>
+                            <p class="faq__answer">Это нормальная часть процесса перестройки. Если по завершении адаптации (<strong>до 12 недель</strong>) остаются жалобы, мы проводим повторную <strong>объективную оценку</strong>.</p>
+                        </details>
 
-                            <article class="faq__item">
-                                <h3 class="faq__question">Как вы оцениваете финальный результат?<span class="sr-only"> критерии оценки лечения, работа нервной системы, миотатический рефлекс</span></h3>
-                                <p class="faq__answer">Работа считается выполненной, если <strong>миотатический рефлекс</strong> восстановлен, показатели стабильны и тело удерживает результат. Мы оцениваем систему, а не только ощущения.</p>
-                            </article>
+                        <details class="faq__item">
+                            <summary class="faq__question">Как вы оцениваете финальный результат?<span class="sr-only"> критерии оценки лечения, работа нервной системы, миотатический рефлекс</span></summary>
+                            <p class="faq__answer">Работа считается выполненной, если <strong>миотатический рефлекс</strong> восстановлен, показатели стабильны и тело удерживает результат. Мы оцениваем систему, а не только ощущения.</p>
+                        </details>
 
-                        </div>
-                        <div class="faq__column">
+                        <details class="faq__item">
+                            <summary class="faq__question">Мне уже делали операцию / блокады. Это поможет?<span class="sr-only"> восстановление после операции, боль после блокады, реабилитация после операции на позвоночнике</span></summary>
+                            <p class="faq__answer">Да. После операций часто остаются нарушения управления движением — мышцы не включаются, тело «защищается». Операция или блокада не мешают — мы просто учитываем их в диагностике.</p>
+                        </details>
 
-                            <article class="faq__item">
-                                <h3 class="faq__question">Мне уже делали операцию / блокады. Это поможет?<span class="sr-only"> восстановление после операции, боль после блокады, реабилитация после операции на позвоночнике</span></h3>
-                                <p class="faq__answer">Да. После операций часто остаются нарушения управления движением — мышцы не включаются, тело «защищается». Операция или блокада не мешают — мы просто учитываем их в диагностике.</p>
-                            </article>
+                        <details class="faq__item">
+                            <summary class="faq__question">Больно ли во время приёма?<span class="sr-only"> больно ли на приёме, безболезненный метод лечения боли, ПДТР ощущения</span></summary>
+                            <p class="faq__answer">Нет. Приём проходит без боли и хруста. Используются лёгкие тестирующие воздействия. <strong>ПДТР (P-DTR)</strong> — это безболезненный метод.</p>
+                        </details>
 
-                            <article class="faq__item">
-                                <h3 class="faq__question">Больно ли во время приёма?<span class="sr-only"> больно ли на приёме, безболезненный метод лечения боли, ПДТР ощущения</span></h3>
-                                <p class="faq__answer">Нет. Приём проходит без боли и хруста. Используются лёгкие тестирующие воздействия. <strong>ПДТР (P-DTR)</strong> — это безболезненный метод.</p>
-                            </article>
+                        <details class="faq__item">
+                            <summary class="faq__question">Подходит ли это детям и пожилым людям?<span class="sr-only"> нейромышечная коррекция для пожилых, P-DTR для детей, метод без силовых воздействий</span></summary>
+                            <p class="faq__answer">Да. Метод не предполагает силовых воздействий. Подход полностью адаптируется под пациента: от подростков-спортсменов до клиентов 70+ лет.</p>
+                        </details>
 
-                            <article class="faq__item">
-                                <h3 class="faq__question">Подходит ли это детям и пожилым людям?<span class="sr-only"> нейромышечная коррекция для пожилых, P-DTR для детей, метод без силовых воздействий</span></h3>
-                                <p class="faq__answer">Да. Метод не предполагает силовых воздействий. Подход полностью адаптируется под пациента: от подростков-спортсменов до клиентов 70+ лет.</p>
-                            </article>
+                        <details class="faq__item">
+                            <summary class="faq__question">Нужно ли делать что-то между приёмами?<span class="sr-only"> что делать между приёмами, упражнения после P-DTR, рекомендации после приёма</span></summary>
+                            <p class="faq__answer">Иногда я даю простые упражнения для закрепления. Но главная работа происходит на приёме. Сложное оборудование не потребуется.</p>
+                        </details>
 
-                            <article class="faq__item">
-                                <h3 class="faq__question">Нужно ли делать что-то между приёмами?<span class="sr-only"> что делать между приёмами, упражнения после P-DTR, рекомендации после приёма</span></h3>
-                                <p class="faq__answer">Иногда я даю простые упражнения для закрепления. Но главная работа происходит на приёме. Сложное оборудование не потребуется.</p>
-                            </article>
+                        <details class="faq__item">
+                            <summary class="faq__question">Сколько стоит приём и сколько времени он длится?<span class="sr-only"> стоимость приёма нейромышечная коррекция Москва, цена ПДТР приём, сколько стоит</span></summary>
+                            <p class="faq__answer">Приём длится <strong>40–90 минут</strong> — я работаю до результата. Стоимость — <strong>7000 рублей</strong>. Уточняйте цену при записи.</p>
+                        </details>
 
-                            <article class="faq__item">
-                                <h3 class="faq__question">Сколько стоит приём и сколько времени он длится?<span class="sr-only"> стоимость приёма нейромышечная коррекция Москва, цена ПДТР приём, сколько стоит</span></h3>
-                                <p class="faq__answer">Приём длится <strong>40–90 минут</strong> — я работаю до результата. Стоимость — <strong>7000 рублей</strong>. Уточняйте цену при записи.</p>
-                            </article>
+                        <details class="faq__item">
+                            <summary class="faq__question">Как записаться и что нужно взять на первый приём?<span class="sr-only"> как записаться к специалисту по боли, запись на приём нейромышечная коррекция Москва</span></summary>
+                            <p class="faq__answer">Нажмите кнопку <strong>«Записаться»</strong>. Специальные документы не нужны, но если есть снимки МРТ — возьмите их с собой.</p>
+                        </details>
 
-                            <article class="faq__item">
-                                <h3 class="faq__question">Как записаться и что нужно взять на первый приём?<span class="sr-only"> как записаться к специалисту по боли, запись на приём нейромышечная коррекция Москва</span></h3>
-                                <p class="faq__answer">Нажмите кнопку <strong>«Записаться»</strong>. Специальные документы не нужны, но если есть снимки МРТ — возьмите их с собой.</p>
-                            </article>
-
-                        </div>
                     </div>
                 </div>
             </section>
@@ -752,6 +759,7 @@
                         <div><img src="assets/img/sertificates/sertificate-3.png?v=1.1" alt="3"></div>
                         <div><img src="assets/img/sertificates/sertificate-4.png?v=1.1" alt="4"></div>
                         <div><img src="assets/img/sertificates/sertificate-5.png?v=1.1" alt="5"></div>
+                        <div><img src="assets/img/sertificates/sertificate-6.jpg?v=1.1" alt="6"></div>
                     </div>
                       
                     <div class="sert-controls">
