@@ -349,7 +349,7 @@
 
             <section class="why-pain">
                 <div class="why-pain__content">
-                    <h1 class="about__content-title">ПОЧЕМУ БОЛЬ ВОЗВРАЩАЕТСЯ СНОВА И СНОВА</h1>
+                    <h1 class="about__content-title">Почему боль возвращается снова и снова</h1>
 
                     <div class="why-pain__grid">
                         <div class="why-pain__left">
