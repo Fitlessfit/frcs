@@ -574,10 +574,12 @@
 }
 
 .why-pain__right img {
-    width: 100%;
+    width: 67%;
     height: auto;
     border-radius: 20px;
     object-fit: cover;
+    display: block;
+    margin: 0 auto;
 }
 
 
