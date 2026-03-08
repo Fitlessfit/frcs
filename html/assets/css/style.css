@@ -441,9 +441,9 @@
 .about__content-subtitle {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 13px;
     color: #787878;
-    max-width: 760px;
+    max-width: 520px;
     margin: 12px auto 0;
 }
 
@@ -494,7 +494,7 @@
 }
 
 .about__cta-button:hover {
-    background-color: #324172;
+    background-color: #FF3B30;
 }
 
 .about__cta-button:active {
