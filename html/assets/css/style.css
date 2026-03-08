@@ -439,11 +439,11 @@
 }
 
 .about__content-subtitle {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'MontserratAlternates', sans-serif;
     font-weight: 500;
-    font-size: 13px;
+    font-size: 17px;
     color: #787878;
-    max-width: 520px;
+    max-width: 720px;
     margin: 12px auto 0;
 }
 
@@ -465,16 +465,16 @@
 }
 
 .about__cta-text {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    font-size: 18px;
+    font-family: 'MontserratAlternates', sans-serif;
+    font-weight: 500;
+    font-size: 17px;
     color: #324172;
     line-height: 1.5;
 }
 
 .about__cta-sub {
     font-weight: 400;
-    font-size: 15px;
+    font-size: 17px;
     color: #717171;
 }
 
