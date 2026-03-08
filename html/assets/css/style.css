@@ -617,6 +617,18 @@
     line-height: 1.7;
 }
 
+.results__block-title {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: #324172;
+    margin-bottom: 20px;
+}
+
+.results__principle-text {
+    line-height: 2.1;
+}
+
 
 
 /* КАК ПРОХОДИТ ПРИЁМ */
