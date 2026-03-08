@@ -443,7 +443,6 @@
     font-weight: 500;
     font-size: 17px;
     color: #787878;
-    max-width: 960px;
     margin: 12px auto 0;
 }
 
@@ -473,6 +472,8 @@
 }
 
 .about__cta-sub {
+    display: block;
+    font-family: 'MontserratAlternates', sans-serif;
     font-weight: 400;
     font-size: 17px;
     color: #717171;

@@ -157,7 +157,7 @@
 
 		<link rel="stylesheet" href="assets/css/reset.css?v=1.25">
 		<link rel="stylesheet" href="assets/css/fonts.css?v=1.25">
-		<link rel="stylesheet" href="assets/css/style.css?v=1.31">
+		<link rel="stylesheet" href="assets/css/style.css?v=1.32">
 		<link rel="stylesheet" href="assets/css/adaptive.css?v=1.25">
 	</head>
 
@@ -275,7 +275,7 @@
                 <div class="about__content">
                     <div class="about__content-textblock">
                         <h1 class="about__content-title">С чем ко мне обращаются</h1>
-                        <p class="about__content-subtitle">Работаю с самыми разными запросами — от хронической боли в пояснице до восстановления после сложных операций. Вот что встречается чаще всего:</p>
+                        <p class="about__content-subtitle">Работаю с самыми разными запросами — от хронической боли в пояснице до восстановления после сложных операций.<br>Вот что встречается чаще всего:</p>
                     </div>
 
                     <div class="uslugi__content-blocks">
