@@ -347,6 +347,35 @@
 
 
 
+            <section class="why-pain">
+                <div class="why-pain__content">
+                    <h1 class="about__content-title">ПОЧЕМУ БОЛЬ ВОЗВРАЩАЕТСЯ СНОВА И СНОВА</h1>
+
+                    <div class="why-pain__grid">
+                        <div class="why-pain__left">
+                            <p class="why-pain__subtitle">В чем реальная причина</p>
+
+                            <p class="uslugi__block-describe">Большинство методов лечат симптом — убирают боль на время. Но причина остается, и боль возвращается. Вот почему это происходит:</p>
+
+                            <ul class="why-pain__list">
+                                <li class="uslugi__block-describe">— Боль — это не просто «мышечное напряжение». Это сигнал о нарушении управления движением.</li>
+                                <li class="uslugi__block-describe">— Мышцы «выключаются» после травмы или боли — и не включаются обратно, даже когда «всё зажило».</li>
+                                <li class="uslugi__block-describe">— На МРТ это не видно, но тело продолжает работать вполсилы и защищается.</li>
+                                <li class="uslugi__block-describe">— ЛФК, таблетки и массаж снимают симптом, но не восстанавливают контроль.</li>
+                            </ul>
+
+                            <p class="uslugi__block-describe why-pain__closing">Пока мозг не получит правильный сигнал — тело не отпустит защиту. Именно с этим я работаю.</p>
+                        </div>
+
+                        <div class="why-pain__right">
+                            <img src="assets/img/blocks/block-uslugi.png" alt="Иллюстрация к блоку">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
             <section class="methods" id="o-metode">
                 <div class="methods__content">
                     <div class="methods__content-block block-one">
