@@ -414,6 +414,17 @@
                         <p class="how-works__footer-text">П-ДТР (P-DTR) (Proprioceptive — Deep Tendon Reflex) — метод восстановления контроля движений через работу с нервной системой. Результат ощущается уже на первом приёме.</p>
                     </div>
 
+                    <div style="display:flex; justify-content:center;">
+                        <button class="about__cta-button" type="button" onclick="openModal()">
+                            Записаться на прием
+                            <span class="about__cta-button-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                    <path d="M18,12h0a2,2,0,0,0-.59-1.4l-4.29-4.3a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L15,11H5a1,1,0,0,0,0,2H15l-3.29,3.29a1,1,0,0,0,1.41,1.42l4.29-4.3A2,2,0,0,0,18,12Z"/>
+                                </svg>
+                            </span>
+                        </button>
+                    </div>
+
                 </div>
             </section>
 
