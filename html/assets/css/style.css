@@ -368,6 +368,8 @@
     flex-direction: column;
     gap: 4px;
     margin-top: 24px;
+    align-items: center;
+    text-align: center;
 }
 
 .hero__author-label-name {
