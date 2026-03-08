@@ -584,6 +584,32 @@
 
 
 
+/* ЧТО ПОЛУЧАЮТ ПАЦИЕНТЫ */
+.results {
+    margin-bottom: 140px;
+}
+
+.results__content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    gap: 40px;
+}
+
+.results__list {
+    max-width: 860px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.results__blocks {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+
+
 /* КАК ПРОХОДИТ ПРИЁМ */
 .how-works {
     margin-bottom: 140px;
