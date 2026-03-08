@@ -157,7 +157,7 @@
 
 		<link rel="stylesheet" href="assets/css/reset.css?v=1.25">
 		<link rel="stylesheet" href="assets/css/fonts.css?v=1.25">
-		<link rel="stylesheet" href="assets/css/style.css?v=1.32">
+		<link rel="stylesheet" href="assets/css/style.css?v=1.40">
 		<link rel="stylesheet" href="assets/css/adaptive.css?v=1.25">
 	</head>
 
@@ -533,307 +533,127 @@
 
 
 
-            <section class="methods" id="o-metode">
-                <div class="methods__content">
-                    <div class="methods__content-block block-one">
-                        <div class="method__block-textblock">
-                            <h1 class="method__block-title">ТЕХНОЛОГИЯ <span>P-DTR</span></h1>
-                            <p class="method__block-subtitle">как это работает?</p>
-                        </div>
 
-                        <p class="method__block-paragraph">
-                            Метод лечения P-DTR (Proprioceptive Deep Tendon Reflex) — это подход, направленный на диагностику и коррекцию дисфункций нервной системы, которые могут приводить к проблемам с движением, болям и другими физическими недомоганиями.
-                        </p>
+            <section class="about-author">
+                <div class="about-author__content">
+                    <div class="about-author__header">
+                        <h2 class="about__content-title">Анатолий Шемякин</h2>
+                        <p class="about__content-subtitle">Основатель студии по нейромышечной коррекции</p>
                     </div>
 
-                    <div class="methods__content-block block-two">
-                        <h1 class="method__block-title second-title-block">О МЕТОДЕ <span>P-DTR</span></h1>
-
-                        <div class="method__block-variants">
-                            <article class="method__block-var">
-                                <h1 class="method__block-var-title">1 — Диагностика</h1>
-                                <p class="method__block-var-describe">
-                                    Метод начинается с поиска сбоев в нервной системе, которые вызывают боль и скованность. Специалист мягкими касаниями проверяет разные зоны тела, связанные с мышцами, суставами, органами или даже эмоциями. Так выявляются «слабые» места, где нервная система работает не так, как должна.
-                                </p>
-                            </article>
-
-                            <article class="method__block-var">
-                                <h1 class="method__block-var-title">2 — Коррекция</h1>
-                                <p class="method__block-var-describe">
-                                    После диагностики терапевт работает с «слабыми» зонами через мягкие касания, лёгкое надавливание или движения. Такие приёмы восстанавливают связь нервной системы с мышцами, суставами и органами. Это как «перезагрузка» для нервов, которая помогает вернуть их нормальную работу и убрать боль или дискомфорт.
-                                </p>
-                            </article>
-                        </div>
-
-                        <img src="assets/img/blocks/block-about.png" alt="Девушка на кушетке с Анатолием" class="method__block-image">
-                    </div>
-
-                    <div class="methods__content-block block-three">
-                        <p class="method__block-second-paragraph">
-                            <span>Метод P-DTR</span> является мощным инструментом в лечении различных физических недугов, благодаря своей способности быстро и эффективно воздействовать на первопричину дисфункций нервной системы.
-                        </p>
-
-                        <div class="method__block-buttons">
-                            <a href="https://pdtr-global.ru/o-metode/patent/" class="method__block-button method__block-button--outline">
-                                Больше о P-DTR
-                            </a>
-                        
-                            <button class="method__block-button method__block-button--filled" onclick="openModal()">
-                                Записаться на прием
-                                <span class="method__block-button-icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                        <path d="M18,12h0a2,2,0,0,0-.59-1.4l-4.29-4.3a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L15,11H5a1,1,0,0,0,0,2H15l-3.29,3.29a1,1,0,0,0,1.41,1.42l4.29-4.3A2,2,0,0,0,18,12Z"/>
-                                    </svg>
-                                </span>
-                            </button>  
-                        </div>                        
-                    </div>
-                </div>
-            </section>
-
-
-            
-            <section class="achievement" id="dostijeniya">
-                <div class="achievement__content">
-                    <h1 class="achievement__content-title">Достижения</h1>
-                    
-                    <div class="achievement__content-images-block">
-                        <div class="image-container">
-                            <h2 class="achievement__content-img-title">ДО</h2>
-                            <div class="image-placeholder" id="before-image">
-                                <!-- Изображение будет загружено через JavaScript -->
-                            </div>
-                        </div>
-                        
-                        <div class="image-container">
-                            <h2 class="achievement__content-img-title">ПОСЛЕ</h2>
-                            <div class="image-placeholder" id="after-image">
-                                <!-- Изображение будет загружено через JavaScript -->
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="slider-controls">
-                        <button class="slider-btn prev">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                <path d="M0,12A12,12,0,1,0,12,0,12.013,12.013,0,0,0,0,12Zm17.414-1.414a2,2,0,0,1,0,2.828l-4.243,4.243-1.414-1.414L15,13H6V11h9L11.757,7.757l1.414-1.414Z"/>
-                            </svg>
-                        </button>
-                        
-                        <div class="slider-indicators" id="indicators">
-                            <!-- Индикаторы будут созданы через JavaScript -->
-                        </div>
-                        
-                        <button class="slider-btn next">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                <path d="M0,12A12,12,0,1,0,12,0,12.013,12.013,0,0,0,0,12Zm17.414-1.414a2,2,0,0,1,0,2.828l-4.243,4.243-1.414-1.414L15,13H6V11h9L11.757,7.757l1.414-1.414Z"/>
-                            </svg>
-                        </button>
-                    </div>
-                    
-                    <div class="error-message" id="error-message">
-                        Ошибка загрузки изображений. Пожалуйста, проверьте подключение к интернету.
-                    </div>
-                </div>
-            </section>
-
-
-
-            <section class="reviews">
-                <div class="reviews__content">
-                    <h1 class="reviews__content-title">Отзывы</h1>
-                    
-                    <div class="reviews__content-blocks">
-                        <article class="review__block">
-                            <a target="_blank" href="https://yandex.az/maps/org/32313144654/reviews?reviews%5BpublicId%5D=gqdcmb6n0mymcbwukt1929n1f4&utm_source=review">
-                                <div class="review__block-nick">
-                                    <img src="assets/img/avatars/petr-shasniy.png" alt="Петр Щасный" class="review__block-nick-img">
-                                    <h2 class="review__block-nick-text">Петр Щасный</h2>
-                                </div>
-
-                                <p class="review__block-text">
-                                    24 марта был на приёме у Анатолия. Пришёл на приём в виде вопросительного знака (сутулость), а также боли в пояснице, суставах ног — ушёл в виде Восклицательного!!! И так же относительно его работы (вначале вопросы, затем восклицания). Я не хотел понимать и не хочу понимать сейчас, как это всё работает, но результат превзошёл мои ожидания. Большое спасибо Анатолию! Спина выровнялась, голова приподнята. Лёгкость в походке без боли. Тело раскрепостилось, а была сплошная боль. Словами, это состояние уверенности и ощущения, что нет зажатости, не передать. Нужно попробовать и приблизить своё здоровье к "заводским настройкам".
-                                </p>
-                            </a>
-                        </article>
-
-                        <article class="review__block">
-                            <a target="_blank" href="https://yandex.az/maps/org/32313144654/reviews?reviews%5BpublicId%5D=ufv1vgzcqbcwrda550avb3b6dm&utm_source=review">
-                                <div class="review__block-nick">
-                                    <img src="assets/img/avatars/olga-kovaykina.png" alt="Ольга Ковайкина" class="review__block-nick-img">
-                                    <h2 class="review__block-nick-text">Ольга Ковайкина</h2>
-                                </div>
-
-                                <p class="review__block-text">
-                                    Была у Анатолия с жалобой на боли в области крестца и поясницы. 2 часа работы, все комфортно для меня, после приема усталость) это перезагрузка нервной системы, как сказал Анатолий. По итогу уже на следующий день боли нет, в теле «удобнее». Прошло уже почти 2 месяца, боль не вернулась, чему я очень-очень рада, поскольку до этого страдала несколько лет. Вернусь за доработкой других беспокоящих зон. Спасибо, Анатолий! Рекомендую.
-                                </p>
-                            </a>
-                        </article>
-
-                        <article class="review__block">
-                            <a target="_blank" href="https://yandex.az/maps/org/32313144654/reviews?reviews%5BpublicId%5D=bf33d0z7aq4e36pp2pj8gaqwng&utm_source=review">
-                                <div class="review__block-nick">
-                                    <img src="assets/img/avatars/tanya-y.png" alt="tanya y." class="review__block-nick-img">
-                                    <h2 class="review__block-nick-text">tanya y.</h2>
-                                </div>
-
-                                <p class="review__block-text">
-                                    Толя - супер специалист. Настолько тщательно и скрупулезно проработал мне больное плечо и остальные зоны, что чувствую себя новым человеком. Плечо стало нормально работать, ушли боли в спине, прошел хронический цистит, да я даже жару стала лучше переносить. Советую всем, кто мучается с болями, которые давно никак не лечатся и не понятно откуда берутся. Здесь с ними разберутся) и самое крутое - эффект держится, а не исчезает со временем!
-                                </p>
-                            </a>
-                        </article>
-                    </div>
-
-                    <a href="https://yandex.ru/maps/org/32313144654?si=2kn67yb43zczgnq09f4vkhbx4r" class="reviews__content-more-button">
-                        Больше отзывов
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20">
-                            <path d="M17.414,10.586,13.121,6.293,11.707,7.707,15,11H5v2H15l-3.293,3.293,1.414,1.414,4.293-4.293A2,2,0,0,0,17.414,10.586Z"/>
-                        </svg>
-                    </a>
-                </div>
-            </section>
-
-
-
-            <section class="uslugi" id="uslugi">
-                <div class="uslugi__content">
-                    <h1 class="uslugi__content-title">Услуги студии</h1>
-
-                    <div class="uslugi__content-blocks">
-                        <article class="uslugi__block">
-                            <h1 class="uslugi__block-title">Реабилитация после травм</h1>
-                            <p class="uslugi__block-describe">
-                                Восстановление подвижности суставов, устранение мышечных дисфункций. Работа с болью и устранение её причин (не симптомов)
-                            </p>
-
-                            <div class="uslugi__block-infoblock">
-                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
-
-                                <div class="uslugi__block-price-info">
-                                    <span class="uslugi__block-price-main">Первичный визит — 6000 ₽</span>
-                                    <span class="uslugi__block-price-sub">(включает диагностический этап)</span>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="uslugi__block">
-                            <h1 class="uslugi__block-title">Оптимизация движения</h1>
-                            <p class="uslugi__block-describe">
-                                Диагностика и коррекция движения для спортсменов. Повышение эффективности тренировок и улучшение координации.
-                            </p>
-
-                            <div class="uslugi__block-infoblock">
-                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
-
-                                <div class="uslugi__block-price-info">
-                                    <span class="uslugi__block-price-main">Первичный визит — 6000 ₽</span>
-                                    <span class="uslugi__block-price-sub">(включает диагностический этап)</span>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="uslugi__block">
-                            <h1 class="uslugi__block-title">Работа с хроническими проблемами</h1>
-                            <p class="uslugi__block-describe">
-                                Устранение болей в спине, шее, коленях и других частях тела. Работа с хронической усталостью и напряжением. Коррекция последствий стресса и перегрузок.
-                            </p>
-
-                            <div class="uslugi__block-infoblock">
-                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
-
-                                <div class="uslugi__block-price-info">
-                                    <span class="uslugi__block-price-main">Первичный визит — 6000 ₽</span>
-                                    <span class="uslugi__block-price-sub">(включает диагностический этап)</span>
-                                </div>
-                            </div>
-                        </article>
-                        
-
-                        <article class="uslugi__block">
-                            <h1 class="uslugi__block-title">Диагностика и профилактика</h1>
-                            <p class="uslugi__block-describe">
-                                Функциональная диагностика мышц и нервной системы. Комплексная проверка возрастных изменений. Выявление скрытых дисфункций до симптомов.
-                            </p>
-
-                            <div class="uslugi__block-infoblock">
-                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
-
-                                <div class="uslugi__block-price-info">
-                                    <span class="uslugi__block-price-main">Первичный визит — 6000 ₽</span>
-                                    <span class="uslugi__block-price-sub">(включает диагностический этап)</span>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="uslugi__block">
-                            <h1 class="uslugi__block-title">Для людей с сидячим образом жизни</h1>
-                            <p class="uslugi__block-describe">
-                                Снятие напряжения от длительного сидения (спина, шея, плечи), улучшение тонуса, осанки и работоспособности. Индивидуальные рекомендации по эргономике рабочего места.
-                            </p>
-
-                            <div class="uslugi__block-infoblock">
-                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
-
-                                <div class="uslugi__block-price-info">
-                                    <span class="uslugi__block-price-main">Первичный визит — 6000 ₽</span>
-                                    <span class="uslugi__block-price-sub">(включает диагностический этап)</span>
-                                </div>
-                            </div>
-                        </article>
-
-                        <article class="uslugi__block">
-                            <h1 class="uslugi__block-title">Работа с детьми</h1>
-                            <p class="uslugi__block-describe">
-                                Коррекция нарушений осанки и двигательных функций у детей. Устранение последствий родовых травм и нарушений раннего развития. Поддержка естественного развития.
-                            </p>
-
-                            <div class="uslugi__block-infoblock">
-                                <button type="button" class="uslugi__block-button" onclick="openModal()">Записаться</button>
-
-                                <div class="uslugi__block-price-info">
-                                    <span class="uslugi__block-price-main">Первичный визит — 6000 ₽</span>
-                                    <span class="uslugi__block-price-sub">(включает диагностический этап)</span>
-                                </div>
-                            </div>
-                        </article>
-                    </div>
-
-                    <div class="uslugi__price-footnote">
-                        <p class="uslugi__price-footnote-text">
-                            <span>* Коррекционная работа</span> оплачивается отдельно и определяется по результатам диагностики. Стоимость согласовывается с клиентом до начала коррекционного этапа.
-                        </p>
-                    </div>
-
-                    <img src="assets/img/blocks/block-uslugi.png" alt="Картинка для услуг" class="uslugi__content-image">
-                </div>
-            </section>
-
-            
-
-            <section class="online">
-                <div class="online__content">
-                    <div class="online__content-textblock">
-                        <h1 class="online__content-title">Онлайн-сопровождение</h1>
-                        <p class="online__content-subtitle">тренировки по восстановлению</p>
-                    </div>
-
-                    <p class="online__content-describe">
-                        Онлайн сопровождение — это персональный план восстановления и поддержка специалиста всегда рядом, где бы вы ни находились. Первая встреча проходит очно, чтобы подробно разобрать ключевые упражнения и закрепить эффект после P-DTR. Каждое движение объясняется простыми словами, чтобы всё было понятно и удобно выполнять самостоятельно. Дальше работа продолжается в формате подписки: онлайн-ведение с регулярной обратной связью, контроль через фото- и видеоотчёты, корректировка нагрузки и рекомендации по дальнейшим шагам. При необходимости назначаются повторные приёмы для более глубокой работы.
+                    <p class="uslugi__block-describe">
+                        Я помогаю предпринимателям, руководителям и профессионалам восстановить ресурс тела, когда стандартные методы — массаж, ЛФК или медикаментозное лечение — перестали давать результат. Моя специализация — работа со сложными случаями боли в пояснице, шее и суставах через метод P-DTR.
                     </p>
 
-                    <div>
-                        <button class="online__content-button" type="button" onclick="openModal()">
-                            Записаться на прием
-                            <span class="online__content-button-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                    <path d="M18,12h0a2,2,0,0,0-.59-1.4l-4.29-4.3a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L15,11H5a1,1,0,0,0,0,2H15l-3.29,3.29a1,1,0,0,0,1.41,1.42l4.29-4.3A2,2,0,0,0,18,12Z"/>
-                                </svg>
-                            </span>
-                        </button>  
+                    <p class="uslugi__block-title" style="margin-bottom:0;">Мой подход базируется на трёх столпах:</p>
+
+                    <div class="about-author__pillars">
+                        <div class="about-author__pillar">
+                            <h3 class="uslugi__block-title">Нейрокоррекция</h3>
+                            <p class="uslugi__block-describe">Мы не «лечим симптомы», а корректируем работу нервной системы. Боль — это лишь сигнал об ошибке в нейромышечном контроле. Устранив первопричину, мы убираем следствие.</p>
+                        </div>
+                        <div class="about-author__pillar">
+                            <h3 class="uslugi__block-title">Доказательность</h3>
+                            <p class="uslugi__block-describe">Мой 10-летний опыт подкреплён научной деятельностью. Я являюсь автором исследования о механизмах хронической боли у атлетов и людей с гиподинамией.</p>
+                        </div>
+                        <div class="about-author__pillar">
+                            <h3 class="uslugi__block-title">Системность</h3>
+                            <p class="uslugi__block-describe">Я не предлагаю разовых «облегчений». Моя цель — построение устойчивой модели восстановления, которая позволяет забыть о боли на годы, а не на неделю.</p>
+                        </div>
+                    </div>
+
+                    <p class="uslugi__block-describe">
+                        Сегодня я развиваю Студию нейромышечной коррекции в Москве (ФОК «Торпедо»), где реализую авторские программы системного перезапуска организма длительностью 8–10 недель.
+                    </p>
+
+                    <button class="about__cta-button" type="button" onclick="openModal()">
+                        Записаться на приём
+                        <span class="about__cta-button-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M18,12h0a2,2,0,0,0-.59-1.4l-4.29-4.3a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L15,11H5a1,1,0,0,0,0,2H15l-3.29,3.29a1,1,0,0,0,1.41,1.42l4.29-4.3A2,2,0,0,0,18,12Z"/>
+                            </svg>
+                        </span>
+                    </button>
+                </div>
+            </section>
+
+
+
+            <section class="faq">
+                <div class="faq__content">
+                    <h2 class="about__content-title">Частые вопросы</h2>
+
+                    <div class="faq__grid">
+                        <div class="faq__column">
+
+                            <article class="faq__item">
+                                <h3 class="faq__question">Чем ваш метод отличается от массажа и остеопатии?<span class="sr-only"> отличие от массажа, чем P-DTR отличается от остеопатии, почему массаж не помогает надолго</span></h3>
+                                <p class="faq__answer">Массаж и остеопатия работают с тканями. Я работаю с <strong>нервной системой</strong>: нахожу, где мозг «выключил» нужные мышцы, и восстанавливаю управление. Результат держится, а не уходит через пару дней.</p>
+                            </article>
+
+                            <article class="faq__item">
+                                <h3 class="faq__question">Как понять, что терапия действительно помогла?<span class="sr-only"> как проверить результат, эффективность P-DTR, восстановление рефлексов</span></h3>
+                                <p class="faq__answer">Мы используем <strong>объективные критерии</strong>: восстановление устойчивого методического рефлекса. Даже если боль уходит постепенно, восстановленный рефлекс — это гарантия того, что система работает правильно.</p>
+                            </article>
+
+                            <article class="faq__item">
+                                <h3 class="faq__question">Как быстро я почувствую результат?<span class="sr-only"> как быстро проходит боль, сколько приемов нужно, результат за один приём</span></h3>
+                                <p class="faq__answer">Большинство клиентов замечают изменения уже на первом приёме — уменьшается боль, появляется лёгкость. Стойкий результат в среднем достигается за <strong>1–3 приёма</strong>.</p>
+                            </article>
+
+                            <article class="faq__item">
+                                <h3 class="faq__question">У меня грыжа / протрузия. Это поможет?<span class="sr-only"> грыжа позвоночника без операции, боль при протрузии, лечение грыжи поясничного отдела</span></h3>
+                                <p class="faq__answer">Боль часто связана не с самой грыжей, а с нарушением мышечного управления вокруг неё. Когда мышцы работают правильно, нагрузка на диск снижается и боль уходит без операции.</p>
+                            </article>
+
+                            <article class="faq__item">
+                                <h3 class="faq__question">Что если после приёма у меня сохраняются болевые ощущения?<span class="sr-only"> боль после приема терапевта, адаптация нервной системы, почему болит после коррекции</span></h3>
+                                <p class="faq__answer">Это нормальная часть процесса перестройки. Если по завершении адаптации (<strong>до 12 недель</strong>) остаются жалобы, мы проводим повторную <strong>объективную оценку</strong>.</p>
+                            </article>
+
+                            <article class="faq__item">
+                                <h3 class="faq__question">Как вы оцениваете финальный результат?<span class="sr-only"> критерии оценки лечения, работа нервной системы, миотатический рефлекс</span></h3>
+                                <p class="faq__answer">Работа считается выполненной, если <strong>миотатический рефлекс</strong> восстановлен, показатели стабильны и тело удерживает результат. Мы оцениваем систему, а не только ощущения.</p>
+                            </article>
+
+                        </div>
+                        <div class="faq__column">
+
+                            <article class="faq__item">
+                                <h3 class="faq__question">Мне уже делали операцию / блокады. Это поможет?<span class="sr-only"> восстановление после операции, боль после блокады, реабилитация после операции на позвоночнике</span></h3>
+                                <p class="faq__answer">Да. После операций часто остаются нарушения управления движением — мышцы не включаются, тело «защищается». Операция или блокада не мешают — мы просто учитываем их в диагностике.</p>
+                            </article>
+
+                            <article class="faq__item">
+                                <h3 class="faq__question">Больно ли во время приёма?<span class="sr-only"> больно ли на приёме, безболезненный метод лечения боли, ПДТР ощущения</span></h3>
+                                <p class="faq__answer">Нет. Приём проходит без боли и хруста. Используются лёгкие тестирующие воздействия. <strong>ПДТР (P-DTR)</strong> — это безболезненный метод.</p>
+                            </article>
+
+                            <article class="faq__item">
+                                <h3 class="faq__question">Подходит ли это детям и пожилым людям?<span class="sr-only"> нейромышечная коррекция для пожилых, P-DTR для детей, метод без силовых воздействий</span></h3>
+                                <p class="faq__answer">Да. Метод не предполагает силовых воздействий. Подход полностью адаптируется под пациента: от подростков-спортсменов до клиентов 70+ лет.</p>
+                            </article>
+
+                            <article class="faq__item">
+                                <h3 class="faq__question">Нужно ли делать что-то между приёмами?<span class="sr-only"> что делать между приёмами, упражнения после P-DTR, рекомендации после приёма</span></h3>
+                                <p class="faq__answer">Иногда я даю простые упражнения для закрепления. Но главная работа происходит на приёме. Сложное оборудование не потребуется.</p>
+                            </article>
+
+                            <article class="faq__item">
+                                <h3 class="faq__question">Сколько стоит приём и сколько времени он длится?<span class="sr-only"> стоимость приёма нейромышечная коррекция Москва, цена ПДТР приём, сколько стоит</span></h3>
+                                <p class="faq__answer">Приём длится <strong>40–90 минут</strong> — я работаю до результата. Стоимость — <strong>7000 рублей</strong>. Уточняйте цену при записи.</p>
+                            </article>
+
+                            <article class="faq__item">
+                                <h3 class="faq__question">Как записаться и что нужно взять на первый приём?<span class="sr-only"> как записаться к специалисту по боли, запись на приём нейромышечная коррекция Москва</span></h3>
+                                <p class="faq__answer">Нажмите кнопку <strong>«Записаться»</strong>. Специальные документы не нужны, но если есть снимки МРТ — возьмите их с собой.</p>
+                            </article>
+
+                        </div>
                     </div>
                 </div>
             </section>
-            
+
 
 
             <section class="contacts" id="kontakti">
