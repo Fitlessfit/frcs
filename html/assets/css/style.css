@@ -40,8 +40,8 @@
 }
 
 .header__content-logo-image {
-    height: 46px;
-    width: 46px;
+    height: 69px;
+    width: 69px;
     border-radius: 14px;
     flex-shrink: 0;
     flex-grow: 1;
@@ -381,7 +381,7 @@
 .hero__author-label-name {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 22px;
+    font-size: 33px;
     color: #ffffff;
     line-height: 1.2;
 }
@@ -389,7 +389,7 @@
 .hero__author-label-role {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 17px;
+    font-size: 26px;
     color: rgba(255,255,255,0.75);
     line-height: 1.3;
 }
