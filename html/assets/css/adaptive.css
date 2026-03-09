@@ -6031,6 +6031,16 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+
+    .patient-reviews__buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .patient-reviews__buttons .about__cta-button {
+        width: 100%;
+        justify-content: center;
+    }
 }
 
 
@@ -6515,4 +6525,15 @@
 
     .results__cards {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    .patient-reviews__buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .patient-reviews__buttons .about__cta-button {
+        width: 100%;
+        justify-content: center;
     }
