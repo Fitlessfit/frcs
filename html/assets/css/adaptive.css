@@ -86,21 +86,21 @@
     }
 
     .rating-card {
-        width: 386px;
+        width: 270px;
         border-radius: 25px;
     }
 
     .rating-card__value {
-        font-size: 104px;
+        font-size: 73px;
     }
     
     .rating-card__icon svg {
-        width: 46px;
-        height: 46px;
+        width: 16px;
+        height: 16px;
     }
     
     .rating-card__text {
-        font-size: 25px;
+        font-size: 18px;
     }
     
     .rating-card__side {  
@@ -223,6 +223,10 @@
         font-size: 24px;
         padding: 12px 24px;
     }
+
+    .about__cta-button {
+        font-size: 24px;
+    }
     
     .uslugi__block-price {
         font-size: 24px;
@@ -267,8 +271,8 @@
     }
 
     .modal-close {
-        width: 46px;
-        height: 46px;
+        width: 16px;
+        height: 16px;
     }
     
     .modal-required {
@@ -443,21 +447,21 @@
     }
 
     .rating-card {
-        width: 371px;
+        width: 260px;
         border-radius: 25px;
     }
 
     .rating-card__value {
-        font-size: 104px;
+        font-size: 73px;
     }
     
     .rating-card__icon svg {
-        width: 46px;
-        height: 46px;
+        width: 16px;
+        height: 16px;
     }
     
     .rating-card__text {
-        font-size: 25px;
+        font-size: 18px;
     }
     
     .rating-card__side {  
@@ -580,6 +584,10 @@
         font-size: 23px;
         padding: 12px 24px;
     }
+
+    .about__cta-button {
+        font-size: 23px;
+    }
     
     .uslugi__block-price {
         font-size: 23px;
@@ -625,8 +633,8 @@
     }
 
     .modal-close {
-        width: 40px;
-        height: 40px;
+        width: 14px;
+        height: 14px;
     }
     
     .modal-required {
@@ -796,21 +804,21 @@
     }
 
     .rating-card {
-        width: 358px;
+        width: 250px;
         border-radius: 25px;
     }
 
     .rating-card__value {
-        font-size: 104px;
+        font-size: 73px;
     }
     
     .rating-card__icon svg {
-        width: 46px;
-        height: 46px;
+        width: 16px;
+        height: 16px;
     }
     
     .rating-card__text {
-        font-size: 25px;
+        font-size: 18px;
     }
     
     .rating-card__side {  
@@ -935,6 +943,10 @@
         font-size: 23px;
         padding: 12px 24px;
     }
+
+    .about__cta-button {
+        font-size: 23px;
+    }
     
     .uslugi__block-price {
         font-size: 23px;
@@ -980,8 +992,8 @@
     }
 
     .modal-close {
-        width: 40px;
-        height: 40px;
+        width: 14px;
+        height: 14px;
     }
     
     .modal-required {
@@ -1128,21 +1140,21 @@
     }
 
     .rating-card {
-        width: 358px;
+        width: 250px;
         border-radius: 25px;
     }
 
     .rating-card__value {
-        font-size: 104px;
+        font-size: 73px;
     }
     
     .rating-card__icon svg {
-        width: 46px;
-        height: 46px;
+        width: 16px;
+        height: 16px;
     }
     
     .rating-card__text {
-        font-size: 25px;
+        font-size: 18px;
     }
     
     .rating-card__side {  
@@ -1209,8 +1221,8 @@
 
     .slider-btn,
     .sert-btn {
-        width: 40px;
-        height: 40px;
+        width: 14px;
+        height: 14px;
     }
 
     .slider-btn svg,
@@ -1267,6 +1279,10 @@
         font-size: 21px;
         padding: 12px 24px;
     }
+
+    .about__cta-button {
+        font-size: 21px;
+    }
     
     .uslugi__block-price {
         font-size: 21px;
@@ -1312,8 +1328,8 @@
     }
 
     .modal-close {
-        width: 40px;
-        height: 40px;
+        width: 14px;
+        height: 14px;
     }
     
     .modal-required {
@@ -1461,21 +1477,21 @@
     }
 
     .rating-card {
-        width: 344px;
+        width: 240px;
         border-radius: 25px;
     }
 
     .rating-card__value {
-        font-size: 90px;
+        font-size: 63px;
     }
     
     .rating-card__icon svg {
-        width: 46px;
-        height: 46px;
+        width: 16px;
+        height: 16px;
     }
     
     .rating-card__text {
-        font-size: 24px;
+        font-size: 12px;
     }
     
     .rating-card__side {  
@@ -1542,8 +1558,8 @@
 
     .slider-btn,
     .sert-btn {
-        width: 40px;
-        height: 40px;
+        width: 14px;
+        height: 14px;
     }
 
     .slider-btn svg,
@@ -1599,6 +1615,10 @@
     .uslugi__block-button {
         font-size: 21px;
         padding: 12px 24px;
+    }
+
+    .about__cta-button {
+        font-size: 21px;
     }
     
     .uslugi__block-price {
@@ -1794,21 +1814,21 @@
     }
 
     .rating-card {
-        width: 286px;
+        width: 200px;
         border-radius: 25px;
     }
 
     .rating-card__value {
-        font-size: 70px;
+        font-size: 49px;
     }
     
     .rating-card__icon svg {
-        width: 40px;
-        height: 40px;
+        width: 14px;
+        height: 14px;
     }
     
     .rating-card__text {
-        font-size: 22px;
+        font-size: 16px;
     }
     
     .rating-card__side {  
@@ -1871,8 +1891,8 @@
 
     .slider-btn,
     .sert-btn {
-        width: 40px;
-        height: 40px;
+        width: 14px;
+        height: 14px;
     }
 
     .slider-btn svg,
@@ -1929,6 +1949,10 @@
         font-size: 19px;
         padding: 11px 24px;
     }
+
+    .about__cta-button {
+        font-size: 19px;
+    }
     
     .uslugi__block-price {
         font-size: 19px;
@@ -1974,8 +1998,8 @@
     }
 
     .modal-close {
-        width: 32px;
-        height: 32px;
+        width: 18px;
+        height: 18px;
     }
     
     .modal-required {
@@ -2127,21 +2151,21 @@
     }
 
     .rating-card {
-        width: 286px;
+        width: 200px;
         border-radius: 25px;
     }
 
     .rating-card__value {
-        font-size: 70px;
+        font-size: 49px;
     }
     
     .rating-card__icon svg {
-        width: 40px;
-        height: 40px;
+        width: 14px;
+        height: 14px;
     }
     
     .rating-card__text {
-        font-size: 22px;
+        font-size: 16px;
     }
     
     .rating-card__side {  
@@ -2204,8 +2228,8 @@
 
     .slider-btn,
     .sert-btn {
-        width: 40px;
-        height: 40px;
+        width: 14px;
+        height: 14px;
     }
 
     .slider-btn svg,
@@ -2262,6 +2286,10 @@
         font-size: 18px;
         padding: 11px 24px;
     }
+
+    .about__cta-button {
+        font-size: 18px;
+    }
     
     .uslugi__block-price {
         font-size: 18px;
@@ -2307,8 +2335,8 @@
     }
 
     .modal-close {
-        width: 32px;
-        height: 32px;
+        width: 18px;
+        height: 18px;
     }
     
     .modal-required {
@@ -2452,21 +2480,21 @@
     }
 
     .rating-card {
-        width: 269px;
+        width: 188px;
         border-radius: 25px;
     }
 
     .rating-card__value {
-        font-size: 60px;
+        font-size: 42px;
     }
     
     .rating-card__icon svg {
-        width: 32px;
-        height: 32px;
+        width: 18px;
+        height: 18px;
     }
     
     .rating-card__text {
-        font-size: 20px;
+        font-size: 14px;
     }
     
     .rating-card__side {  
@@ -2584,6 +2612,10 @@
     .uslugi__block-button {
         font-size: 16px;
         padding: 10px 24px;
+    }
+
+    .about__cta-button {
+        font-size: 16px;
     }
     
     .uslugi__block-price {
@@ -2746,8 +2778,8 @@
     }
 
     .header__content-button-icon {
-        width: 22px;
-        height: 22px;
+        width: 14px;
+        height: 14px;
     }
     
     /* LANDING TITLE */
@@ -2795,21 +2827,21 @@
     }
 
     .rating-card {
-        width: 269px;
+        width: 188px;
         border-radius: 25px;
     }
 
     .rating-card__value {
-        font-size: 60px;
+        font-size: 42px;
     }
     
     .rating-card__icon svg {
-        width: 26px;
-        height: 26px;
+        width: 16px;
+        height: 16px;
     }
     
     .rating-card__text {
-        font-size: 17px;
+        font-size: 12px;
     }
     
     .rating-card__side {  
@@ -2927,6 +2959,10 @@
     .uslugi__block-button {
         font-size: 15px;
         padding: 9px 18px;
+    }
+
+    .about__cta-button {
+        font-size: 15px;
     }
     
     .uslugi__block-price {
@@ -3143,21 +3179,21 @@
     }
 
     .rating-card {
-        width: 238px;
+        width: 166px;
         border-radius: 25px;
     }
 
     .rating-card__value {
-        font-size: 50px;
+        font-size: 25px;
     }
     
     .rating-card__icon svg {
-        width: 26px;
-        height: 26px;
+        width: 16px;
+        height: 16px;
     }
     
     .rating-card__text {
-        font-size: 17px;
+        font-size: 12px;
     }
     
     .rating-card__side {  
@@ -3282,6 +3318,10 @@
     .uslugi__block-button {
         font-size: 15px;
         padding: 9px 18px;
+    }
+
+    .about__cta-button {
+        font-size: 15px;
     }
     
     .uslugi__block-price {
@@ -3512,16 +3552,16 @@
     }
 
     .rating-card__value {
-        font-size: 50px;
+        font-size: 25px;
     }
     
     .rating-card__icon svg {
-        width: 26px;
-        height: 26px;
+        width: 16px;
+        height: 16px;
     }
     
     .rating-card__text {
-        font-size: 17px;
+        font-size: 12px;
         margin-right: 20px;
     }
     
@@ -3651,6 +3691,10 @@
     .uslugi__block-button {
         font-size: 15px;
         padding: 9px 16px;
+    }
+
+    .about__cta-button {
+        font-size: 15px;
     }
     
     .uslugi__block-price {
@@ -3885,16 +3929,16 @@
     }
 
     .rating-card__value {
-        font-size: 50px;
+        font-size: 25px;
     }
     
     .rating-card__icon svg {
-        width: 26px;
-        height: 26px;
+        width: 16px;
+        height: 16px;
     }
     
     .rating-card__text {
-        font-size: 17px;
+        font-size: 12px;
     }
     
     .rating-card__side {  
@@ -4030,6 +4074,10 @@
         font-size: 15px;
         padding: 9px 16px;
         width: 100%;
+    }
+
+    .about__cta-button {
+        font-size: 15px;
     }
     
     .uslugi__block-price {
@@ -4272,16 +4320,16 @@
     }
 
     .rating-card__value {
-        font-size: 35px;
+        font-size: 25px;
     }
     
     .rating-card__icon svg {
-        width: 26px;
-        height: 26px;
+        width: 16px;
+        height: 16px;
     }
     
     .rating-card__text {
-        font-size: 15px;
+        font-size: 11px;
     }
     
     .rating-card__side {  
@@ -4423,6 +4471,10 @@
         font-size: 15px;
         padding: 9px 16px;
         width: 100%;
+    }
+
+    .about__cta-button {
+        font-size: 15px;
     }
     
     .uslugi__block-price {
@@ -4666,21 +4718,21 @@
     }
 
     .rating-card {
-        width: 238px;
+        width: 166px;
         border-radius: 25px;
     }
 
     .rating-card__value {
-        font-size: 50px;
+        font-size: 25px;
     }
     
     .rating-card__icon svg {
-        width: 26px;
-        height: 26px;
+        width: 16px;
+        height: 16px;
     }
     
     .rating-card__text {
-        font-size: 17px;
+        font-size: 12px;
     }
     
     .rating-card__side {  
@@ -4827,6 +4879,10 @@
         font-size: 15px;
         padding: 9px 16px;
         width: 100%;
+    }
+
+    .about__cta-button {
+        font-size: 15px;
     }
     
     .uslugi__block-price {
@@ -5070,21 +5126,21 @@
     }
 
     .rating-card {
-        width: 208px;
+        width: 146px;
         border-radius: 25px;
     }
 
     .rating-card__value {
-        font-size: 40px;
+        font-size: 28px;
     }
     
     .rating-card__icon svg {
-        width: 22px;
-        height: 22px;
+        width: 14px;
+        height: 14px;
     }
     
     .rating-card__text {
-        font-size: 15px;
+        font-size: 11px;
     }
     
     .rating-card__side {  
@@ -5233,6 +5289,10 @@
         font-size: 15px;
         padding: 9px 16px;
         width: 100%;
+    }
+
+    .about__cta-button {
+        font-size: 15px;
     }
     
     .uslugi__block-price {
@@ -5484,21 +5544,21 @@
     }
 
     .rating-card {
-        width: 208px;
+        width: 146px;
         border-radius: 25px;
     }
 
     .rating-card__value {
-        font-size: 40px;
+        font-size: 28px;
     }
     
     .rating-card__icon svg {
-        width: 22px;
-        height: 22px;
+        width: 14px;
+        height: 14px;
     }
     
     .rating-card__text {
-        font-size: 15px;
+        font-size: 11px;
     }
     
     .rating-card__side {  
@@ -5653,6 +5713,10 @@
         font-size: 15px;
         padding: 9px 16px;
         width: 100%;
+    }
+
+    .about__cta-button {
+        font-size: 15px;
     }
     
     .uslugi__block-price {
@@ -5905,21 +5969,21 @@
     }
 
     .rating-card {
-        width: 208px;
+        width: 146px;
         border-radius: 25px;
     }
 
     .rating-card__value {
-        font-size: 40px;
+        font-size: 28px;
     }
     
     .rating-card__icon svg {
-        width: 22px;
-        height: 22px;
+        width: 14px;
+        height: 14px;
     }
     
     .rating-card__text {
-        font-size: 15px;
+        font-size: 11px;
     }
     
     .rating-card__side {  
@@ -6079,6 +6143,10 @@
         font-size: 15px;
         padding: 9px 16px;
         width: 100%;
+    }
+
+    .about__cta-button {
+        font-size: 15px;
     }
     
     .uslugi__block-price {

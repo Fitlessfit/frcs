@@ -157,7 +157,7 @@
 
 		<link rel="stylesheet" href="assets/css/reset.css?v=1.25">
 		<link rel="stylesheet" href="assets/css/fonts.css?v=1.25">
-		<link rel="stylesheet" href="assets/css/style.css?v=1.56">
+		<link rel="stylesheet" href="assets/css/style.css?v=1.58">
 		<link rel="stylesheet" href="assets/css/adaptive.css?v=1.25">
 	</head>
 
@@ -206,7 +206,8 @@
                     <div class="hero__content">
                         <div class="hero__text">
                             <h1 class="hero__title">
-                                Хроническая боль<br>в спине и суставах<br><span class="hero__title-sub">когда массаж, ЛФК и таблетки не помогли</span>
+                                <span class="hero__title-line1">Хроническая боль в спине и суставах</span><br>
+                                <span class="hero__title-line2">когда массаж, ЛФК и таблетки не помогли</span>
                             </h1>
 
                             <p class="hero__description">
@@ -381,7 +382,7 @@
 
                     <div class="how-works__header">
                         <h1 class="about__content-title">Как проходит приём?</h1>
-                        <p class="how-works__header-sub">Я не лечу боль напрямую. Восстанавливаю правильное управление телом — тогда боль уходит сама.</p>
+                        <p class="how-works__header-sub">Мы не лечим боль напрямую, мы восстанавливаем контроль управления телом — тогда боль уходит сама.</p>
                     </div>
 
                     <div class="why-pain__grid">
@@ -403,14 +404,14 @@
                                 <li class="uslugi__block-describe">— Всем, кто устал слышать «это надо просто потерпеть»</li>
                             </ul>
 
-                            <p class="how-works__footer-text" style="margin-top:24px;">П-ДТР (P-DTR) (Proprioceptive — Deep Tendon Reflex) — метод восстановления контроля движений через работу с нервной системой. Результат ощущается уже на первом приёме.</p>
-
                         </div>
 
                         <div class="why-pain__right">
                             <img src="assets/img/blocks/block-about.png" alt="Приём P-DTR">
                         </div>
                     </div>
+
+                    <p class="how-works__footer-text" style="margin-top:24px; width:100%;">П-ДТР (P-DTR) (Proprioceptive — Deep Tendon Reflex) — метод восстановления контроля движений через работу с нервной системой. Результат ощущается уже на первом приёме.</p>
 
                     <div style="display:flex; justify-content:center;">
                         <button class="about__cta-button" type="button" onclick="openModal()">

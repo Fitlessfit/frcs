@@ -199,13 +199,32 @@
 .hero__title {
     font-family: 'DelaGothicsOne', sans-serif;
     font-weight: 400;
-    font-size: 54px;
+    font-size: 43px;
     color: #ffffff;
     line-height: 1.1;
     margin: 0;
     text-transform: uppercase;
     letter-spacing: 1px;
     white-space: normal;
+}
+
+.hero__title br {
+    display: none;
+}
+
+.hero__title-line1 {
+    font-size: 72px;
+    display: block;
+    line-height: 1;
+}
+
+.hero__title-line2 {
+    font-size: 36px;
+    display: block;
+    line-height: 1.2;
+    margin-top: 6px;
+    text-transform: none;
+    letter-spacing: 0;
 }
 
 .hero__title-sub {
@@ -303,13 +322,13 @@
     position: relative;
     background-color: #2A7FBA;
     color: #fff;
-    padding: 16px;
-    border-radius: 18px;
+    padding: 12px;
+    border-radius: 14px;
     font-family: 'Montserrat', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 275px;
+    width: 210px;
     overflow: hidden;
     user-select: none;
 }
@@ -318,7 +337,7 @@
     display: flex;
     align-items: flex-start;
     gap: 6px;
-    font-size: 34px;
+    font-size: 26px;
     font-weight: 700;
     line-height: 1;
 }
@@ -326,20 +345,20 @@
 .rating-card__value {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 74px;
+    font-size: 56px;
 }
 
 .rating-card__icon svg {
-    width: 32px;
-    height: 32px;
+    width: 22px;
+    height: 22px;
     fill: #fff;
 }
 
 .rating-card__text {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    margin-top: 6px;
-    font-size: 17px;
+    margin-top: 4px;
+    font-size: 14px;
     line-height: 1.2;
 }
 
@@ -348,10 +367,10 @@
     font-weight: 700;
     position: absolute;
     top: 50%;
-    right: -30px;
+    right: -24px;
     transform: translateY(-50%) rotate(90deg);
     transform-origin: center;
-    font-size: 19px;
+    font-size: 15px;
 }
 
 
@@ -441,7 +460,7 @@
 .about__content-subtitle {
     font-family: 'MontserratAlternates', sans-serif;
     font-weight: 500;
-    font-size: 17px;
+    font-size: 15px;
     color: #787878;
     margin: 12px auto 0;
 }
@@ -459,8 +478,28 @@
     background-color: #F2F2F2;
     border-radius: 20px;
     padding: 30px 40px;
-    margin-top: 20px;
+    margin-top: 0;
     gap: 30px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: background-color 0.4s;
+    cursor: pointer;
+}
+
+.about__cta:hover {
+    background-color: #2A7FBA;
+}
+
+.about__cta:hover .uslugi__block-title {
+    color: #ffffff;
+}
+
+.about__cta:hover .uslugi__block-describe {
+    color: #ffffff;
+}
+
+.about__cta:hover .about__cta-button {
+    background-color: #FF3B30;
 }
 
 .about__cta-text {
@@ -546,6 +585,7 @@
 .why-pain__content .about__content-title {
     text-align: center;
     margin-bottom: 50px;
+    font-size: 62px;
 }
 
 .why-pain .uslugi__block-describe,
@@ -652,6 +692,39 @@
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 16px;
+}
+
+.results__cards .uslugi__block {
+    cursor: default;
+}
+
+.results__cards .uslugi__block:hover {
+    background-color: #F2F2F2;
+}
+
+.results__cards .uslugi__block:hover .uslugi__block-title {
+    color: #324172;
+}
+
+.results__cards .uslugi__block:hover .uslugi__block-describe {
+    color: #717171;
+}
+
+.results__blocks .uslugi__block {
+    cursor: default;
+}
+
+.results__blocks .uslugi__block:hover {
+    background-color: #F2F2F2;
+}
+
+.results__blocks .uslugi__block:hover .uslugi__block-title,
+.results__blocks .uslugi__block:hover .results__block-title {
+    color: #324172;
+}
+
+.results__blocks .uslugi__block:hover .uslugi__block-describe {
+    color: #717171;
 }
 
 .results__list {
