@@ -6021,11 +6021,7 @@
     }
 
     .why-pain__grid {
-        grid-template-columns: 1fr;
-    }
-
-    .why-pain__right {
-        display: none;
+        grid-template-columns: 1fr !important;
     }
 
     .about__cta {
@@ -6202,6 +6198,23 @@
         display: none;
     }
     
+/* Имя автора — разрешаем перенос */
+    .about-author__content .about__content-title {
+        white-space: normal;
+        font-size: 28px;
+    }
+
+    /* Паддинг секций — уменьшаем для узких экранов */
+    .results__content,
+    .why-pain__content {
+        padding: 30px 20px;
+    }
+
+    /* Результаты — 1 колонка */
+    .results__cards {
+        grid-template-columns: 1fr;
+    }
+
     /* О НАС */
     .about__content-title,
     .method__block-title,
@@ -6517,11 +6530,7 @@
     }
 
     .why-pain__grid {
-        grid-template-columns: 1fr;
-    }
-
-    .why-pain__right {
-        display: none;
+        grid-template-columns: 1fr !important;
     }
 
     .about__cta {
@@ -6538,9 +6547,6 @@
         grid-template-columns: 1fr;
     }
 
-    .results__cards {
-        grid-template-columns: repeat(2, 1fr);
-    }
 
 
     .patient-reviews__buttons {
@@ -6552,3 +6558,11 @@
         width: 100%;
         justify-content: center;
     }
+}
+
+/* ПРИНУДИТЕЛЬНО 2 КОЛОНКИ НА ДЕСКТОПЕ */
+@media (min-width: 500px) {
+    .why-pain__grid {
+        grid-template-columns: 1fr 1fr !important;
+    }
+}

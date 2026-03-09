@@ -158,7 +158,25 @@
 		<link rel="stylesheet" href="assets/css/reset.css?v=1.25">
 		<link rel="stylesheet" href="assets/css/fonts.css?v=1.25">
 		<link rel="stylesheet" href="assets/css/style.css?v=1.58">
-		<link rel="stylesheet" href="assets/css/adaptive.css?v=1.25">
+		<link rel="stylesheet" href="assets/css/adaptive.css?v=1.28">
+		<style>
+			/* LAYOUT: 2 колонки десктоп / 1 колонка мобильный */
+			.why-pain__grid {
+				display: flex !important;
+				flex-direction: row !important;
+				gap: 60px;
+				align-items: center;
+			}
+			.why-pain__grid > div {
+				flex: 1;
+				min-width: 0;
+			}
+			@media (max-width: 499px) {
+				.why-pain__grid {
+					flex-direction: column !important;
+				}
+			}
+		</style>
 	</head>
 
 
@@ -352,8 +370,8 @@
                 <div class="why-pain__content">
                     <h1 class="about__content-title">Почему боль возвращается снова и снова?</h1>
 
-                    <div class="why-pain__grid">
-                        <div class="why-pain__left">
+                    <div class="why-pain__grid" style="display:flex; flex-direction:row; gap:60px; align-items:center;">
+                        <div class="why-pain__left" style="flex:1; min-width:0;">
                             <p class="why-pain__subtitle">В чем реальная причина</p>
 
                             <p class="uslugi__block-describe">Большинство методов лечат симптом — убирают боль на время. Но причина остается, и боль возвращается. Вот почему это происходит:</p>
@@ -368,7 +386,7 @@
                             <p class="uslugi__block-describe why-pain__closing">Пока мозг не получит правильный сигнал — тело не отпустит защиту. Именно с этим я работаю.</p>
                         </div>
 
-                        <div class="why-pain__right">
+                        <div class="why-pain__right" style="flex:1; min-width:0;">
                             <img src="assets/img/blocks/block-uslugi.png" alt="Иллюстрация к блоку">
                         </div>
                     </div>
@@ -385,8 +403,8 @@
                         <p class="how-works__header-sub">Мы не лечим боль напрямую, мы восстанавливаем контроль управления телом — тогда боль уходит сама.</p>
                     </div>
 
-                    <div class="why-pain__grid">
-                        <div class="why-pain__left">
+                    <div class="why-pain__grid" style="display:flex; flex-direction:row; gap:60px; align-items:center;">
+                        <div class="why-pain__left" style="flex:1; min-width:0;">
 
                             <p class="why-pain__subtitle">■ Шаги работы</p>
                             <ul class="why-pain__list">
@@ -406,7 +424,7 @@
 
                         </div>
 
-                        <div class="why-pain__right">
+                        <div class="why-pain__right" style="flex:1; min-width:0;">
                             <img src="assets/img/blocks/block-about.png" alt="Приём P-DTR">
                         </div>
                     </div>
