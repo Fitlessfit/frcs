@@ -47,6 +47,14 @@
         line-height: 1;
     }
 
+    .hero__title-line1 {
+        font-size: 52px;
+    }
+
+    .hero__title-line2 {
+        font-size: 26px;
+    }
+
     .policy__title {
         font-size: 95px;
     }
@@ -407,6 +415,14 @@
         font-size: 118px;
         line-height: 1;
     }
+
+    .hero__title-line1 {
+        font-size: 50px;
+    }
+
+    .hero__title-line2 {
+        font-size: 25px;
+    }
     
     .policy__title {
         font-size: 95px;
@@ -764,6 +780,14 @@
         font-size: 105px;
         line-height: 1;
     }
+
+    .hero__title-line1 {
+        font-size: 48px;
+    }
+
+    .hero__title-line2 {
+        font-size: 24px;
+    }
     
     .policy__title {
         font-size: 95px;
@@ -1105,6 +1129,14 @@
         line-height: 1;
     }
 
+    .hero__title-line1 {
+        font-size: 46px;
+    }
+
+    .hero__title-line2 {
+        font-size: 23px;
+    }
+
     .hero__description {
         font-size: 25px;
         line-height: 1.2;
@@ -1440,6 +1472,14 @@
     .hero__title {
         font-size: 80px;
         line-height: 1;
+    }
+
+    .hero__title-line1 {
+        font-size: 44px;
+    }
+
+    .hero__title-line2 {
+        font-size: 22px;
     }
 
     .hero__description {
@@ -1779,6 +1819,14 @@
         line-height: 1;
     }
 
+    .hero__title-line1 {
+        font-size: 42px;
+    }
+
+    .hero__title-line2 {
+        font-size: 21px;
+    }
+
     .hero__description {
         font-size: 22px;
         line-height: 1.2;
@@ -2111,6 +2159,14 @@
         font-size: 85px;
         line-height: 1;
     }
+
+    .hero__title-line1 {
+        font-size: 40px;
+    }
+
+    .hero__title-line2 {
+        font-size: 20px;
+    }
     
     .policy__title {
         font-size: 75px;
@@ -2439,6 +2495,14 @@
     .hero__title {
         font-size: 75px;
         line-height: 1;
+    }
+
+    .hero__title-line1 {
+        font-size: 36px;
+    }
+
+    .hero__title-line2 {
+        font-size: 18px;
     }
     
     .policy__title {
@@ -2786,6 +2850,14 @@
     .hero__title {
         font-size: 65px;
         line-height: 1;
+    }
+
+    .hero__title-line1 {
+        font-size: 34px;
+    }
+
+    .hero__title-line2 {
+        font-size: 17px;
     }
     
     .policy__title {
@@ -3138,6 +3210,14 @@
     .hero__title {
         font-size: 65px;
         line-height: 1;
+    }
+
+    .hero__title-line1 {
+        font-size: 32px;
+    }
+
+    .hero__title-line2 {
+        font-size: 16px;
     }
     
     .policy__title {
@@ -3508,6 +3588,14 @@
     .hero__title {
         font-size: 45px;
         line-height: 1;
+    }
+
+    .hero__title-line1 {
+        font-size: 30px;
+    }
+
+    .hero__title-line2 {
+        font-size: 15px;
     }
 
     .hero__description {
@@ -3881,6 +3969,14 @@
     .hero__title {
         font-size: 45px;
         line-height: 1;
+    }
+
+    .hero__title-line1 {
+        font-size: 28px;
+    }
+
+    .hero__title-line2 {
+        font-size: 14px;
     }
     
     .policy__title {
@@ -4272,6 +4368,14 @@
     .hero__title {
         font-size: 48px;
         line-height: 1;
+    }
+
+    .hero__title-line1 {
+        font-size: 26px;
+    }
+
+    .hero__title-line2 {
+        font-size: 13px;
     }
     
     .policy__title {
@@ -4677,6 +4781,14 @@
     .hero__title {
         font-size: 32px;
         line-height: 1;
+    }
+
+    .hero__title-line1 {
+        font-size: 24px;
+    }
+
+    .hero__title-line2 {
+        font-size: 12px;
     }
     
     .policy__title {
@@ -5085,6 +5197,14 @@
     .hero__title {
         font-size: 32px;
         line-height: 1;
+    }
+
+    .hero__title-line1 {
+        font-size: 22px;
+    }
+
+    .hero__title-line2 {
+        font-size: 11px;
     }
     
     .policy__title {
@@ -5502,6 +5622,14 @@
     .hero__title {
         font-size: 42px;
         line-height: 1;
+    }
+
+    .hero__title-line1 {
+        font-size: 34px;
+    }
+
+    .hero__title-line2 {
+        font-size: 17px;
     }
     
     .policy__title {
@@ -5927,6 +6055,14 @@
         font-size: 36px;
         line-height: 1;
         padding: 0px 20px 0px 0px;
+    }
+
+    .hero__title-line1 {
+        font-size: 28px;
+    }
+
+    .hero__title-line2 {
+        font-size: 14px;
     }
     
     .policy__title {
