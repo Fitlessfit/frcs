@@ -5985,6 +5985,52 @@
     .footer__content-textblock {
         margin-bottom: 15px;
     }
+    /* МОБИЛЬНЫЕ ФИКСЫ HERO И СЕКЦИЙ */
+
+    .hero__author-label-name {
+        font-size: 16px;
+    }
+
+    .hero__author-label-role {
+        font-size: 13px;
+    }
+
+    .hero__author-label {
+        white-space: normal;
+        width: 90%;
+        bottom: 12px;
+    }
+
+    .why-pain__content .about__content-title {
+        font-size: 30px;
+    }
+
+    .why-pain__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .why-pain__right {
+        display: none;
+    }
+
+    .about__cta {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .about__cta-button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .results__blocks {
+        grid-template-columns: 1fr;
+    }
+
+    .results__cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
 }
 
 
@@ -6425,3 +6471,48 @@
         margin-bottom: 22px;
     }
 }
+    /* МОБИЛЬНЫЕ ФИКСЫ HERO И СЕКЦИЙ */
+
+    .hero__author-label-name {
+        font-size: 14px;
+    }
+
+    .hero__author-label-role {
+        font-size: 11px;
+    }
+
+    .hero__author-label {
+        white-space: normal;
+        width: 90%;
+        bottom: 12px;
+    }
+
+    .why-pain__content .about__content-title {
+        font-size: 26px;
+    }
+
+    .why-pain__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .why-pain__right {
+        display: none;
+    }
+
+    .about__cta {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .about__cta-button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .results__blocks {
+        grid-template-columns: 1fr;
+    }
+
+    .results__cards {
+        grid-template-columns: repeat(2, 1fr);
+    }

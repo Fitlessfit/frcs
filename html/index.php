@@ -551,7 +551,7 @@
                 <div class="about-author__content">
                     <div class="about-author__header">
                         <h2 class="about__content-title">Анатолий Шемякин</h2>
-                        <p class="about__content-subtitle">Основатель студии по нейромышечной коррекции</p>
+                        <p class="about__content-subtitle">Основатель студии нейромышечной коррекции</p>
                     </div>
 
                     <p class="uslugi__block-describe">
