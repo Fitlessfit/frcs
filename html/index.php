@@ -157,8 +157,8 @@
 
 		<link rel="stylesheet" href="assets/css/reset.css?v=1.25">
 		<link rel="stylesheet" href="assets/css/fonts.css?v=1.25">
-		<link rel="stylesheet" href="assets/css/style.css?v=1.58">
-		<link rel="stylesheet" href="assets/css/adaptive.css?v=1.28">
+		<link rel="stylesheet" href="assets/css/style.css?v=1.65">
+		<link rel="stylesheet" href="assets/css/adaptive.css?v=1.32">
 		<style>
 			/* LAYOUT: 2 колонки десктоп / 1 колонка мобильный */
 			.why-pain__grid {
@@ -232,10 +232,6 @@
                                 Возвращаем силу и контроль движения за 1–3 приёма — без операций, лекарств и бесконечных курсов.
                             </p>
 
-                            <p class="hero__location">
-                                Принимаю очно в Москве (ФОК Торпедо) и онлайн · Работаю с клиентами из всех городов
-                            </p>
-
                             <div class="hero-correct">
                                 <div class="hero-norm">
                                     <button class="hero__button" onclick="openModal()">
@@ -266,9 +262,6 @@
                                             средняя оценка <br> в Яндекс.Картах
                                         </div>
 
-                                        <div class="rating-card__side">
-                                            НА КАРТУ
-                                        </div>
                                     </div>   
                                 </a>     
                             </div>
@@ -280,8 +273,9 @@
                         </div>
 
                         <div class="hero__author-label">
-                            <span class="hero__author-label-name">Студия Анатолия Шемякина</span>
-                            <span class="hero__author-label-role">эксперта по нейромышечной коррекции</span>
+                            <span class="hero__author-label-name">Студия нейромышечной коррекции П-ДТР (P-DTR)</span>
+                            <span class="hero__author-label-role">Принимаю очно в Москве (ФОК Торпедо) и онлайн</span>
+                            <span class="hero__author-label-role">Работаю с клиентами из всех городов</span>
                         </div>
                     </div>
                 </div>
@@ -294,7 +288,7 @@
                 <div class="about__content">
                     <div class="about__content-textblock">
                         <h1 class="about__content-title">С чем ко мне обращаются</h1>
-                        <p class="about__content-subtitle">Работаю с самыми разными запросами — от хронической боли в пояснице до восстановления после сложных операций.<br>Вот что встречается чаще всего:</p>
+                        <p class="about__content-subtitle"><span class="about__subtitle-cone about__subtitle-cone--1">Работаю с самыми разными запросами — от хронической боли в пояснице</span><span class="about__subtitle-cone about__subtitle-cone--2">до восстановления после сложных операций.</span><span class="about__subtitle-cone about__subtitle-cone--2">Вот что встречается чаще всего:</span></p>
                     </div>
 
                     <div class="uslugi__content-blocks">
@@ -368,7 +362,8 @@
 
             <section class="why-pain">
                 <div class="why-pain__content">
-                    <h1 class="about__content-title">Почему боль возвращается снова и снова?</h1>
+
+                    <h1 class="why-pain__main-title">Почему боль возвращается снова и снова?</h1>
 
                     <div class="why-pain__grid" style="display:flex; flex-direction:row; gap:60px; align-items:center;">
                         <div class="why-pain__left" style="flex:1; min-width:0;">

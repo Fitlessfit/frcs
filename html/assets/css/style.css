@@ -213,18 +213,18 @@
 }
 
 .hero__title-line1 {
-    font-size: 72px;
+    font-size: 162px;
     display: block;
     line-height: 1;
 }
 
 .hero__title-line2 {
-    font-size: 36px;
+    font-size: 81px;
     display: block;
     line-height: 1.2;
     margin-top: 6px;
     text-transform: none;
-    letter-spacing: 0;
+    letter-spacing: 0.05em;
 }
 
 .hero__title-sub {
@@ -393,14 +393,14 @@
     gap: 4px;
     align-items: center;
     text-align: center;
-    white-space: nowrap;
     z-index: 3;
+    width: 100%;
 }
 
 .hero__author-label-name {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 33px;
+    font-size: 99px;
     color: #ffffff;
     line-height: 1.2;
 }
@@ -408,7 +408,7 @@
 .hero__author-label-role {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 78px;
     color: rgba(255,255,255,0.75);
     line-height: 1.3;
 }
@@ -464,6 +464,14 @@
     color: #787878;
     margin: 12px auto 0;
 }
+
+.about__subtitle-cone {
+    display: block;
+    line-height: 1.4;
+}
+
+.about__subtitle-cone--1,
+.about__subtitle-cone--2 { font-size: 1em; }
 
 .about__video {
     border-radius: 20px;
@@ -568,7 +576,7 @@
 /* ПОЧЕМУ БОЛЬ ВОЗВРАЩАЕТСЯ */
 .why-pain {
     margin-bottom: 140px;
-    background: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url('../img/backgrounds/abouttech-bg.png') no-repeat center center;
+    background: url('../img/backgrounds/abouttech-bg.png') no-repeat center center;
     background-size: cover;
     border-radius: 30px;
     margin-left: 10px;
@@ -582,15 +590,22 @@
     padding: 60px 60px;
 }
 
-.why-pain__content .about__content-title {
+.why-pain__main-title {
+    margin-bottom: 20px;
+    font-size: clamp(36px, 3.5vw, 65px) !important;
+    line-height: 1;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     text-align: center;
-    margin-bottom: 50px;
-    font-size: 62px;
 }
 
 .why-pain .uslugi__block-describe,
-.why-pain .about__content-title,
 .why-pain .how-works__footer-text {
+    color: #ffffff;
+}
+
+.why-pain .about__content-title {
     color: #ffffff;
 }
 
@@ -610,8 +625,8 @@
 .why-pain__subtitle {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 25px;
-    color: #324172;
+    font-size: 30px;
+    color: #ffffff;
 }
 
 .why-pain__list {
@@ -668,7 +683,7 @@
 /* ЧТО ПОЛУЧАЮТ ПАЦИЕНТЫ */
 .results {
     margin-bottom: 140px;
-    background: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url('../img/backgrounds/online-bg.png') no-repeat center center;
+    background: url('../img/backgrounds/online-bg.png') no-repeat center center;
     background-size: cover;
     border-radius: 30px;
     margin-left: 10px;
@@ -694,37 +709,32 @@
     gap: 16px;
 }
 
-.results__cards .uslugi__block {
-    cursor: default;
-}
-
+.results__cards .uslugi__block,
 .results__cards .uslugi__block:hover {
-    background-color: #F2F2F2;
+    cursor: default;
+    background-color: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
 }
 
+.results__blocks .uslugi__block,
+.results__blocks .uslugi__block:hover {
+    cursor: default;
+    background-color: transparent;
+}
+
+.results__cards .uslugi__block-title,
 .results__cards .uslugi__block:hover .uslugi__block-title {
     color: #324172;
 }
 
-.results__cards .uslugi__block:hover .uslugi__block-describe {
-    color: #717171;
-}
-
-.results__blocks .uslugi__block {
-    cursor: default;
-}
-
-.results__blocks .uslugi__block:hover {
-    background-color: #F2F2F2;
-}
-
-.results__blocks .uslugi__block:hover .uslugi__block-title,
-.results__blocks .uslugi__block:hover .results__block-title {
+.results .results__block-title {
     color: #324172;
 }
 
-.results__blocks .uslugi__block:hover .uslugi__block-describe {
-    color: #717171;
+.results .uslugi__block-describe,
+.results .uslugi__block:hover .uslugi__block-describe {
+    color: #ffffff;
 }
 
 .results__list {
@@ -752,7 +762,7 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 30px;
-    color: #324172;
+    color: #ffffff;
     margin-bottom: 20px;
 }
 
@@ -787,7 +797,7 @@
     font-weight: 500;
     font-size: 26px;
     color: #787878;
-    max-width: 860px;
+    white-space: nowrap;
 }
 
 .how-works__footer {
