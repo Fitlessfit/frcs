@@ -263,7 +263,6 @@
     .contacts__content-right iframe { width: 100%; height: 400px; }
 
     /* ─── Results ─── */
-    .results__blocks { grid-template-columns: 1fr; }
     .results__blocks .uslugi__block { padding-left: 0; padding-right: 0; }
     .results__content,
     .why-pain__content { padding: 30px 20px; }

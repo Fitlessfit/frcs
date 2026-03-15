@@ -414,7 +414,7 @@ body {
 
 .hero__author-label {
     position: absolute;
-    bottom: 60px;
+    bottom: 8px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -447,7 +447,7 @@ body {
     width: auto;
     object-fit: contain;
     position: absolute;
-    bottom: -70px;
+    bottom: -25px;
     right: -20px;
     user-select: none;
     pointer-events: none;
@@ -796,8 +796,8 @@ body {
 }
 
 .results__blocks {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 20px;
 }
 
@@ -2279,7 +2279,7 @@ html.modal-open {
 /* ABOUT-AUTHOR */
 .about-author {
     padding: 80px 20px;
-    background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('../img/backgrounds/abouttech-bg.png') no-repeat center center;
+    background: url('../img/backgrounds/abouttech-bg.png') no-repeat center 30%;
     background-size: cover;
     border-radius: 30px;
     margin-left: 10px;
