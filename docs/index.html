@@ -467,11 +467,11 @@
                             <p class="uslugi__block-describe">Возвращение уверенности и лёгкости</p>
                         </div>
                         <div class="uslugi__block">
-                            <h2 class="uslugi__block-title">Рост показателей</h2>
+                            <h2 class="uslugi__block-title">Рост<br class="br-desktop">показателей</h2>
                             <p class="uslugi__block-describe">Сила и выносливость без доп. нагрузок</p>
                         </div>
                         <div class="uslugi__block">
-                            <h2 class="uslugi__block-title">Снятие защиты тела</h2>
+                            <h2 class="uslugi__block-title">Снятие защиты<br class="br-desktop">тела</h2>
                             <p class="uslugi__block-describe">Уходят спазмы, скованность и блоки</p>
                         </div>
                         <div class="uslugi__block">

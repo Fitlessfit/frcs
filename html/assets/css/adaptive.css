@@ -6965,4 +6965,8 @@
     .about-author__content .about__content-title {
         white-space: normal;
     }
+
+    .br-desktop {
+        display: none;
+    }
 }
