@@ -1,7 +1,8 @@
 /* ================================================================
-   ADAPTIVE.CSS — Refactored v2.0
-   Подход: clamp() для плавного масштабирования + 3 layout-брейкпоинта
-   Брейкпоинты: ≤1000px | ≤700px | ≤480px
+   ADAPTIVE.CSS — Refactored v3.0
+   Подход: clamp() для плавного масштабирования + 4 layout-брейкпоинта
+   Брейкпоинты: ≤1250px | ≤700px | ≤480px
+   Бургер: ≤1250px (перенесено с 1000px)
    ЗАПРЕЩЕНО трогать: цвета, шрифты, скругления, эффекты
    ================================================================ */
 
@@ -49,13 +50,13 @@
 }
 
 /* ─── HERO: заголовок ─── */
-/* line1: 28px @ 360px → 48px @ 1000px → 78px @ 2000px */
+/* line1: 18px @ 320px → 22px @ 480px → 36px @ 1000px → 78px @ 2000px */
 .hero__title-line1 {
-    font-size: clamp(22px, calc(18px + 3vw), 78px);
+    font-size: clamp(18px, calc(8px + 2.8vw), 78px);
 }
-/* line2: 21px @ 200px → 33px @ 1000px → 48px @ 2000px */
+/* line2: 15px @ 320px → 19px @ 480px → 30px @ 1000px → 48px @ 1818px */
 .hero__title-line2 {
-    font-size: clamp(21px, calc(18px + 1.5vw), 48px);
+    font-size: clamp(15px, calc(8px + 2.2vw), 48px);
 }
 /* description: 13px ≤ 640px → 17px @ 1000px → 28px @ 2000px */
 .hero__description {
@@ -73,7 +74,7 @@
 
 /* ─── HERO: политика ─── */
 .policy__title {
-    font-size: clamp(20px, 4vw, 95px);
+    font-size: clamp(22px, 2.5vw, 38px);
 }
 
 /* ─── CTA-кнопки (Hero, Method, Online, Contact) ─── */
@@ -191,11 +192,11 @@
 }
 
 /* ══════════════════════════════════════════════════════════════
-   § 2b  СРЕДНИЙ ДЕСКТОП  (1001px – 1500px)
-         Уменьшаем nav-link чтобы шапка не складывалась в 2 строки
-         при 1440px и похожих разрешениях
+   § 2b  СРЕДНИЙ ДЕСКТОП  (1251px – 1500px)
+         Уменьшаем nav-link чтобы шапка не складывалась в 2 строки.
+         Ниже 1251px nav скрыта и заменена бургером.
    ══════════════════════════════════════════════════════════════ */
-@media (min-width: 1001px) and (max-width: 1500px) {
+@media (min-width: 1251px) and (max-width: 1500px) {
     .nav-link {
         font-size: 16px;
         padding: 8px 12px;
@@ -204,14 +205,13 @@
 
 
 /* ══════════════════════════════════════════════════════════════
-   § 3  МОБАЙЛ / ПЛАНШЕТ  (max-width: 1000px)
-        Бургер активен, навигация скрыта, Hero — 1 колонка.
-        Конкретные значения дублируют §8 и нужны для layout-логики
-        (не для размеров — они управляются clamp из §1).
+   § 3  ПЛАНШЕТ / МОБАЙЛ  (max-width: 1250px)
+        Бургер активен (≤1250px), навигация скрыта, Hero — 1 колонка.
+        Хедер: только логотип + иконка бургера.
    ══════════════════════════════════════════════════════════════ */
-@media (max-width: 1000px) {
+@media (max-width: 1250px) {
 
-    /* ─── Хедер ─── */
+    /* ─── Хедер: компактный — только логотип ─── */
     .header { margin-bottom: 7px; }
     .header__content-logo { gap: 7px; }
 
@@ -223,11 +223,11 @@
     }
     .header__content-logo-text { font-size: 20px; }
 
-    /* Кнопка телефона: иконка вместо текстовой */
+    /* Все кнопки телефона скрыты — телефон уходит в бургер-меню */
     .header__content-button-tel  { display: none; }
-    .mobile-adaptive-tel          { display: flex; }
+    .mobile-adaptive-tel          { display: none; }
 
-    /* ─── Hero ─── */
+    /* ─── Hero: 1 колонка начиная с 1250px ─── */
     .hero__content { grid-template-columns: 1fr; }
     .hero__image   { display: none; }
 
@@ -235,12 +235,11 @@
     .hero__title-line1,
     .hero__title-line2 { white-space: normal; }
 
-    /* Кнопка + рейтинг — горизонтально */
+    /* Кнопка + рейтинг — вертикально (безопасная зона при сужении) */
     .hero-correct {
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        padding: 0 20px 0 0;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0;
         margin-top: -10px;
     }
 
@@ -285,6 +284,9 @@
 
     /* ─── Hero author label ─── */
     .hero__author-label { white-space: normal; width: 90%; bottom: 12px; }
+
+    /* ─── Results: 1 колонка ─── */
+    .results__cards { grid-template-columns: 1fr; }
 }
 
 
@@ -339,13 +341,8 @@
    ══════════════════════════════════════════════════════════════ */
 @media (max-width: 480px) {
 
-    /* ─── Hero заголовок: уменьшаем для 2 строк ─── */
-    .hero__title-line1 { font-size: 22px; }
-    .hero__title-line2 { font-size: 19px; }
-    .hero__description { font-size: 13px; margin-bottom: 10px; padding-right: 20px; }
-
-    /* ─── Hero CTA: кнопка и рейтинг стопкой ─── */
-    .hero-correct { flex-direction: column; }
+    /* ─── Hero описание: чуть компактнее на малых экранах ─── */
+    .hero__description { font-size: 13px; margin-bottom: 10px; }
 
     /* Рейтинг-карточка: компактная вертикальная ─── */
     .rating-card {
@@ -417,11 +414,12 @@
 
 
 /* ══════════════════════════════════════════════════════════════
-   § 6  СБРОС ФИКСИРОВАННОГО ХЕДЕРА  (max-width: 900px)
+   § 6  СБРОС ФИКСИРОВАННОГО ХЕДЕРА  (max-width: 1250px)
         Убирает fixed-позиционирование — хедер становится частью
-        потока страницы; hero не перекрывается хедером
+        потока страницы; hero не перекрывается хедером.
+        Совпадает с порогом бургера: при бургере хедер всегда в потоке.
    ══════════════════════════════════════════════════════════════ */
-@media (max-width: 900px) {
+@media (max-width: 1250px) {
     .header {
         position: relative;
         top: auto;
@@ -649,11 +647,10 @@
     fill: #fff;
 }
 
-/* Показываем бургер и скрываем десктопные элементы на мобильных */
-@media (max-width: 1000px) {
+/* Показываем бургер и скрываем десктопные элементы начиная с 1250px */
+@media (max-width: 1250px) {
     .header__content-nav    { display: none !important; }
     .header__content-button { display: none !important; }
-    .results__cards         { grid-template-columns: 1fr; }
 
     .burger-btn {
         display: flex !important;
