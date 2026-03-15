@@ -132,6 +132,10 @@
     fill: #FF3B30;
 }
 
+.header__content-button-tel {
+    white-space: nowrap;
+}
+
 .header__content-button-icon {
     display: flex;
     align-items: center;
@@ -2200,6 +2204,10 @@ html.modal-open {
     gap: 50px;
 }
 
+.faq__content > .about__content-title {
+    text-align: center;
+}
+
 .faq__grid {
     display: flex;
     flex-direction: column;
@@ -2304,6 +2312,7 @@ html.modal-open {
     display: flex;
     flex-direction: column;
     gap: 8px;
+    text-align: center;
 }
 
 .about-author__name {
