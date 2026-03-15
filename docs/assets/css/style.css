@@ -764,6 +764,7 @@
 .results__cards .uslugi__block-title,
 .results__cards .uslugi__block:hover .uslugi__block-title {
     color: #324172;
+    margin-bottom: 7px;
 }
 
 
@@ -1370,6 +1371,7 @@
     font-size: 17px;
     color: #717171;
     transition: all 0.4s;
+    margin: 0;
 }
 
 .uslugi__block-infoblock {

@@ -5777,6 +5777,12 @@
         line-height: 0.9;
     }
 
+    /* Перенос строк для многострочных заголовков */
+    .why-pain__main-title,
+    .results .about__content-title {
+        line-height: 1.15;
+    }
+
     .about__content-subtitle,
     .method__block-subtitle,
     .online__content-subtitle {
@@ -5927,6 +5933,20 @@
         font-size: 16px;
     }
 
+    /* FAQ */
+    .faq__question {
+        font-size: 18px;
+    }
+
+    .faq__answer {
+        font-size: 15px;
+    }
+
+    .faq__item {
+        padding: 18px 20px;
+    }
+
+
 
 
     /* КОНТАКТЫ */
@@ -6074,7 +6094,8 @@
     }
 
     .why-pain__grid {
-        grid-template-columns: 1fr !important;
+        flex-direction: column !important;
+        gap: 24px !important;
     }
 
     .about__cta {
@@ -6087,12 +6108,23 @@
         justify-content: center;
     }
 
+    /* Паддинг секций — уменьшаем для узких экранов */
+    .results__content,
+    .why-pain__content {
+        padding: 30px 20px;
+    }
+
     .results__blocks {
         grid-template-columns: 1fr;
     }
 
+    .results__blocks .uslugi__block {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .results__cards {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 1fr;
     }
 
 
@@ -6285,6 +6317,12 @@
         line-height: 0.9;
     }
 
+    /* Перенос строк для многострочных заголовков */
+    .why-pain__main-title,
+    .results .about__content-title {
+        line-height: 1.15;
+    }
+
     .method__block-title {
         display: flex;
         flex-direction: column;
@@ -6452,6 +6490,20 @@
         height: 400px;
     }
 
+
+    /* FAQ */
+    .faq__question {
+        font-size: 18px;
+    }
+
+    .faq__answer {
+        font-size: 15px;
+    }
+
+    .faq__item {
+        padding: 18px 20px;
+    }
+
     .contact__block {
         padding: 8px 10px;
         border-radius: 14px;
@@ -6589,7 +6641,8 @@
     }
 
     .why-pain__grid {
-        grid-template-columns: 1fr !important;
+        flex-direction: column !important;
+        gap: 24px !important;
     }
 
     .about__cta {
@@ -6604,6 +6657,11 @@
 
     .results__blocks {
         grid-template-columns: 1fr;
+    }
+
+    .results__blocks .uslugi__block {
+        padding-left: 0;
+        padding-right: 0;
     }
 
 
@@ -6863,13 +6921,17 @@
 }
 
 /* Показываем бургер и скрываем десктопные элементы на мобильных */
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .header__content-nav {
         display: none !important;
     }
 
     .header__content-button {
         display: none !important;
+    }
+
+    .results__cards {
+        grid-template-columns: 1fr;
     }
 
     .burger-btn {
