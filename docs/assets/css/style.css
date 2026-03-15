@@ -448,7 +448,7 @@ body {
     object-fit: contain;
     position: absolute;
     bottom: -80px;
-    right: 0;
+    right: -20px;
     user-select: none;
     pointer-events: none;
 }
