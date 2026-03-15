@@ -6957,4 +6957,12 @@
     .how-works__footer-text {
         white-space: normal;
     }
+
+    .about-author__header {
+        text-align: center;
+    }
+
+    .about-author__content .about__content-title {
+        white-space: normal;
+    }
 }
