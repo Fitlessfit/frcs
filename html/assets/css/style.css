@@ -20,8 +20,19 @@
 .header {
     display: flex;
     flex-direction: row;
-    margin-bottom: 30px;
-    padding: 20px 20px 0px 20px;
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+}
+
+.header--scrolled {
+    background: rgba(22, 22, 22, 0.72);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .header__content {
@@ -174,6 +185,7 @@
     height: calc(100vh - 140px);
     min-height: 600px;
     padding: 0px 0px 20px 20px;
+    margin-top: 119px;
 }
 
 .hero__content {
@@ -212,10 +224,16 @@
     display: none;
 }
 
+.hero__title-line1 br,
+.hero__title-line2 br {
+    display: inline;
+}
+
 .hero__title-line1 {
     font-size: 162px;
     display: block;
     line-height: 1;
+    white-space: nowrap;
 }
 
 .hero__title-line2 {
@@ -225,6 +243,7 @@
     margin-top: 6px;
     text-transform: none;
     letter-spacing: 0.05em;
+    white-space: nowrap;
 }
 
 .hero__title-sub {
@@ -414,12 +433,11 @@
 }
 
 .hero__image img {
-    height: 648px;
-    max-height: 90%;
+    height: 734px;
     width: auto;
     object-fit: contain;
     position: absolute;
-    bottom: -15px;
+    bottom: -80px;
     right: 0;
     user-select: none;
     pointer-events: none;
@@ -656,11 +674,31 @@
     margin-bottom: 140px;
 }
 
+@media (min-width: 800px) {
+    .patient-reviews__content .about__content-title {
+        font-size: 4.6vw;
+        white-space: nowrap;
+    }
+}
+
 .patient-reviews__content {
     display: flex;
     flex-direction: column;
     padding: 0 20px;
     gap: 50px;
+}
+
+.patient-reviews__content .uslugi__block:hover {
+    background-color: #F2F2F2;
+    cursor: default;
+}
+
+.patient-reviews__content .uslugi__block:hover .uslugi__block-title {
+    color: #324172;
+}
+
+.patient-reviews__content .uslugi__block:hover .uslugi__block-describe {
+    color: #717171;
 }
 
 .patient-reviews__buttons {
@@ -712,9 +750,9 @@
 .results__cards .uslugi__block,
 .results__cards .uslugi__block:hover {
     cursor: default;
-    background-color: rgba(255, 255, 255, 0.12);
-    backdrop-filter: blur(4px);
-    -webkit-backdrop-filter: blur(4px);
+    background-color: rgba(255, 255, 255, 0.32);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
 }
 
 .results__blocks .uslugi__block,
@@ -728,8 +766,10 @@
     color: #324172;
 }
 
+
+
 .results .results__block-title {
-    color: #324172;
+    color: #ffffff;
 }
 
 .results .uslugi__block-describe,
@@ -761,9 +801,10 @@
 .results__block-title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 38px;
     color: #ffffff;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .results__principle-text {
@@ -2218,7 +2259,7 @@ html.modal-open {
 /* ABOUT-AUTHOR */
 .about-author {
     padding: 80px 20px;
-    background: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url('../img/backgrounds/abouttech-bg.png') no-repeat center center;
+    background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('../img/backgrounds/abouttech-bg.png') no-repeat center center;
     background-size: cover;
     border-radius: 30px;
     margin-left: 10px;
