@@ -819,6 +819,10 @@
     margin-bottom: 140px;
 }
 
+.how-works .why-pain__subtitle {
+    color: #717171;
+}
+
 .how-works__content {
     display: flex;
     flex-direction: column;
