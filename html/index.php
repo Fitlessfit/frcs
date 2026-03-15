@@ -157,8 +157,8 @@
 
 		<link rel="stylesheet" href="assets/css/reset.css?v=1.25">
 		<link rel="stylesheet" href="assets/css/fonts.css?v=1.25">
-		<link rel="stylesheet" href="assets/css/style.css?v=1.69">
-		<link rel="stylesheet" href="assets/css/adaptive.css?v=1.37">
+		<link rel="stylesheet" href="assets/css/style.css?v=1.70">
+		<link rel="stylesheet" href="assets/css/adaptive.css?v=1.38">
 		<style>
 			/* LAYOUT: 2 колонки десктоп / 1 колонка мобильный */
 			.why-pain__grid {
