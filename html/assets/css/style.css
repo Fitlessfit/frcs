@@ -241,7 +241,7 @@ body {
     font-size: 162px;
     display: block;
     line-height: 1;
-    white-space: normal;
+    white-space: nowrap;
 }
 
 .hero__title-line2 {
@@ -251,7 +251,7 @@ body {
     margin-top: 6px;
     text-transform: none;
     letter-spacing: 0.05em;
-    white-space: normal;
+    white-space: nowrap;
 }
 
 .hero__title-sub {

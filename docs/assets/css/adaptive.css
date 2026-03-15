@@ -231,9 +231,7 @@
     .hero__content { grid-template-columns: 1fr; }
     .hero__image   { display: none; }
 
-    /* Заголовки переносятся (убираем nowrap базовых стилей) */
-    .hero__title-line1,
-    .hero__title-line2 { white-space: normal; }
+    /* Заголовки: nowrap сохраняется — <br> является единственной точкой разрыва */
 
     /* Кнопка + рейтинг — вертикально (безопасная зона при сужении) */
     .hero-correct {

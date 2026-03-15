@@ -157,7 +157,7 @@
 
 		<link rel="stylesheet" href="assets/css/reset.css?v=1.25">
 		<link rel="stylesheet" href="assets/css/fonts.css?v=1.25">
-		<link rel="stylesheet" href="assets/css/style.css?v=1.73">
+		<link rel="stylesheet" href="assets/css/style.css?v=1.74">
 		<link rel="stylesheet" href="assets/css/adaptive.css?v=3.0">
 		<style>
 			/* LAYOUT: 2 колонки десктоп / 1 колонка мобильный */
