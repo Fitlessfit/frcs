@@ -6970,3 +6970,17 @@
         display: none;
     }
 }
+
+@media (max-width: 900px) {
+    .hero__author-label {
+        position: relative;
+        bottom: auto;
+        left: auto;
+        transform: none;
+        grid-column: 1 / -1;
+        text-align: center;
+        align-items: center;
+        width: 100%;
+        padding: 20px 20px 0;
+    }
+}
