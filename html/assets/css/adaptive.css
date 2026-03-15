@@ -117,7 +117,7 @@
     }
 
     .hero__image img {
-        height: 840px;
+        height: 869px;
     }
     
     /* О НАС */
@@ -488,7 +488,7 @@
     }
 
     .hero__image img {
-        height: 740px;
+        height: 765px;
     }
     
     /* О НАС */
@@ -855,7 +855,7 @@
     }
 
     .hero__image img {
-        height: 720px;
+        height: 745px;
         position: absolute;
         bottom: -15px;
     }
@@ -1201,7 +1201,7 @@
     }
 
     .hero__image img {
-        height: 750px;
+        height: 776px;
         position: absolute;
         bottom: -35px;
     }
@@ -1254,7 +1254,7 @@
     }
 
     .image-placeholder {
-        height: 470px;
+        height: 486px;
         border-radius: 14px;
     }
 
@@ -1548,7 +1548,7 @@
     }
 
     .hero__image img {
-        height: 720px;
+        height: 745px;
         position: absolute;
         bottom: -35px;
     }
@@ -1601,7 +1601,7 @@
     }
 
     .image-placeholder {
-        height: 470px;
+        height: 486px;
         border-radius: 14px;
     }
 
@@ -1895,7 +1895,7 @@
     }
 
     .hero__image img {
-        height: 640px;
+        height: 663px;
         position: absolute;
         bottom: -35px;
     }
@@ -2242,7 +2242,7 @@
     }
 
     .hero__image img {
-        height: 640px;
+        height: 663px;
         position: absolute;
         bottom: -42px;
     }
@@ -2581,7 +2581,7 @@
     }
 
     .hero__image img {
-        height: 510px;
+        height: 528px;
     }
     
     /* О НАС */
@@ -2938,7 +2938,7 @@
     }
 
     .hero__image img {
-        height: 470px;
+        height: 486px;
     }
     
     /* О НАС */
@@ -3300,7 +3300,7 @@
     }
 
     .hero__image img {
-        height: 470px;
+        height: 486px;
     }
     
     /* О НАС */
@@ -3612,10 +3612,12 @@
 
     .hero__title-line1 {
         font-size: 45px;
+        white-space: normal;
     }
 
     .hero__title-line2 {
         font-size: 32px;
+        white-space: normal;
     }
 
     .hero__description {
@@ -3995,12 +3997,14 @@
 
     .hero__title-line1 {
         font-size: 42px;
+        white-space: normal;
     }
 
     .hero__title-line2 {
         font-size: 30px;
+        white-space: normal;
     }
-    
+
     .policy__title {
         font-size: 38px;
     }
@@ -4396,12 +4400,14 @@
 
     .hero__title-line1 {
         font-size: 39px;
+        white-space: normal;
     }
 
     .hero__title-line2 {
         font-size: 30px;
+        white-space: normal;
     }
-    
+
     .policy__title {
         font-size: 37px;
     }
@@ -4818,12 +4824,14 @@
 
     .hero__title-line1 {
         font-size: 36px;
+        white-space: normal;
     }
 
     .hero__title-line2 {
         font-size: 29px;
+        white-space: normal;
     }
-    
+
     .policy__title {
         font-size: 30px;
     }
@@ -5243,12 +5251,14 @@
 
     .hero__title-line1 {
         font-size: 33px;
+        white-space: normal;
     }
 
     .hero__title-line2 {
         font-size: 27px;
+        white-space: normal;
     }
-    
+
     .policy__title {
         font-size: 23px;
     }
@@ -5678,10 +5688,12 @@
 
     .hero__title-line1 {
         font-size: 32px;
+        white-space: normal;
     }
 
     .hero__title-line2 {
         font-size: 26px;
+        white-space: normal;
     }
 
     .policy__title {
@@ -6167,10 +6179,12 @@
 
     .hero__title-line1 {
         font-size: 28px;
+        white-space: normal;
     }
 
     .hero__title-line2 {
         font-size: 21px;
+        white-space: normal;
     }
 
     .policy__title {
@@ -6609,5 +6623,267 @@
 @media (min-width: 500px) {
     .why-pain__grid {
         grid-template-columns: 1fr 1fr !important;
+    }
+}
+
+/* СБРОС FIXED HEADER ДЛЯ МОБИЛЬНЫХ */
+@media (max-width: 900px) {
+    .header {
+        position: relative;
+        top: auto;
+        left: auto;
+        right: auto;
+        z-index: auto;
+        background: transparent !important;
+        backdrop-filter: none !important;
+        -webkit-backdrop-filter: none !important;
+        padding: 15px 20px 0px 20px;
+    }
+
+    .hero {
+        margin-top: 0;
+    }
+}
+
+
+
+/* ===================== БУРГЕР-МЕНЮ ===================== */
+
+/* Кнопка бургера — скрыта на десктопе */
+.burger-btn {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.15);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 0;
+    flex-shrink: 0;
+}
+
+.burger-btn__line {
+    display: block;
+    width: 22px;
+    height: 2px;
+    background: #ffffff;
+    border-radius: 2px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+/* Оверлей */
+.drawer-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.55);
+    z-index: 1100;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}
+
+.drawer-overlay.open {
+    opacity: 1;
+    pointer-events: all;
+}
+
+/* Drawer */
+.drawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 280px;
+    height: 100%;
+    background: rgba(15, 15, 20, 0.97);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    z-index: 1200;
+    transform: translateX(100%);
+    transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.drawer.open {
+    transform: translateX(0);
+}
+
+.drawer__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 32px;
+}
+
+.drawer__logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.drawer__logo-img {
+    height: 42px;
+    width: 42px;
+    border-radius: 10px;
+}
+
+.drawer__logo-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.drawer__close {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 6px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    transition: background 0.2s;
+}
+
+.drawer__close:hover {
+    background: rgba(255, 255, 255, 0.12);
+}
+
+.drawer__close svg {
+    width: 22px;
+    height: 22px;
+}
+
+.drawer__links {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    flex: 1;
+}
+
+.drawer__link {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #ffffff;
+    padding: 13px 16px;
+    border-radius: 12px;
+    transition: background 0.2s, color 0.2s;
+    text-decoration: none;
+}
+
+.drawer__link:hover,
+.drawer__link:active {
+    background: rgba(42, 127, 186, 0.2);
+    color: #2A7FBA;
+}
+
+.drawer__actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 24px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.drawer__tel {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #ffffff;
+    padding: 12px 16px;
+    border-radius: 50px;
+    border: 1.5px solid rgba(255, 255, 255, 0.25);
+    text-decoration: none;
+    transition: border-color 0.2s, color 0.2s;
+}
+
+.drawer__tel:hover {
+    border-color: #2A7FBA;
+    color: #2A7FBA;
+}
+
+.drawer__tel svg {
+    width: 16px;
+    height: 16px;
+    fill: currentColor;
+    flex-shrink: 0;
+}
+
+.drawer__cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: #ffffff;
+    color: #2A7FBA;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: color 0.25s;
+    width: 100%;
+}
+
+.drawer__cta:hover {
+    color: #FF3B30;
+}
+
+.drawer__cta-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #2A7FBA;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+}
+
+.drawer__cta-icon svg {
+    width: 14px;
+    height: 14px;
+    fill: #fff;
+}
+
+/* Показываем бургер и скрываем десктопные элементы на мобильных */
+@media (max-width: 768px) {
+    .header__content-nav {
+        display: none !important;
+    }
+
+    .header__content-button {
+        display: none !important;
+    }
+
+    .burger-btn {
+        display: flex !important;
+        position: fixed;
+        top: 16px;
+        right: 16px;
+        z-index: 1050;
+        width: 44px;
+        height: 44px;
+        border-radius: 12px;
+        background: rgba(22, 22, 22, 0.65);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        border: 1px solid rgba(255, 255, 255, 0.12);
     }
 }

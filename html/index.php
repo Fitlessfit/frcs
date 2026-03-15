@@ -157,8 +157,8 @@
 
 		<link rel="stylesheet" href="assets/css/reset.css?v=1.25">
 		<link rel="stylesheet" href="assets/css/fonts.css?v=1.25">
-		<link rel="stylesheet" href="assets/css/style.css?v=1.65">
-		<link rel="stylesheet" href="assets/css/adaptive.css?v=1.32">
+		<link rel="stylesheet" href="assets/css/style.css?v=1.67">
+		<link rel="stylesheet" href="assets/css/adaptive.css?v=1.34">
 		<style>
 			/* LAYOUT: 2 колонки десктоп / 1 колонка мобильный */
 			.why-pain__grid {
@@ -191,9 +191,10 @@
                         </div>
 
                         <nav class="header__content-nav">
-                            <a href="#o-metode" class="nav-link">О методе</a>
-                            <a href="#dostijeniya" class="nav-link">Достижения</a>
                             <a href="#uslugi" class="nav-link">Услуги</a>
+                            <a href="#reviews" class="nav-link">Достижения</a>
+                            <a href="#results" class="nav-link">О методе</a>
+                            <a href="#about-author" class="nav-link">Обо мне</a>
                             <a href="#kontakti" class="nav-link">Контакты</a>
                             <a href="#sertifikati" class="nav-link">Сертификаты</a>
                         </nav>
@@ -215,7 +216,13 @@
                                         <path d="M18,12h0a2,2,0,0,0-.59-1.4l-4.29-4.3a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L15,11H5a1,1,0,0,0,0,2H15l-3.29,3.29a1,1,0,0,0,1.41,1.42l4.29-4.3A2,2,0,0,0,18,12Z"/>
                                     </svg>
                                 </span>
-                            </button>                            
+                            </button>
+
+                            <button class="burger-btn" id="burgerBtn" aria-label="Открыть меню" type="button">
+                                <span class="burger-btn__line"></span>
+                                <span class="burger-btn__line"></span>
+                                <span class="burger-btn__line"></span>
+                            </button>
                         </div>
                     </div>
                 </header>
@@ -224,12 +231,12 @@
                     <div class="hero__content">
                         <div class="hero__text">
                             <h1 class="hero__title">
-                                <span class="hero__title-line1">Хроническая боль в спине и суставах</span><br>
-                                <span class="hero__title-line2">когда массаж, ЛФК и таблетки не помогли</span>
+                                <span class="hero__title-line1">Хроническая боль <br>в спине и суставах</span><br>
+                                <span class="hero__title-line2">когда массаж, ЛФК <br>и таблетки не помогли</span>
                             </h1>
 
                             <p class="hero__description">
-                                Возвращаем силу и контроль движения за 1–3 приёма — без операций, лекарств и бесконечных курсов.
+                                Возвращаем силу и контроль движения за 1–3 приёма — <br>без операций, лекарств и бесконечных курсов.
                             </p>
 
                             <div class="hero-correct">
@@ -284,7 +291,7 @@
 
 
         <main class="main-content">
-            <section class="about">
+            <section class="about" id="uslugi">
                 <div class="about__content">
                     <div class="about__content-textblock">
                         <h1 class="about__content-title">С чем ко мне обращаются</h1>
@@ -442,7 +449,7 @@
 
 
 
-            <section class="results">
+            <section class="results" id="results">
                 <div class="results__content">
 
                     <div class="how-works__header">
@@ -460,11 +467,11 @@
                             <p class="uslugi__block-describe">Возвращение уверенности и лёгкости</p>
                         </div>
                         <div class="uslugi__block">
-                            <h2 class="uslugi__block-title">Рост показателей</h2>
+                            <h2 class="uslugi__block-title">Рост<br>показателей</h2>
                             <p class="uslugi__block-describe">Сила и выносливость без доп. нагрузок</p>
                         </div>
                         <div class="uslugi__block">
-                            <h2 class="uslugi__block-title">Снятие защиты тела</h2>
+                            <h2 class="uslugi__block-title">Снятие защиты<br>тела</h2>
                             <p class="uslugi__block-describe">Уходят спазмы, скованность и блоки</p>
                         </div>
                         <div class="uslugi__block">
@@ -495,7 +502,7 @@
 
 
 
-            <section class="patient-reviews">
+            <section class="patient-reviews" id="reviews">
                 <div class="patient-reviews__content">
 
                     <div class="how-works__header">
@@ -543,15 +550,6 @@
                                 </svg>
                             </span>
                         </a>
-
-                        <button class="about__cta-button" type="button" onclick="openModal()">
-                            Записаться на прием
-                            <span class="about__cta-button-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-                                    <path d="M18,12h0a2,2,0,0,0-.59-1.4l-4.29-4.3a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L15,11H5a1,1,0,0,0,0,2H15l-3.29,3.29a1,1,0,0,0,1.41,1.42l4.29-4.3A2,2,0,0,0,18,12Z"/>
-                                </svg>
-                            </span>
-                        </button>
                     </div>
 
                 </div>
@@ -560,7 +558,7 @@
 
 
 
-            <section class="about-author">
+            <section class="about-author" id="about-author">
                 <div class="about-author__content">
                     <div class="about-author__header">
                         <h2 class="about__content-title">Анатолий Шемякин</h2>
@@ -568,10 +566,10 @@
                     </div>
 
                     <p class="uslugi__block-describe">
-                        Я помогаю предпринимателям, руководителям и профессионалам восстановить ресурс тела, когда стандартные методы — массаж, ЛФК или медикаментозное лечение — перестали давать результат. Моя специализация — работа со сложными случаями боли в пояснице, шее и суставах через метод P-DTR.
+                        Помогаю предпринимателям, руководителям и профессионалам восстановить ресурс тела, когда стандартные методы — массаж, ЛФК или медикаментозное лечение — перестали давать результат. Моя специализация — работа со сложными случаями боли в пояснице, шее и суставах через метод P-DTR.
                     </p>
 
-                    <p class="uslugi__block-title" style="margin-bottom:0;">Мой подход базируется на трёх столпах:</p>
+                    <p class="uslugi__block-title" style="margin-bottom:0; color:#ffffff;">Мой подход базируется на трёх столпах:</p>
 
                     <div class="about-author__pillars">
                         <div class="about-author__pillar">
@@ -1048,6 +1046,43 @@
             });
         </script>        
 
+
+        <!-- Mobile drawer menu -->
+        <div class="drawer-overlay" id="drawerOverlay"></div>
+        <nav class="drawer" id="drawerMenu" aria-label="Мобильное меню">
+            <div class="drawer__header">
+                <div class="drawer__logo">
+                    <img src="assets/img/logo.png" alt="Логотип P-DTR" class="drawer__logo-img">
+                    <span class="drawer__logo-text">P-DTR</span>
+                </div>
+                <button class="drawer__close" id="drawerClose" aria-label="Закрыть меню" type="button">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                        <line x1="18" y1="6" x2="6" y2="18"/>
+                        <line x1="6" y1="6" x2="18" y2="18"/>
+                    </svg>
+                </button>
+            </div>
+            <div class="drawer__links">
+                <a href="#uslugi" class="drawer__link">Услуги</a>
+                <a href="#reviews" class="drawer__link">Достижения</a>
+                <a href="#results" class="drawer__link">О методе</a>
+                <a href="#about-author" class="drawer__link">Обо мне</a>
+                <a href="#kontakti" class="drawer__link">Контакты</a>
+                <a href="#sertifikati" class="drawer__link">Сертификаты</a>
+            </div>
+            <div class="drawer__actions">
+                <a href="tel:+79167714777" class="drawer__tel">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M24,6.24c0,7.64-10.13,17.76-17.76,17.76-1.67,0-3.23-.63-4.38-1.78l-1-1.15c-1.16-1.16-1.16-3.12,.05-4.33,.03-.03,2.44-1.88,2.44-1.88,1.2-1.14,3.09-1.14,4.28,0l1.46,1.17c3.2-1.36,5.47-3.64,6.93-6.95l-1.16-1.46c-1.15-1.19-1.15-3.09,0-4.28,0,0,1.85-2.41,1.88-2.44,1.21-1.21,3.17-1.21,4.38,0l1.05,.91c1.2,1.19,1.83,2.75,1.83,4.42Z"/></svg>
+                    +7 (916) 771-47-77
+                </a>
+                <button class="drawer__cta" type="button" onclick="openModal(); closeDrawer();">
+                    Записаться
+                    <span class="drawer__cta-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18,12h0a2,2,0,0,0-.59-1.4l-4.29-4.3a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L15,11H5a1,1,0,0,0,0,2H15l-3.29,3.29a1,1,0,0,0,1.41,1.42l4.29-4.3A2,2,0,0,0,18,12Z"/></svg>
+                    </span>
+                </button>
+            </div>
+        </nav>
 
         <script src="assets/js/app.js?v=1.29"></script>
         <script src="assets/js/scroll.js?v=1.29"></script>
