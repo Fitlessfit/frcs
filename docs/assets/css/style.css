@@ -20,8 +20,19 @@
 .header {
     display: flex;
     flex-direction: row;
-    margin-bottom: 30px;
-    padding: 20px 20px 0px 20px;
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    transition: background-color 0.3s ease, backdrop-filter 0.3s ease;
+}
+
+.header--scrolled {
+    background: rgba(22, 22, 22, 0.72);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .header__content {
@@ -174,6 +185,7 @@
     height: calc(100vh - 140px);
     min-height: 600px;
     padding: 0px 0px 20px 20px;
+    margin-top: 119px;
 }
 
 .hero__content {
@@ -212,19 +224,26 @@
     display: none;
 }
 
+.hero__title-line1 br,
+.hero__title-line2 br {
+    display: inline;
+}
+
 .hero__title-line1 {
-    font-size: 72px;
+    font-size: 162px;
     display: block;
     line-height: 1;
+    white-space: nowrap;
 }
 
 .hero__title-line2 {
-    font-size: 36px;
+    font-size: 81px;
     display: block;
     line-height: 1.2;
     margin-top: 6px;
     text-transform: none;
-    letter-spacing: 0;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
 }
 
 .hero__title-sub {
@@ -393,14 +412,14 @@
     gap: 4px;
     align-items: center;
     text-align: center;
-    white-space: nowrap;
     z-index: 3;
+    width: 100%;
 }
 
 .hero__author-label-name {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 33px;
+    font-size: 99px;
     color: #ffffff;
     line-height: 1.2;
 }
@@ -408,18 +427,17 @@
 .hero__author-label-role {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 26px;
+    font-size: 78px;
     color: rgba(255,255,255,0.75);
     line-height: 1.3;
 }
 
 .hero__image img {
-    height: 648px;
-    max-height: 90%;
+    height: 734px;
     width: auto;
     object-fit: contain;
     position: absolute;
-    bottom: -15px;
+    bottom: -80px;
     right: 0;
     user-select: none;
     pointer-events: none;
@@ -464,6 +482,14 @@
     color: #787878;
     margin: 12px auto 0;
 }
+
+.about__subtitle-cone {
+    display: block;
+    line-height: 1.4;
+}
+
+.about__subtitle-cone--1,
+.about__subtitle-cone--2 { font-size: 1em; }
 
 .about__video {
     border-radius: 20px;
@@ -568,7 +594,7 @@
 /* ПОЧЕМУ БОЛЬ ВОЗВРАЩАЕТСЯ */
 .why-pain {
     margin-bottom: 140px;
-    background: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url('../img/backgrounds/abouttech-bg.png') no-repeat center center;
+    background: url('../img/backgrounds/abouttech-bg.png') no-repeat center center;
     background-size: cover;
     border-radius: 30px;
     margin-left: 10px;
@@ -582,15 +608,22 @@
     padding: 60px 60px;
 }
 
-.why-pain__content .about__content-title {
+.why-pain__main-title {
+    margin-bottom: 20px;
+    font-size: clamp(36px, 3.5vw, 65px) !important;
+    line-height: 1;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
     text-align: center;
-    margin-bottom: 50px;
-    font-size: 62px;
 }
 
 .why-pain .uslugi__block-describe,
-.why-pain .about__content-title,
 .why-pain .how-works__footer-text {
+    color: #ffffff;
+}
+
+.why-pain .about__content-title {
     color: #ffffff;
 }
 
@@ -610,8 +643,8 @@
 .why-pain__subtitle {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 25px;
-    color: #324172;
+    font-size: 30px;
+    color: #ffffff;
 }
 
 .why-pain__list {
@@ -641,11 +674,31 @@
     margin-bottom: 140px;
 }
 
+@media (min-width: 800px) {
+    .patient-reviews__content .about__content-title {
+        font-size: 4.6vw;
+        white-space: nowrap;
+    }
+}
+
 .patient-reviews__content {
     display: flex;
     flex-direction: column;
     padding: 0 20px;
     gap: 50px;
+}
+
+.patient-reviews__content .uslugi__block:hover {
+    background-color: #F2F2F2;
+    cursor: default;
+}
+
+.patient-reviews__content .uslugi__block:hover .uslugi__block-title {
+    color: #324172;
+}
+
+.patient-reviews__content .uslugi__block:hover .uslugi__block-describe {
+    color: #717171;
 }
 
 .patient-reviews__buttons {
@@ -668,7 +721,7 @@
 /* ЧТО ПОЛУЧАЮТ ПАЦИЕНТЫ */
 .results {
     margin-bottom: 140px;
-    background: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url('../img/backgrounds/online-bg.png') no-repeat center center;
+    background: url('../img/backgrounds/online-bg.png') no-repeat center center;
     background-size: cover;
     border-radius: 30px;
     margin-left: 10px;
@@ -694,37 +747,34 @@
     gap: 16px;
 }
 
-.results__cards .uslugi__block {
-    cursor: default;
-}
-
+.results__cards .uslugi__block,
 .results__cards .uslugi__block:hover {
-    background-color: #F2F2F2;
+    cursor: default;
+    background-color: rgba(255, 255, 255, 0.32);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
 }
 
+.results__blocks .uslugi__block,
+.results__blocks .uslugi__block:hover {
+    cursor: default;
+    background-color: transparent;
+}
+
+.results__cards .uslugi__block-title,
 .results__cards .uslugi__block:hover .uslugi__block-title {
     color: #324172;
 }
 
-.results__cards .uslugi__block:hover .uslugi__block-describe {
-    color: #717171;
+
+
+.results .results__block-title {
+    color: #ffffff;
 }
 
-.results__blocks .uslugi__block {
-    cursor: default;
-}
-
-.results__blocks .uslugi__block:hover {
-    background-color: #F2F2F2;
-}
-
-.results__blocks .uslugi__block:hover .uslugi__block-title,
-.results__blocks .uslugi__block:hover .results__block-title {
-    color: #324172;
-}
-
-.results__blocks .uslugi__block:hover .uslugi__block-describe {
-    color: #717171;
+.results .uslugi__block-describe,
+.results .uslugi__block:hover .uslugi__block-describe {
+    color: #ffffff;
 }
 
 .results__list {
@@ -751,9 +801,10 @@
 .results__block-title {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    font-size: 30px;
-    color: #324172;
+    font-size: 38px;
+    color: #ffffff;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 .results__principle-text {
@@ -787,7 +838,7 @@
     font-weight: 500;
     font-size: 26px;
     color: #787878;
-    max-width: 860px;
+    white-space: nowrap;
 }
 
 .how-works__footer {
@@ -2208,7 +2259,7 @@ html.modal-open {
 /* ABOUT-AUTHOR */
 .about-author {
     padding: 80px 20px;
-    background: linear-gradient(rgba(255,255,255,0.25), rgba(255,255,255,0.25)), url('../img/backgrounds/abouttech-bg.png') no-repeat center center;
+    background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)), url('../img/backgrounds/abouttech-bg.png') no-repeat center center;
     background-size: cover;
     border-radius: 30px;
     margin-left: 10px;
