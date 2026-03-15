@@ -158,7 +158,7 @@
 		<link rel="stylesheet" href="assets/css/reset.css?v=1.25">
 		<link rel="stylesheet" href="assets/css/fonts.css?v=1.25">
 		<link rel="stylesheet" href="assets/css/style.css?v=1.67">
-		<link rel="stylesheet" href="assets/css/adaptive.css?v=1.34">
+		<link rel="stylesheet" href="assets/css/adaptive.css?v=1.35">
 		<style>
 			/* LAYOUT: 2 колонки десктоп / 1 колонка мобильный */
 			.why-pain__grid {
@@ -1085,7 +1085,7 @@
         </nav>
 
         <script src="assets/js/app.js?v=1.29"></script>
-        <script src="assets/js/scroll.js?v=1.29"></script>
+        <script src="assets/js/scroll.js?v=1.30"></script>
         <script src="assets/js/modal.js?v=1.29"></script>
     </body>
 </html>
